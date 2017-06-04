@@ -1,0 +1,2223 @@
+#EXTM3U
+#EXTINF:-1 group-title="台灣",壹電視新聞台
+http://208.75.225.28/live/NEXTV/playlist.m3u8
+#EXTINF:-1 group-title="台灣",三立台灣
+http://bcoveliveios-i.akamaihd.net/hls/live/226708/4338955585001/02ldeknk95.m3u8
+#EXTINF:-1 group-title="台灣",三立台灣
+http://bcoveliveios-i.akamaihd.net/hls/live/226708/4338955585001/master.m3u8
+#EXTINF:-1 group-title="台灣",三立都會
+http://bcoveliveios-i.akamaihd.net/hls/live/226707/4338955585001/02wevfbdd54.m3u8
+#EXTINF:-1 group-title="台灣",三立都會
+http://bcoveliveios-i.akamaihd.net/hls/live/226707/4338955585001/master.m3u8
+#EXTINF:-1 group-title="台灣",原民台
+http://live.waaarp.com/live/_definst_/smil:titv/titv.smil/chunklist_w.m3u8
+#EXTINF:-1 group-title="台灣",宏觀衛視
+http://mobile.ccdntech.com/live/_definst_/vod62_Live/live1/chunklist_w.m3u8
+#EXTINF:-1 group-title="台灣",TVBS
+http://bcoveliveios-i.akamaihd.net/hls/live/249639/4862438529001_6/master.m3u8
+#EXTINF:-1 group-title="台灣",TVBS歡樂
+http://bcoveliveios-i.akamaihd.net/hls/live/249639/4862438529001_4/master.m3u8
+#EXTINF:-1 group-title="台灣",歐洲足球
+http://eshare.live.otvcloud.com/otv/nyz/live/channel32/index.m3u8
+#EXTINF:-1 group-title="台灣",韓綜合
+http://123.108.164.71/etv2sb/phd4/chunklist_w.m3u8
+#EXTINF:-1 group-title="台灣",韓綜合
+http://123.108.164.71/etv2/phd723/chunklist_w.m3u8
+#EXTINF:-1 group-title="台灣",音樂殿堂
+http://pl3.live.panda.tv/live_panda/33ab8c68a352b03d5d08710c6654a1bb.flv
+#EXTINF:-1 group-title="台灣",靖天育樂
+http://211.22.61.109/stc/ch168165.m3u8
+#EXTINF:-1 group-title="台灣",靖天育樂
+http://211.22.61.109/stc/ch168155.m3u8
+#EXTINF:-1 group-title="台灣",靖天日本
+http://211.22.61.109/stc/ch168166.m3u8
+#EXTINF:-1 group-title="台灣",靖天日本
+http://211.22.61.109/stc/ch168156.m3u8
+#EXTINF:-1 group-title="台灣",靖天資訊
+http://211.22.61.109/stc/ch168167.m3u8
+#EXTINF:-1 group-title="台灣",靖天資訊
+http://211.22.61.109/stc/ch168157.m3u8
+#EXTINF:-1 group-title="台灣",靖洋國際
+http://211.22.61.109/stc/ch168169.m3u8
+#EXTINF:-1 group-title="台灣",靖洋國際
+http://211.22.61.109/stc/ch168159.m3u8
+#EXTINF:-1 group-title="台灣",一新聞
+http://d2e6xlgy8sg8ji.cloudfront.net/liveedge/eratv3/playlist.m3u8
+#EXTINF:-1 group-title="台灣",一新聞
+http://208.75.225.28/live//NEXTV/playlist.m3u8
+#EXTINF:-1 group-title="台灣",一新聞
+http://wowza4.nexttv.com.tw/liveedge/eratv3/chunklist.m3u8
+#EXTINF:-1 group-title="台灣",年代新聞
+http://208.75.225.28/live//ERATV/chunklist_w.m3u8
+#EXTINF:-1 group-title="台灣",TVBS新聞
+http://bcoveliveios-i.akamaihd.net/hls/live/249639/4862438529001_5/master.m3u8
+#EXTINF:-1 group-title="台灣",中華財經
+http://211.22.61.109/sta/CH323054.m3u8
+#EXTINF:-1 group-title="台灣",全球財經
+http://211.22.61.109/sta/CH323064.m3u8
+#EXTINF:-1 group-title="台灣",靖天卡通
+http://211.22.61.109/stc/ch168164.m3u8
+#EXTINF:-1 group-title="台灣",靖天卡通
+http://211.22.61.109/stc/ch168154.m3u8
+#EXTINF:-1 group-title="台灣",靖洋卡通
+http://211.22.61.109/stc/ch168168.m3u8
+#EXTINF:-1 group-title="台灣",靖洋卡通
+http://211.22.61.109/stc/ch168158.m3u8
+#EXTINF:-1 group-title="台灣",凱亞
+http://211.22.61.109/sta/CH323066.m3u8
+#EXTINF:-1 group-title="台灣",世界
+http://211.22.61.109/sta/CH323068.m3u8
+#EXTINF:-1 group-title="台灣",VTV4
+http://211.22.61.109/stc/ch168170.m3u8
+#EXTINF:-1 group-title="台灣",VTV4
+http://211.22.61.109/stc/ch168160.m3u8
+#EXTINF:-1 group-title="港澳",鳳凰資訊台
+http://zv.3gv.ifeng.com/live/zixun800k.m3u8
+#EXTINF:-1 group-title="港澳",鳳凰中文台
+http://zv.3gv.ifeng.com/live/zhongwen800k.m3u8
+#EXTINF:-1 group-title="港澳",HKS衛視
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8
+#EXTINF:-1 group-title="港澳",澳衛澳門
+http://live4.tdm.com.mo:80/ch1/_definst_//ch1.live/playlist.m3u8
+#EXTINF:-1 group-title="港澳",澳視葡語
+http://live4.tdm.com.mo:80/ch2/_definst_//ch2.live/playlist.m3u8
+#EXTINF:-1 group-title="港澳",澳門Macau
+http://live4.tdm.com.mo:80/ch3/_definst_//ch3.live/playlist.m3u8
+#EXTINF:-1 group-title="港澳",澳亞衛視
+http://live.mastvnet.com/n1rtlHG/500/live.m3u8
+#EXTINF:-1 group-title="港澳",亞洲聯合衛視
+http://tv.unbtv.tv/app_2/ls_1.stream/playlist.m3u8
+#EXTINF:-1 group-title="港澳",新傳媒8
+http://tglch8-lh.akamaihd.net/i/channel8_fta@334582/master.m3u8
+#EXTINF:-1 group-title="港澳",新唐人電視
+http://123.108.164.71/etv2/phd1058/playlist.m3u8
+#EXTINF:-1 group-title="港澳",新唐人亞太
+http://123.108.164.71/etv2/phd926/playlist.m3u8
+#EXTINF:-1 group-title="港澳",耀才財經
+http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
+#EXTINF:-1 group-title="樂視CCTV",CCTV-1HD
+http://live.gslb.letv.com/gslb?stream_id=cctv1HD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-2
+http://live.gslb.letv.com/gslb?stream_id=cctv2&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-3HD
+http://live.gslb.letv.com/gslb?stream_id=cctv3HD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-4
+http://live.gslb.letv.com/gslb?stream_id=cctv4&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-5HD
+http://live.gslb.letv.com/gslb?stream_id=cctv5_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-5+HD
+http://live.gslb.letv.com/gslb?stream_id=cctv5jiaHD_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-6HD
+http://live.gslb.letv.com/gslb?stream_id=cctv6HD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-7
+http://live.gslb.letv.com/gslb?stream_id=cctv7&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-8HD
+http://live.gslb.letv.com/gslb?stream_id=cctv8HD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-9
+http://live.gslb.letv.com/gslb?stream_id=cctv9&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-10
+http://live.gslb.letv.com/gslb?stream_id=cctv10&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-11
+http://live.gslb.letv.com/gslb?stream_id=cctv11&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-12
+http://live.gslb.letv.com/gslb?stream_id=cctv12&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-13
+http://live.gslb.letv.com/gslb?stream_id=cctvnew&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-14
+http://live.gslb.letv.com/gslb?stream_id=cctvshaoer&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV-15
+http://live.gslb.letv.com/gslb?stream_id=cctvmusic&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV國防軍事
+http://live.gslb.letv.com/gslb?stream_id=guofangjunshi&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV世界地理
+http://live.gslb.letv.com/gslb?stream_id=shijiedili&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV第一劇場
+http://live.gslb.letv.com/gslb?stream_id=dyjc&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV懷舊劇場
+http://live.gslb.letv.com/gslb?stream_id=hjjc&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV風雲音樂
+http://live.gslb.letv.com/gslb?stream_id=fyyy&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV風雲足球
+http://live.gslb.letv.com/gslb?stream_id=fyzq&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視CCTV",CCTV高球網球
+http://live.gslb.letv.com/gslb?stream_id=golfwangqiu&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",湖南衛視HD
+http://live.gslb.letv.com/gslb?stream_id=ws_hunanwsHD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",東方衛視HD
+http://live.gslb.letv.com/gslb?stream_id=dongfangHD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",江蘇衛視HD
+http://live.gslb.letv.com/gslb?stream_id=jiangsuHD_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",北京衛視HD
+http://live.gslb.letv.com/gslb?stream_id=bjwsHD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",北京文藝HD
+http://live.gslb.letv.com/gslb?stream_id=bjwyHD_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",北京紀實HD
+http://live.gslb.letv.com/gslb?stream_id=bjjsHD_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",天津衛視HD
+http://live.gslb.letv.com/gslb?stream_id=tianjinHD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",湖北衛視HD
+http://live.gslb.letv.com/gslb?stream_id=hubeiHD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",浙江衛視HD
+http://live.gslb.letv.com/gslb?stream_id=zhejiangHD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",山東衛視HD
+http://live.gslb.letv.com/gslb?stream_id=shandongHD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",廣東衛視HD
+http://live.gslb.letv.com/gslb?stream_id=guangdongHD_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",深圳衛視HD
+http://live.gslb.letv.com/gslb?stream_id=shenzhenHD_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",黑龍江衛視HD
+http://live.gslb.letv.com/gslb?stream_id=heilongjiangHD_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",安徽衛視
+http://live.gslb.letv.com/gslb?stream_id=anhui&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",山東教育衛視
+http://live.gslb.letv.com/gslb?stream_id=sdjy&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",兵團衛視
+http://live.gslb.letv.com/gslb?stream_id=bingtuan&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",東南衛視
+http://live.gslb.letv.com/gslb?stream_id=dongnan&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",遼寧衛視
+http://live.gslb.letv.com/gslb?stream_id=liaoning&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",重慶衛視
+http://live.gslb.letv.com/gslb?stream_id=chongqing&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",廣西衛視
+http://live.gslb.letv.com/gslb?stream_id=guangxi&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",山西衛視
+http://live.gslb.letv.com/gslb?stream_id=shanxi&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",貴州衛視
+http://live.gslb.letv.com/gslb?stream_id=guizhou&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",河北衛視
+http://live.gslb.letv.com/gslb?stream_id=hebei&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",河南衛視
+http://live.gslb.letv.com/gslb?stream_id=henan&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",青海衛視
+http://live.gslb.letv.com/gslb?stream_id=qinghai&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",四川衛視
+http://live.gslb.letv.com/gslb?stream_id=sichuan&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",江西衛視
+http://live.gslb.letv.com/gslb?stream_id=jiangxi&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",甘肅衛視
+http://live.gslb.letv.com/gslb?stream_id=gansu&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",陝西衛視
+http://live.gslb.letv.com/gslb?stream_id=shanxi1&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",寧夏衛視
+http://live.gslb.letv.com/gslb?stream_id=ningxia&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",云南衛視
+http://live.gslb.letv.com/gslb?stream_id=yunnan&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",內蒙古衛視
+http://live.gslb.letv.com/gslb?stream_id=neimenggu&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視衛視",新疆衛視
+http://live.gslb.letv.com/gslb?stream_id=xinjiang&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",廈門衛視
+http://live.gslb.letv.com/gslb?stream_id=xiamen&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",吉林衛視
+http://live.gslb.letv.com/gslb?stream_id=jilin&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",旅遊衛視
+http://live.gslb.letv.com/gslb?stream_id=lvyou&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",農林衛視
+http://live.gslb.letv.com/gslb?stream_id=nonglin&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",漢天衛視
+http://live.gslb.letv.com/gslb?stream_id=lb_us_CES_dianshiju_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",天下衛視
+http://live.gslb.letv.com/gslb?stream_id=lb_us_CESmiyuezhuan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",中國交通
+http://live.gslb.letv.com/gslb?stream_id=xc_guoji27_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",北京影視
+http://live.gslb.letv.com/gslb?stream_id=bjys&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",北京新聞
+http://live.gslb.letv.com/gslb?stream_id=bjxw&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",北京財經
+http://live.gslb.letv.com/gslb?stream_id=bjcj&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",北京生活
+http://live.gslb.letv.com/gslb?stream_id=bjsh&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",北京體育
+http://live.gslb.letv.com/gslb?stream_id=btv6_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",北京青年
+http://live.gslb.letv.com/gslb?stream_id=bjqn&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",北京科教
+http://live.gslb.letv.com/gslb?stream_id=bjkj&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",北京卡酷
+http://live.gslb.letv.com/gslb?stream_id=bjkaku&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",江蘇城市
+http://live.gslb.letv.com/gslb?stream_id=ws_jscs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",江蘇影視
+http://live.gslb.letv.com/gslb?stream_id=ws_jsys_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",江蘇綜藝
+http://live.gslb.letv.com/gslb?stream_id=ws_jszy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",江蘇國際
+http://live.gslb.letv.com/gslb?stream_id=ws_jsgu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",江蘇體育休閒
+http://live.gslb.letv.com/gslb?stream_id=ws_jstyxx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",江蘇靚狀
+http://live.gslb.letv.com/gslb?stream_id=lb_lm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",上海第一財經
+http://live.gslb.letv.com/gslb?stream_id=ws_shdicj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",上視新聞
+http://live.gslb.letv.com/gslb?stream_id=ws_shxw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",上視娛樂
+http://live.gslb.letv.com/gslb?stream_id=ws_shxyl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",上視星尚
+http://live.gslb.letv.com/gslb?stream_id=ws_shxs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",深圳電視劇
+http://live.gslb.letv.com/gslb?stream_id=ws_szdsj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",深圳少兒
+http://live.gslb.letv.com/gslb?stream_id=ws_szse_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",深圳娛樂
+http://live.gslb.letv.com/gslb?stream_id=ws_szyl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",深圳體育
+http://live.gslb.letv.com/gslb?stream_id=ws_sztyjk_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",深圳都市
+http://live.gslb.letv.com/gslb?stream_id=ws_szds_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",深圳財經
+http://live.gslb.letv.com/gslb?stream_id=ws_szcj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",南方衛視
+http://live.gslb.letv.com/gslb?stream_id=ws_nanfang_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",南方影視
+http://live.gslb.letv.com/gslb?stream_id=ws_nfys_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",南方綜藝
+http://live.gslb.letv.com/gslb?stream_id=ws_nfzy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",南方少兒
+http://live.gslb.letv.com/gslb?stream_id=ws_nfse_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",南方經濟
+http://live.gslb.letv.com/gslb?stream_id=ws_nfjj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",廣東新聞
+http://live.gslb.letv.com/gslb?stream_id=ws_gdxw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",廣東體育
+http://live.gslb.letv.com/gslb?stream_id=guangdongtiyu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",廣東珠江
+http://live.gslb.letv.com/gslb?stream_id=ws_gdzj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",江西影視
+http://live.gslb.letv.com/gslb?stream_id=ws_jxys_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",江西都市
+http://live.gslb.letv.com/gslb?stream_id=ws_jxds_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",江西經典
+http://live.gslb.letv.com/gslb?stream_id=ws_jxhsjd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",江西少兒
+http://live.gslb.letv.com/gslb?stream_id=ws_jxse_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",江西經濟
+http://live.gslb.letv.com/gslb?stream_id=ws_jxjj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",合肥財經
+http://live.gslb.letv.com/gslb?stream_id=ws_hfcj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",合肥生活
+http://live.gslb.letv.com/gslb?stream_id=ws_hfsh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",合肥文體
+http://live.gslb.letv.com/gslb?stream_id=ws_hfwt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",合肥法制
+http://live.gslb.letv.com/gslb?stream_id=ws_hffz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",河南都市
+http://live.gslb.letv.com/gslb?stream_id=ws_hnds_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",河南民生
+http://live.gslb.letv.com/gslb?stream_id=ws_hnms_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",河南政法
+http://live.gslb.letv.com/gslb?stream_id=ws_hnzf_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",河南國際
+http://live.gslb.letv.com/gslb?stream_id=ws_hngj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",鄭州時政
+http://live.gslb.letv.com/gslb?stream_id=ws_zzzh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",鄭州生活
+http://live.gslb.letv.com/gslb?stream_id=ws_zzdsj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",鄭州影視戲曲
+http://live.gslb.letv.com/gslb?stream_id=ws_zzss_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="珠江頻道",鄭州婦女兒童
+http://live.gslb.letv.com/gslb?stream_id=ws_zzfz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",戲曲
+http://live.gslb.letv.com/gslb?stream_id=lb_xiqu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",喜劇
+http://live.gslb.letv.com/gslb?stream_id=lb_comedy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",跟播
+http://live.gslb.letv.com/gslb?stream_id=lb_genbo_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",好萊塢
+http://live.gslb.letv.com/gslb?stream_id=lb_hlw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",電視劇1
+http://live.gslb.letv.com/gslb?stream_id=lb_tv_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",電視劇2
+http://live.gslb.letv.com/gslb?stream_id=lb_yst_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",自製劇
+http://live.gslb.letv.com/gslb?stream_id=lb_make_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",電影片花
+http://live.gslb.letv.com/gslb?stream_id=lb_trailer_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",港產電影
+http://live.gslb.letv.com/gslb?stream_id=lb_lsgcp_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",港鬼怪片
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_hkghost_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",港動作片
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_Hkactionmovies_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",港喜劇片
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_Hkcomedies_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",港愛情片
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_Hkromance_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",港古裝片
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_HKperiodMovies_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",四大天王
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_fourkings_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",動作電影
+http://live.gslb.letv.com/gslb?stream_id=lb_dzdy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",香港電影
+http://live.gslb.letv.com/gslb?stream_id=lb_hkmovie_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",粵語電影
+http://live.gslb.letv.com/gslb?stream_id=lb_yylbpd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",華語電影
+http://live.gslb.letv.com/gslb?stream_id=lb_hydy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視720P
+http://live.gslb.letv.com/gslb?stream_id=lb_movie_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視1080P
+http://live.gslb.letv.com/gslb?stream_id=lb_1080P_1080p3m&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視4K
+http://live.gslb.letv.com/gslb?stream_id=lb_4k&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",電影4K
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_4Kmovie_8000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",驚悚電影
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_Thrill_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視電影
+http://live.gslb.letv.com/gslb?stream_id=lb_lsdyt_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",同步院線
+http://live.gslb.letv.com/gslb?stream_id=xizang&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",韓劇
+http://live.gslb.letv.com/gslb?stream_id=lb_koreatv_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",日韓電影
+http://live.gslb.letv.com/gslb?stream_id=lb_rhdy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",韓劇社區
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_KRdrama_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",台劇社區
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_TWdrama_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",日劇社區
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_JPdrama_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",歐美動作
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_movies2_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",歐美浪漫
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_movies3_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",歐美HITS
+http://live.gslb.letv.com/gslb?stream_id=pay_hits_5000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",世界影城
+http://live.gslb.letv.com/gslb?stream_id=pay_cinema_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視綜合
+http://live.gslb.letv.com/gslb?stream_id=lb_zonghe_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",綜藝1
+http://live.gslb.letv.com/gslb?stream_id=lb_ent_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",綜藝2
+http://live.gslb.letv.com/gslb?stream_id=lb_lszy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",歡樂季
+http://live.gslb.letv.com/gslb?stream_id=lb_2015xjdws_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",芭莎TV
+http://live.gslb.letv.com/gslb?stream_id=lb_bsTV_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",動物世界
+http://live.gslb.letv.com/gslb?stream_id=lb_dwsj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",美克家居ART
+http://live.gslb.letv.com/gslb?stream_id=lb_mkmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",開心麻花
+http://live.gslb.letv.com/gslb?stream_id=lb_kxmh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",搞笑微電影
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia10_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",金雞百花微電影
+http://live.gslb.letv.com/gslb?stream_id=lb_myzqjx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",時裝周
+http://live.gslb.letv.com/gslb?stream_id=lb_shizhuang_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",上海時裝周
+http://live.gslb.letv.com/gslb?stream_id=lb_StyleTV_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",紀錄片
+http://live.gslb.letv.com/gslb?stream_id=lb_jilu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",紀錄唐卡
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_tangka_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",紀錄歷史
+http://live.gslb.letv.com/gslb?stream_id=lb_jlls_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",紀錄片4K
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_4Kdocumentary_8000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",紀錄文化遺產
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_whyc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",人物傳記
+http://live.gslb.letv.com/gslb?stream_id=lb_rwzj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",人文地理
+http://live.gslb.letv.com/gslb?stream_id=lb_rwdl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",狂野自然
+http://live.gslb.letv.com/gslb?stream_id=lb_kyzr_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",軍事瞭望
+http://live.gslb.letv.com/gslb?stream_id=lb_jslw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",美食解碼
+http://live.gslb.letv.com/gslb?stream_id=lb_msjm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視美食
+http://live.gslb.letv.com/gslb?stream_id=lb_meishi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視旅遊
+http://live.gslb.letv.com/gslb?stream_id=lb_lvyou_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視公益
+http://live.gslb.letv.com/gslb?stream_id=lb_gongyi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視檔案
+http://live.gslb.letv.com/gslb?stream_id=lb_dangan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視盛典
+http://live.gslb.letv.com/gslb?stream_id=lb_lssd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=cs1&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視風尚
+http://live.gslb.letv.com/gslb?stream_id=lb_fengshang_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",娛樂頻道
+http://live.gslb.letv.com/gslb?stream_id=lb_yule_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",音樂女團SNH48
+http://live.gslb.letv.com/gslb?stream_id=lb_SNH48_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",音樂韓團AKB48
+http://live.gslb.letv.com/gslb?stream_id=lb_AKB48_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",音樂韓團SMTOWN
+http://live.gslb.letv.com/gslb?stream_id=lb_SMTOWN_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",少女時代
+http://live.gslb.letv.com/gslb?stream_id=lb_snsd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_music_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",音樂節
+http://live.gslb.letv.com/gslb?stream_id=lb_yinyuejie_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",演唱會
+http://live.gslb.letv.com/gslb?stream_id=lb_concert_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",LIVE生活
+http://live.gslb.letv.com/gslb?stream_id=lb_livemusic_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",演唱會4K
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_4Kconcert_8000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",音樂MV
+http://live.gslb.letv.com/gslb?stream_id=lb_mv_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂視音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_lsyymvt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",粵語音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_yyyy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",日本流行
+http://live.gslb.letv.com/gslb?stream_id=lb_rblx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",日本搖滾
+http://live.gslb.letv.com/gslb?stream_id=lb_us_rbyg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",中國搖滾
+http://live.gslb.letv.com/gslb?stream_id=lb_zgyg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",中國民謠
+http://live.gslb.letv.com/gslb?stream_id=lb_zgmy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",歐美流行
+http://live.gslb.letv.com/gslb?stream_id=lb_omlx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",歐美搖滾
+http://live.gslb.letv.com/gslb?stream_id=lb_omyg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",古典音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_classical_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",爵士音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_us_jsyy_1300tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",電子音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_dzyy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",嘻哈音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_xhyy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",中國男歌手
+http://live.gslb.letv.com/gslb?stream_id=lb_dalunangeshou_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",中國女歌手
+http://live.gslb.letv.com/gslb?stream_id=lb_dalunvgeshou_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",樂聽古典音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_classical_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",華語獨立音樂
+http://live.gslb.letv.com/gslb?stream_id=lb_us_hydlyy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",格萊美音樂獎
+http://live.gslb.letv.com/gslb?stream_id=lb_glmyyj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視影片",華鼎獎頒獎典禮
+http://live.gslb.letv.com/gslb?stream_id=lb_hdjbjdl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",體育+
+http://live.gslb.letv.com/gslb?stream_id=lb_tyzx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",體育1
+http://live.gslb.letv.com/gslb?stream_id=lb_sports_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",體育2
+http://live.gslb.letv.com/gslb?stream_id=lb_tiyu2_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",足球
+http://live.gslb.letv.com/gslb?stream_id=lb_zuqiu_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",法甲
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_fajia_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",意甲
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_yijia_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",歐冠
+http://live.gslb.letv.com/gslb?stream_id=lb_ouguan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",中超
+http://live.gslb.letv.com/gslb?stream_id=lb_hdz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_lanqiu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",汽車
+http://live.gslb.letv.com/gslb?stream_id=lb_qiche_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",賽車
+http://live.gslb.letv.com/gslb?stream_id=lb_F1_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",自行車
+http://live.gslb.letv.com/gslb?stream_id=lb_zixingche_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",橄欖球
+http://live.gslb.letv.com/gslb?stream_id=lb_glq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",羽毛球
+http://live.gslb.letv.com/gslb?stream_id=lb_ymq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",廣場舞
+http://live.gslb.letv.com/gslb?stream_id=lb_gcw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",火辣健身
+http://live.gslb.letv.com/gslb?stream_id=lb_hljs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",極限運動
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_jxyd_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",天元圍棋
+http://live.gslb.letv.com/gslb?stream_id=tywq&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",體育粵語
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_lsh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",亞洲足球
+http://live.gslb.letv.com/gslb?stream_id=lb_yzzq_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",歐洲足球
+http://live.gslb.letv.com/gslb?stream_id=lb_ozzq_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",河南足球
+http://live.gslb.letv.com/gslb?stream_id=lb_hnzq_800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",國安足球
+http://live.gslb.letv.com/gslb?stream_id=lb_guoan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",拳擊帕奎奧
+http://live.gslb.letv.com/gslb?stream_id=lb_pka_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",高爾夫大滿貫
+http://live.gslb.letv.com/gslb?stream_id=lb_gefdmg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",高爾夫歐巡賽
+http://live.gslb.letv.com/gslb?stream_id=lb_gefoxs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",高爾夫美巡賽
+http://live.gslb.letv.com/gslb?stream_id=lb_gefmxs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",新疆廣匯籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_xjgh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",廣廈籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_gslqpd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",金強籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_jqpd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",福建潯興籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_fjxx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",佛山龍獅籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_fsls_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",江蘇肯帝亞籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_jskdy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視體育",CBA籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_yujia_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",荒原美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia6_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",恐怖美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_meiju_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",經典美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_jdmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",虐戀美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_nlmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",高冷美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_glmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",單元美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_dymj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",肥皂美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_fzmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",熱門美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_rmmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",喜劇美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_xjmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",奇幻美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_qhmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",科幻美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_khmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",罪案燒腦
+http://live.gslb.letv.com/gslb?stream_id=lb_zasn_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",跟播美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_gbmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",小眾美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_xzmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",武俠劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_wxjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",神話劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_shjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",重播之王
+http://live.gslb.letv.com/gslb?stream_id=lb_cbzw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",脫單劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_tdjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",催淚劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_cljc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",勵志劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_lzjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",軍旅劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_jljc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",抗戰劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_kangz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",宮斗劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_gdjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",女性劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_nxjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",都市劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_dsjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",年代劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_ndjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",兄弟劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_xdjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",姐妹淘劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_jmtjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",律政醫務美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_lzywmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",熱血動作美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_rxdzmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",青春偶像美劇
+http://live.gslb.letv.com/gslb?stream_id=lb_qcoxmj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視劇場",情景喜劇劇場
+http://live.gslb.letv.com/gslb?stream_id=lb_qjxjjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",幻城
+http://live.gslb.letv.com/gslb?stream_id=lb_huancheng_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",三妹
+http://live.gslb.letv.com/gslb?stream_id=lb_sanmei_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",獵刃
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia24_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",黨建
+http://live.gslb.letv.com/gslb?stream_id=lb_dangjian_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",潛伏
+http://live.gslb.letv.com/gslb?stream_id=lb_qianfu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",亮劍
+http://live.gslb.letv.com/gslb?stream_id=lb_liangjian_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",好先生
+http://live.gslb.letv.com/gslb?stream_id=lb_hxs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",追擊者
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia18_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",三八線
+http://live.gslb.letv.com/gslb?stream_id=lb_sbx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",西遊記
+http://live.gslb.letv.com/gslb?stream_id=lb_xyj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",包青天
+http://live.gslb.letv.com/gslb?stream_id=lb_bqt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",紅高粱
+http://live.gslb.letv.com/gslb?stream_id=lb_hgl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",甄嬛傳
+http://live.gslb.letv.com/gslb?stream_id=lb_zhenhuan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",羋月傳
+http://live.gslb.letv.com/gslb?stream_id=lb_myz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",偽裝者
+http://live.gslb.letv.com/gslb?stream_id=lb_wzz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",琅琊榜
+http://live.gslb.letv.com/gslb?stream_id=lb_lyb_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",鹿鼎記
+http://live.gslb.letv.com/gslb?stream_id=lb_ldj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1008&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",戰菁一
+http://live.gslb.letv.com/gslb?stream_id=lb_zjy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",小時代
+http://live.gslb.letv.com/gslb?stream_id=lb_xsd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",孔二狗
+http://live.gslb.letv.com/gslb?stream_id=lb_keg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",調皮王妃
+http://live.gslb.letv.com/gslb?stream_id=lb_tpwf_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",特工卡特
+http://live.gslb.letv.com/gslb?stream_id=lb_tgkt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",笑傲江湖
+http://live.gslb.letv.com/gslb?stream_id=lb_xajh_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",笑傲江湖第三季
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia21_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",克拉戀人
+http://live.gslb.letv.com/gslb?stream_id=lb_kllr_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",活色生香
+http://live.gslb.letv.com/gslb?stream_id=lb_hssx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",隋唐英雄
+http://live.gslb.letv.com/gslb?stream_id=lb_styx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",你好喬安
+http://live.gslb.letv.com/gslb?stream_id=lb_nhqa_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",絕命卦師
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia7_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",半妖傾城
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia17_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",封神英雄
+http://live.gslb.letv.com/gslb?stream_id=lb_fsyx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",超級英雄
+http://live.gslb.letv.com/gslb?stream_id=lb_cjyx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",鳳凰傳奇
+http://live.gslb.letv.com/gslb?stream_id=lb_fhcq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",反法西斯
+http://live.gslb.letv.com/gslb?stream_id=lb_ffxs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",還珠格格
+http://live.gslb.letv.com/gslb?stream_id=lb_hzgg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",裸婚時代
+http://live.gslb.letv.com/gslb?stream_id=lb_lhsd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",步步驚心
+http://live.gslb.letv.com/gslb?stream_id=lb_bbjx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",士兵突擊
+http://live.gslb.letv.com/gslb?stream_id=lb_sbtj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",滿倉進城
+http://live.gslb.letv.com/gslb?stream_id=lb_mcjc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",武林外傳
+http://live.gslb.letv.com/gslb?stream_id=lb_wlwz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",虎媽貓爸
+http://live.gslb.letv.com/gslb?stream_id=lb_hmmb_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",聊齋新編
+http://live.gslb.letv.com/gslb?stream_id=lb_lzxb_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",極品新娘
+http://live.gslb.letv.com/gslb?stream_id=lb_jpxn_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",龍門鏢局
+http://live.gslb.letv.com/gslb?stream_id=lb_lmbj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",神犬小七
+http://live.gslb.letv.com/gslb?stream_id=lb_sqxq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",花樣姐姐
+http://live.gslb.letv.com/gslb?stream_id=lb_hyjj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",蒙面歌王
+http://live.gslb.letv.com/gslb?stream_id=lb_mmgw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",我是歌手
+http://live.gslb.letv.com/gslb?stream_id=lb_imsinger_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",最強大腦
+http://live.gslb.letv.com/gslb?stream_id=lb_zqdn_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",極限挑戰
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_jxtz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",樂視劇集
+http://live.gslb.letv.com/gslb?stream_id=lb_lssljjt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",今晚80後
+http://live.gslb.letv.com/gslb?stream_id=lb_jwblh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",非誠勿擾
+http://live.gslb.letv.com/gslb?stream_id=lb_fcwr_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",花樣爺爺
+http://live.gslb.letv.com/gslb?stream_id=lb_hyyy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",非常完美
+http://live.gslb.letv.com/gslb?stream_id=lb_fcwm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",崔神駕到
+http://live.gslb.letv.com/gslb?stream_id=lb_csjd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",蓋世英雄
+http://live.gslb.letv.com/gslb?stream_id=lb_gsyx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",顏值大戰
+http://live.gslb.letv.com/gslb?stream_id=lb_zczb9_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",愛情萬萬歲
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia23_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",超少年密碼
+http://live.gslb.letv.com/gslb?stream_id=lb_wdlsscq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",遇見王瀝川
+http://live.gslb.letv.com/gslb?stream_id=lb_yjwlc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",情謎睡美人
+http://live.gslb.letv.com/gslb?stream_id=lb_qmsmr_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",中國式關係
+http://live.gslb.letv.com/gslb?stream_id=lb_zgsgx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",挑戰者聯盟
+http://live.gslb.letv.com/gslb?stream_id=lb_tzzlm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",女醫明妃傳
+http://live.gslb.letv.com/gslb?tag=live&stream_id=lb_xmblzjh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",武媚娘傳奇
+http://live.gslb.letv.com/gslb?tag=live&stream_id=lb_wmncq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",歡樂喜劇人
+http://live.gslb.letv.com/gslb?stream_id=lb_hlxjr_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",中國夢之聲
+http://live.gslb.letv.com/gslb?stream_id=lb_zgmzs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",偏偏喜歡你
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_ppxhn_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",出彩中國人
+http://live.gslb.letv.com/gslb?stream_id=lb_cczgr_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",平凡的世界
+http://live.gslb.letv.com/gslb?stream_id=lb_pfdsj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",我看你有戲
+http://live.gslb.letv.com/gslb?stream_id=lb_bbhll_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",新濟公活佛
+http://live.gslb.letv.com/gslb?stream_id=lb_xjghf_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",何以笙簫默
+http://live.gslb.letv.com/gslb?stream_id=lb_hysxm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",北平無戰事
+http://live.gslb.letv.com/gslb?stream_id=lb_bpwzs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",十週嫁出去
+http://live.gslb.letv.com/gslb?stream_id=lb_szjcq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",全員加速中
+http://live.gslb.letv.com/gslb?stream_id=lb_qyjsz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",一風之音(搞笑)
+http://live.gslb.letv.com/gslb?stream_id=lb_yfzy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",星球者聯盟
+http://live.gslb.letv.com/gslb?stream_id=lb_aqbwz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",誰是大歌神
+http://live.gslb.letv.com/gslb?stream_id=lb_ycdgs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",好運屬於你
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia15_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",跨界喜劇王
+http://live.gslb.letv.com/gslb?stream_id=lb_kjxjw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",一路上有你
+http://live.gslb.letv.com/gslb?stream_id=lb_ylsyn_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",奔跑吧兄弟
+http://live.gslb.letv.com/gslb?stream_id=lb_bpbxd&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",奔跑吧兄弟第二季
+http://live.gslb.letv.com/gslb?stream_id=lb_bpbxddej_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",親愛的翻譯官
+http://live.gslb.letv.com/gslb?stream_id=lb_fyg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",少年四大名捕
+http://live.gslb.letv.com/gslb?stream_id=lb_snsdmb_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",了不起的挑戰
+http://live.gslb.letv.com/gslb?stream_id=lb_lbqdtz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",冰與火的青春
+http://live.gslb.letv.com/gslb?stream_id=lb_byhdqc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",舌尖上的中國
+http://live.gslb.letv.com/gslb?stream_id=lb_sjsdzg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",你是我的姐妹
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_nswdjm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",寂寞空庭春欲晚
+http://live.gslb.letv.com/gslb?stream_id=lb_jmktcyw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",女不強大天不容
+http://live.gslb.letv.com/gslb?stream_id=lb_nbqdtbr_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",王者歸來發佈會
+http://live.gslb.letv.com/gslb?stream_id=lb_jcytht_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",少年神探狄仁傑
+http://live.gslb.letv.com/gslb?stream_id=lb_snstdrj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",因為愛情有奇蹟
+http://live.gslb.letv.com/gslb?stream_id=lb_ywaqyqj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",錦繡緣華麗冒險
+http://live.gslb.letv.com/gslb?stream_id=lb_jxyhlmx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",想明白了再結婚
+http://live.gslb.letv.com/gslb?stream_id=lb_xmblzjh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",抓住彩虹的男人
+http://live.gslb.letv.com/gslb?stream_id=lb_zzchdnr_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",因為愛情有奇蹟
+http://live.gslb.letv.com/gslb?stream_id=lb_ywaqyqj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1007&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",和平的全盛時代
+http://live.gslb.letv.com/gslb?stream_id=lb_hpdqssd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",拐個皇帝回現代
+http://live.gslb.letv.com/gslb?stream_id=lb_gghdhxd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",你看起來很好吃
+http://live.gslb.letv.com/gslb?stream_id=lb_lb_hhbsh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",大漢情緣之云中歌
+http://live.gslb.letv.com/gslb?stream_id=lb_dhqyzyzg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",來自未來的史密特
+http://live.gslb.letv.com/gslb?stream_id=lb_lzwldsmt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",山海經之赤影傳說
+http://live.gslb.letv.com/gslb?stream_id=lb_nymfz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",睡在我上鋪的兄弟
+http://live.gslb.letv.com/gslb?stream_id=lb_szwspdxd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視戲劇",那年青春我們正好
+http://live.gslb.letv.com/gslb?stream_id=lb_zczb1_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",噬神者
+http://live.gslb.letv.com/gslb?stream_id=lb_zcyyzb1_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",迪士尼
+http://live.gslb.letv.com/gslb?stream_id=lb_dsn_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",夢工廠
+http://live.gslb.letv.com/gslb?stream_id=lb_hk_dreamworksMAN_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",新番動畫
+http://live.gslb.letv.com/gslb?stream_id=lb_xfdh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",獨播動漫
+http://live.gslb.letv.com/gslb?stream_id=lb_zcyyzb4_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",樂視動漫
+http://live.gslb.letv.com/gslb?stream_id=lb_lsdm_1000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",雙語動畫
+http://live.gslb.letv.com/gslb?stream_id=lb_caijing_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",動漫電影
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia3_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",火影忍者
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia5_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",劇場版特輯
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia4_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",宮崎駿全集
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia2_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",刀劍神域II
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia8_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",紅傷騎士X
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia19_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",百武裝戰記
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia14_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",雙星之陰陽師
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia9_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",一起來看流星雨
+http://live.gslb.letv.com/gslb?stream_id=lb_yqlklxy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",納米核心第二季
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia20_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",亞爾斯蘭戰記第二季
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia12_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",魔笛MAGI辛巴達的冒險
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia11_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視動漫",從零開始的異世界生活
+http://live.gslb.letv.com/gslb?stream_id=lb_dianshijia13_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",成龍
+http://live.gslb.letv.com/gslb?stream_id=lb_cl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",徐克
+http://live.gslb.letv.com/gslb?stream_id=lb_xuke_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",胡歌
+http://live.gslb.letv.com/gslb?stream_id=lb_huge_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",胡兵
+http://live.gslb.letv.com/gslb?stream_id=lb_hubing_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",柳岩
+http://live.gslb.letv.com/gslb?stream_id=lb_ly_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",張博
+http://live.gslb.letv.com/gslb?stream_id=lb_zhangbo_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",王偉
+http://live.gslb.letv.com/gslb?stream_id=lb_wangwei_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",王雷
+http://live.gslb.letv.com/gslb?stream_id=lb_wl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",童瑤
+http://live.gslb.letv.com/gslb?stream_id=lb_tongyao_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",朱銳
+http://live.gslb.letv.com/gslb?stream_id=lb_zhurui_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",艾東
+http://live.gslb.letv.com/gslb?stream_id=lb_ad_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",郎朗
+http://live.gslb.letv.com/gslb?stream_id=lb_langlang_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",孫堅
+http://live.gslb.letv.com/gslb?stream_id=lb_sunjian_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",蘇芒
+http://live.gslb.letv.com/gslb?stream_id=lb_sumang_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",陳曉
+http://live.gslb.letv.com/gslb?stream_id=lb_cx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",陳創
+http://live.gslb.letv.com/gslb?stream_id=lb_cc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",陳赫
+http://live.gslb.letv.com/gslb?stream_id=lb_chenhe_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",高露
+http://live.gslb.letv.com/gslb?stream_id=lb_gl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",姜武
+http://live.gslb.letv.com/gslb?stream_id=lb_jw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",於正
+http://live.gslb.letv.com/gslb?stream_id=lb_yz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",何炅
+http://live.gslb.letv.com/gslb?stream_id=lb_hj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",曹徵
+http://live.gslb.letv.com/gslb?stream_id=lb_caozheng_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",金銘
+http://live.gslb.letv.com/gslb?stream_id=lb_jm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",金晨
+http://live.gslb.letv.com/gslb?stream_id=lb_jinchen_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",寧浩
+http://live.gslb.letv.com/gslb?stream_id=lb_ninghao_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",斕曦
+http://live.gslb.letv.com/gslb?stream_id=lb_lx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",葉璇
+http://live.gslb.letv.com/gslb?stream_id=lb_yx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",沙溢
+http://live.gslb.letv.com/gslb?stream_id=lb_shayi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",穎兒
+http://live.gslb.letv.com/gslb?stream_id=lb_ye_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",蔣欣
+http://live.gslb.letv.com/gslb?stream_id=lb_jiangxin_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",鞏崢
+http://live.gslb.letv.com/gslb?stream_id=lb_gz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",田原
+http://live.gslb.letv.com/gslb?stream_id=lb_tianyuan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",郭濤
+http://live.gslb.letv.com/gslb?stream_id=lb_gt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",牛莉
+http://live.gslb.letv.com/gslb?stream_id=lb_niuli_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",毛寧
+http://live.gslb.letv.com/gslb?stream_id=lb_maoning_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",劉濤
+http://live.gslb.letv.com/gslb?stream_id=lb_liutao_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",劉江
+http://live.gslb.letv.com/gslb?stream_id=lb_liujiang_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",杜淳
+http://live.gslb.letv.com/gslb?stream_id=lb_duchun_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",杜江
+http://live.gslb.letv.com/gslb?stream_id=lb_mj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",李威
+http://live.gslb.letv.com/gslb?stream_id=lb_liwei_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",李丹
+http://live.gslb.letv.com/gslb?stream_id=lb_lidan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",李晨
+http://live.gslb.letv.com/gslb?stream_id=lb_lichen_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",李念
+http://live.gslb.letv.com/gslb?stream_id=lb_linian_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",沉泰
+http://live.gslb.letv.com/gslb?stream_id=lb_st_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",沉騰
+http://live.gslb.letv.com/gslb?stream_id=lb_shenteng_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",林申
+http://live.gslb.letv.com/gslb?stream_id=lb_ls_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",馬麗
+http://live.gslb.letv.com/gslb?stream_id=lb_mali_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",戴軍
+http://live.gslb.letv.com/gslb?stream_id=lb_daijun_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",任泉
+http://live.gslb.letv.com/gslb?stream_id=lb_renquan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",鄧超
+http://live.gslb.letv.com/gslb?stream_id=lb_dengchao_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",海清
+http://live.gslb.letv.com/gslb?stream_id=lb_haiqing_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",董璇
+http://live.gslb.letv.com/gslb?stream_id=lb_dongxuan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",陸毅
+http://live.gslb.letv.com/gslb?stream_id=lb_luyi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",陸川
+http://live.gslb.letv.com/gslb?stream_id=lb_lc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",賈青
+http://live.gslb.letv.com/gslb?stream_id=lb_jq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",陳數
+http://live.gslb.letv.com/gslb?stream_id=lb_chenshu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",戚薇
+http://live.gslb.letv.com/gslb?stream_id=lb_qiwei_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",秦嵐
+http://live.gslb.letv.com/gslb?stream_id=lb_ql_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",黃斌
+http://live.gslb.letv.com/gslb?stream_id=lb_huangbin_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",黃軒
+http://live.gslb.letv.com/gslb?stream_id=lb_huangxuan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",楊爍
+http://live.gslb.letv.com/gslb?stream_id=lb_yangshuo_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",巍子
+http://live.gslb.letv.com/gslb?stream_id=lb_weizi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",周韻
+http://live.gslb.letv.com/gslb?stream_id=lb_zhouyun_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",周星馳
+http://live.gslb.letv.com/gslb?stream_id=lb_zxc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",黃曉明
+http://live.gslb.letv.com/gslb?stream_id=lb_hxm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",黃百鳴
+http://live.gslb.letv.com/gslb?stream_id=lb_hbm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",黃小蕾
+http://live.gslb.letv.com/gslb?stream_id=lb_hxl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",章子怡
+http://live.gslb.letv.com/gslb?stream_id=lb_zhangziyi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",方中信
+http://live.gslb.letv.com/gslb?stream_id=lb_fzx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",蔡少芬
+http://live.gslb.letv.com/gslb?stream_id=lb_csf_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",鐘漢良
+http://live.gslb.letv.com/gslb?stream_id=lb_zhonghanliang_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",郭品超
+http://live.gslb.letv.com/gslb?stream_id=lb_gpc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",薛凱琪
+http://live.gslb.letv.com/gslb?stream_id=lb_xkq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",薛佳凝
+http://live.gslb.letv.com/gslb?stream_id=lb_xjn_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",張藝謀
+http://live.gslb.letv.com/gslb?stream_id=lb_zym_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",張智堯
+http://live.gslb.letv.com/gslb?stream_id=lb_zzy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",張若昀
+http://live.gslb.letv.com/gslb?stream_id=lb_zrj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",張曉龍
+http://live.gslb.letv.com/gslb?stream_id=lb_zhangxiaolong_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",張豐毅
+http://live.gslb.letv.com/gslb?stream_id=lb_zhangfengyi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",劉詩詩
+http://live.gslb.letv.com/gslb?stream_id=lb_liushishi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",劉亦菲
+http://live.gslb.letv.com/gslb?stream_id=lb_lyf_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1008&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",劉愷威
+http://live.gslb.letv.com/gslb?stream_id=lb_lkw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",劉威葳
+http://live.gslb.letv.com/gslb?stream_id=lb_lww_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",孫耀威
+http://live.gslb.letv.com/gslb?stream_id=lb_syw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",孫海英
+http://live.gslb.letv.com/gslb?stream_id=lb_shy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",孫驍驍
+http://live.gslb.letv.com/gslb?stream_id=lb_sxx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",孫紅雷
+http://live.gslb.letv.com/gslb?stream_id=lb_sunhonglei_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",吳宗憲
+http://live.gslb.letv.com/gslb?stream_id=lb_wzx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",郭德綱
+http://live.gslb.letv.com/gslb?stream_id=lb_gdg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",郭曉冬
+http://live.gslb.letv.com/gslb?stream_id=lb_gxd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=cs1&expect=1
+#EXTINF:-1 group-title="樂視名人",鄭曉龍
+http://live.gslb.letv.com/gslb?stream_id=lb_zxl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",馮遠徵
+http://live.gslb.letv.com/gslb?stream_id=lb_fyz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",馮紹峰
+http://live.gslb.letv.com/gslb?stream_id=lb_fsf_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",李小萌
+http://live.gslb.letv.com/gslb?stream_id=lb_lxm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",李小璐
+http://live.gslb.letv.com/gslb?stream_id=lb_lxl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",李依曉
+http://live.gslb.letv.com/gslb?stream_id=lb_lyx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",李東學
+http://live.gslb.letv.com/gslb?stream_id=lb_ldx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",李崇霄
+http://live.gslb.letv.com/gslb?stream_id=lb_lichongxiao_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",李易峰
+http://live.gslb.letv.com/gslb?stream_id=lb_liyifeng_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",李承鉉
+http://live.gslb.letv.com/gslb?stream_id=lb_lcx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",趙寶剛
+http://live.gslb.letv.com/gslb?stream_id=lb_z_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",趙子琪
+http://live.gslb.letv.com/gslb?stream_id=lb_zzq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",趙立新
+http://live.gslb.letv.com/gslb?stream_id=lb_zlx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",趙麗穎
+http://live.gslb.letv.com/gslb?stream_id=lb_zly_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",呂頌賢
+http://live.gslb.letv.com/gslb?stream_id=lb_lsx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",呂麗萍
+http://live.gslb.letv.com/gslb?stream_id=lb_llp_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",佟麗婭
+http://live.gslb.letv.com/gslb?stream_id=lb_tly_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",佟大為
+http://live.gslb.letv.com/gslb?stream_id=lb_tdw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",何潤東
+http://live.gslb.letv.com/gslb?stream_id=lb_hrd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",何晟銘
+http://live.gslb.letv.com/gslb?stream_id=lb_hsm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",陳喬恩
+http://live.gslb.letv.com/gslb?stream_id=lb_cqe_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",陳紫函
+http://live.gslb.letv.com/gslb?stream_id=lb_czh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",陳小春
+http://live.gslb.letv.com/gslb?stream_id=lb_cxc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",毛俊傑
+http://live.gslb.letv.com/gslb?stream_id=lb_mjj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",毛曉彤
+http://live.gslb.letv.com/gslb?stream_id=lb_mxt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",王麗坤
+http://live.gslb.letv.com/gslb?stream_id=lb_wlk_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",王千源
+http://live.gslb.letv.com/gslb?stream_id=lb_wqy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",王寶強
+http://live.gslb.letv.com/gslb?stream_id=lb_wbq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",段奕宏
+http://live.gslb.letv.com/gslb?stream_id=lb_dyh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",馬伊琍
+http://live.gslb.letv.com/gslb?stream_id=lb_mayili_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",高云翔
+http://live.gslb.letv.com/gslb?stream_id=lb_gyx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",孟廣美
+http://live.gslb.letv.com/gslb?stream_id=lb_mgm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",沉傲君
+http://live.gslb.letv.com/gslb?stream_id=lb_saj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",應采兒
+http://live.gslb.letv.com/gslb?stream_id=lb_yce_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",宋丹丹
+http://live.gslb.letv.com/gslb?stream_id=lb_sdd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",包貝爾
+http://live.gslb.letv.com/gslb?stream_id=lb_bbe_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",杜海濤
+http://live.gslb.letv.com/gslb?stream_id=lb_dht_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",唐藝昕
+http://live.gslb.letv.com/gslb?stream_id=lb_tyx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",田朴珺
+http://live.gslb.letv.com/gslb?stream_id=lb_tpj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",丁子峻
+http://live.gslb.letv.com/gslb?stream_id=lb_dzj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",莫小棋
+http://live.gslb.letv.com/gslb?stream_id=lb_mxq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",代樂樂
+http://live.gslb.letv.com/gslb?stream_id=lb_dll_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",徐百卉
+http://live.gslb.letv.com/gslb?stream_id=lb_xbh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",梁丹妮
+http://live.gslb.letv.com/gslb?stream_id=lb_ldn_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",賈乃亮
+http://live.gslb.letv.com/gslb?stream_id=lb_jnl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",白百何
+http://live.gslb.letv.com/gslb?stream_id=lb_bbh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",楊文軍
+http://live.gslb.letv.com/gslb?stream_id=lb_ywj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",於小偉
+http://live.gslb.letv.com/gslb?stream_id=lb_yxw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",潘之琳
+http://live.gslb.letv.com/gslb?stream_id=lb_pzl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",姚芊羽
+http://live.gslb.letv.com/gslb?stream_id=lb_yqy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",霍思燕
+http://live.gslb.letv.com/gslb?stream_id=lb_hsy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",古力娜扎
+http://live.gslb.letv.com/gslb?stream_id=lb_glnz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-汪峰
+http://live.gslb.letv.com/gslb?stream_id=lb_wf_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-羽泉
+http://live.gslb.letv.com/gslb?stream_id=lb_yuquan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-韓磊
+http://live.gslb.letv.com/gslb?stream_id=lb_hl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-譚晶
+http://live.gslb.letv.com/gslb?stream_id=lb_tanjing_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-鄭鈞
+http://live.gslb.letv.com/gslb?stream_id=lb_zhengjun_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-郝云
+http://live.gslb.letv.com/gslb?stream_id=lb_haoyun_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-周筆暢
+http://live.gslb.letv.com/gslb?stream_id=lb_zbc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-李宇春
+http://live.gslb.letv.com/gslb?stream_id=lb_lyc_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-李藝彤
+http://live.gslb.letv.com/gslb?stream_id=lb_lyt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-劉力揚
+http://live.gslb.letv.com/gslb?stream_id=lb_lly_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-胡彥斌
+http://live.gslb.letv.com/gslb?stream_id=lb_hyb_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-黃婷婷
+http://live.gslb.letv.com/gslb?stream_id=lb_htt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-黃義達
+http://live.gslb.letv.com/gslb?stream_id=lb_hyd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-鄧紫棋
+http://live.gslb.letv.com/gslb?tag=live&stream_id=lb_dengziqi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-鄭元暢
+http://live.gslb.letv.com/gslb?stream_id=lb_zhengyuanchang_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-陳楚生
+http://live.gslb.letv.com/gslb?stream_id=lb_ccs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-鞠婧禕
+http://live.gslb.letv.com/gslb?stream_id=lb_jjy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-查可欣
+http://live.gslb.letv.com/gslb?stream_id=lb_zkx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-曾豔芬
+http://live.gslb.letv.com/gslb?stream_id=lb_zyf_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-趙嘉敏
+http://live.gslb.letv.com/gslb?stream_id=lb_zjm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",歌-邱欣怡
+http://live.gslb.letv.com/gslb?stream_id=lb_qxy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",訪談-楊瀾
+http://live.gslb.letv.com/gslb?stream_id=lb_yanglan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",訪談-張慧雯
+http://live.gslb.letv.com/gslb?stream_id=lb_zhw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",訪談-黃綺珊
+http://live.gslb.letv.com/gslb?stream_id=lb_hqs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視名人",訪談-薩頂頂
+http://live.gslb.letv.com/gslb?stream_id=lb_sadingding_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1007&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",親子
+http://live.gslb.letv.com/gslb?stream_id=lb_qinzi_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",藍迪
+http://live.gslb.letv.com/gslb?stream_id=lb_ld_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",動漫
+http://live.gslb.letv.com/gslb?stream_id=lb_comic_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",歪歪兔
+http://live.gslb.letv.com/gslb?stream_id=lb_wwt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",加菲貓
+http://live.gslb.letv.com/gslb?stream_id=lb_jfm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",兔小貝
+http://live.gslb.letv.com/gslb?stream_id=lb_txb_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",躲貓貓
+http://live.gslb.letv.com/gslb?stream_id=lb_dmm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",巴布豆
+http://live.gslb.letv.com/gslb?stream_id=lb_bbd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",愛樂奇
+http://live.gslb.letv.com/gslb?stream_id=xizang&tag=lb_alq_1300&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",貓扎特
+http://live.gslb.letv.com/gslb?stream_id=lb_mzt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",熊小米
+http://live.gslb.letv.com/gslb?stream_id=lb_xxm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",金寶貝
+http://live.gslb.letv.com/gslb?stream_id=lb_jbb_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",倒霉熊
+http://live.gslb.letv.com/gslb?stream_id=lb_dmx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",熊出沒
+http://live.gslb.letv.com/gslb?stream_id=lb_xcm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",奧特曼
+http://live.gslb.letv.com/gslb?stream_id=lb_atm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",紙牌屋
+http://live.gslb.letv.com/gslb?stream_id=lb_zpw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",豬豬俠
+http://live.gslb.letv.com/gslb?stream_id=lb_zzx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",歡樂頌
+http://live.gslb.letv.com/gslb?stream_id=lb_zczb4_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",兒藝話劇
+http://live.gslb.letv.com/gslb?stream_id=lb_ethj_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",兒童樂園
+http://live.gslb.letv.com/gslb?stream_id=lb_myzqjx_800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",嘉佳卡通
+http://live.gslb.letv.com/gslb?stream_id=ws_jjkt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",炫動卡通
+http://live.gslb.letv.com/gslb?stream_id=xdkt&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",金鷹卡通
+http://live.gslb.letv.com/gslb?stream_id=jykt&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",歐美卡通
+http://live.gslb.letv.com/gslb?stream_id=lb_omkt_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",經典兒歌
+http://live.gslb.letv.com/gslb?stream_id=lb_erge_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",寶寶巴士
+http://live.gslb.letv.com/gslb?stream_id=lb_bbbs_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",貝瓦兒歌
+http://live.gslb.letv.com/gslb?stream_id=lb_bweg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",親寶兒歌
+http://live.gslb.letv.com/gslb?stream_id=lb_qbeg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",美媽錦囊
+http://live.gslb.letv.com/gslb?stream_id=lb_huangyuan_1300=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",咕力咕力
+http://live.gslb.letv.com/gslb?stream_id=lb_glgl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",洪恩幼兒
+http://live.gslb.letv.com/gslb?stream_id=lb_heye_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",貓和老鼠
+http://live.gslb.letv.com/gslb?stream_id=lb_mhls_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",大頭兒子
+http://live.gslb.letv.com/gslb?stream_id=lb_dtez_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",變形金剛
+http://live.gslb.letv.com/gslb?stream_id=lb_bxjg_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",哆啦A夢
+http://live.gslb.letv.com/gslb?stream_id=lb_dlam_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",蠟筆小新
+http://live.gslb.letv.com/gslb?stream_id=lb_lbxx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",樂視兒歌
+http://live.gslb.letv.com/gslb?stream_id=lb_erge_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",小馬寶莉
+http://live.gslb.letv.com/gslb?stream_id=lb_xmbl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",巨神戰擊隊
+http://live.gslb.letv.com/gslb?stream_id=lb_jszjd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",寵物小精靈
+http://live.gslb.letv.com/gslb?stream_id=lb_cwxjl_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",櫻桃小丸子
+http://live.gslb.letv.com/gslb?stream_id=lb_ytxwz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",名偵探柯南
+http://live.gslb.letv.com/gslb?stream_id=lb_mztkn_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",黑子的籃球
+http://live.gslb.letv.com/gslb?stream_id=lb_hzdlq_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",哈利講故事
+http://live.gslb.letv.com/gslb?stream_id=lb_hali_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",可愛巧虎島
+http://live.gslb.letv.com/gslb?stream_id=lb_kaqhd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",星座不求人
+http://live.gslb.letv.com/gslb?stream_id=lb_swpz_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",巴啦啦小魔仙
+http://live.gslb.letv.com/gslb?stream_id=lb_bllxmx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",萊恩朱莉學院
+http://live.gslb.letv.com/gslb?stream_id=lb_lezl_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="樂視兒童",新東方泡泡教育
+http://live.gslb.letv.com/gslb?stream_id=lb_lezldjmjmtxd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+#EXTINF:-1 group-title="時尚+音樂",FashionTV巴黎
+http://origina.streaming.sk/liveedge/tvfashion/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",Fashionone時裝秀
+http://mn-i.mncdn.com/birnumaramedya_mobile/fashionone.sdp/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",韓19時尚生活
+http://123.108.164.71/etv2sb/phd43/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",WF世界時裝秀(可改0~3)
+http://btv-net.mediacdn.ru/TVB8/wfhd/track_3/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",龔電視Gong
+http://ec.playmedia.fr:1935/gong-base/live/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",幽默EnormeTV
+http://ec.playmedia.fr/enorme-tv/live/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",運動Eurosport1ENG
+http://esioslive6-i.akamaihd.net/hls/live/202874/AL_P_ESP1_INTER_ENG/playlist_1300.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-M20
+http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-b.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-HitTV
+http://kissfm.en-directo.com/iphone/index_multirate.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-SpainKisstv
+http://tst.es.flash.glb.ipercast.net/tst.es-live//live/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-KayhanTV
+http://playout395.livestreamingcdn.com/live//Stream1/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-CityTV
+http://nodeb.gocaster.net:1935/CGL/_definst_/mp4:TODAYFM_TEST2/live.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-CapitalTV
+http://ooyalahd2-f.akamaihd.net/i/globalradio01_delivery@156521/master.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-DJingTV
+http://www.djing.com/tv/dancefloor.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-土耳其DreamTurk
+http://www.iptvsaga.com/play/tv3/0060.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-土耳其DreamTV
+http://www.iptvsaga.com/play/tv3/0069.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-Hearttv
+http://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/master.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-KlipkarTV
+http://live.wowza.kpnstreaming.nl/omropfryslanlive/OFstream01.smil/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-NRJHits
+http://5.196.138.6:1935/live/nrjbelgique_360p/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-NosTVBonaire
+http://panchito13.flashmediacast.com:2087/live/livestream/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-Resminassat
+http://mn-l.mncdn.com/birnumaramedya_live//nr1tv.sdp/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-RADIO105TV
+http://fms.105.net:1935/live/105Test1/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-RADIOVIRGINTV
+http://fms.105.net:1935/live/virgin1/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-RADIOMONTECARLOTV
+http://fms.105.net:1935/live/rmc1/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-SlamTvSDNL360P
+http://hls2.slamfm.nl/content/slamtv/slamtv_1.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-SlamTvHDNL720P
+http://hls2.slamfm.nl/content/slamtv/slamtv_0.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-TV538
+http://538hls.lswcdn.triple-it.nl/content/538tv/538tv_1.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-ZoetermeerFM
+http://kippingmultimediaal.nl:1935/live/ZFM1/playlist.m3u8
+#EXTINF:-1 group-title="時尚+音樂",音樂-維京電台
+http://wow01.105.net/live/virgin1/playlist.m3u8
+#EXTINF:-1 group-title="華數求索",求索動物HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_qsdw/z.m3u8
+#EXTINF:-1 group-title="華數求索",求索記錄HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_qsjl/z.m3u8
+#EXTINF:-1 group-title="華數求索",求索科學HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_qspd/z.m3u8
+#EXTINF:-1 group-title="華數求索",CCTV_5+體育賽事HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_cctv5jia/z.m3u8
+#EXTINF:-1 group-title="華數求索",CCTV_5體育HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_cctv5/z.m3u8
+#EXTINF:-1 group-title="華數求索",CCTV發現之旅
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/fxzl/z.m3u8
+#EXTINF:-1 group-title="華數求索",環球奇觀
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/hqqg/z.m3u8
+#EXTINF:-1 group-title="華數求索",歐洲足球
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/ozzq/z.m3u8
+#EXTINF:-1 group-title="華數求索",安徽衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/ahws/z.m3u8
+#EXTINF:-1 group-title="華數求索",安徽衛視HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_ahws/z.m3u8
+#EXTINF:-1 group-title="華數求索",北京紀實
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/bjjs/z.m3u8
+#EXTINF:-1 group-title="華數求索",北京衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/bjws/z.m3u8
+#EXTINF:-1 group-title="華數求索",北京衛視HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_bjws/z.m3u8
+#EXTINF:-1 group-title="華數求索",東方衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/dfws/z.m3u8
+#EXTINF:-1 group-title="華數求索",東方衛視HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_dfws/z.m3u8
+#EXTINF:-1 group-title="華數求索",江蘇衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/jsws/z.m3u8
+#EXTINF:-1 group-title="華數求索",江蘇衛視HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_jsws/z.m3u8
+#EXTINF:-1 group-title="華數求索",江西衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/jxws/z.m3u8
+#EXTINF:-1 group-title="華數求索",寧夏衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/nxws/z.m3u8
+#EXTINF:-1 group-title="華數求索",青海衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/qhws/z.m3u8
+#EXTINF:-1 group-title="華數求索",天津衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/tjws/z.m3u8
+#EXTINF:-1 group-title="華數求索",天津衛視HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_tjws/z.m3u8
+#EXTINF:-1 group-title="華數求索",河北衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hebws/z.m3u8
+#EXTINF:-1 group-title="華數求索",河南衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/henws/z.m3u8
+#EXTINF:-1 group-title="華數求索",兵團衛視
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/btws/z.m3u8
+#EXTINF:-1 group-title="華數求索",黑龍江衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hljws/z.m3u8
+#EXTINF:-1 group-title="華數求索",黑龍江衛視HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_hljws/z.m3u8
+#EXTINF:-1 group-title="華數求索",湖北衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hbws/z.m3u8
+#EXTINF:-1 group-title="華數求索",湖北衛視HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_hbws/z.m3u8
+#EXTINF:-1 group-title="華數求索",山東衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/sdws/z.m3u8
+#EXTINF:-1 group-title="華數求索",山東衛視HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_sdws/z.m3u8
+#EXTINF:-1 group-title="華數求索",山西衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/sxws/z.m3u8
+#EXTINF:-1 group-title="華數求索",陝西衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/shxws/z.m3u8
+#EXTINF:-1 group-title="華數求索",四川衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/scws/z.m3u8
+#EXTINF:-1 group-title="華數求索",東南衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/dnws/z.m3u8
+#EXTINF:-1 group-title="華數求索",甘肅衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/gsws/z.m3u8
+#EXTINF:-1 group-title="華數求索",湖南HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_hnws/z.m3u8
+#EXTINF:-1 group-title="華數求索",廣東衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/gdws/z.m3u8
+#EXTINF:-1 group-title="華數求索",廣東衛視HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_gdws/z.m3u8
+#EXTINF:-1 group-title="華數求索",廣西衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/gxws/z.m3u8
+#EXTINF:-1 group-title="華數求索",深圳衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/szws/z.m3u8
+#EXTINF:-1 group-title="華數求索",深圳衛視HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_szws/z.m3u8
+#EXTINF:-1 group-title="華數求索",浙江衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/zjws/z.m3u8
+#EXTINF:-1 group-title="華數求索",浙江衛視HD
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/hd_zjws/z.m3u8
+#EXTINF:-1 group-title="華數求索",貴州衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/gzws/z.m3u8
+#EXTINF:-1 group-title="華數求索",吉林衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/jlws/z.m3u8
+#EXTINF:-1 group-title="華數求索",遼寧衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/lnws/z.m3u8
+#EXTINF:-1 group-title="華數求索",旅遊衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/lyws/z.m3u8
+#EXTINF:-1 group-title="華數求索",云南衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/ynws/z.m3u8
+#EXTINF:-1 group-title="華數求索",重慶衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/cqws/z.m3u8
+#EXTINF:-1 group-title="華數求索",內蒙古衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/nmgws/z.m3u8
+#EXTINF:-1 group-title="華數求索",西藏衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/xzws/z.m3u8
+#EXTINF:-1 group-title="華數求索",新疆衛視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/xjws/z.m3u8
+#EXTINF:-1 group-title="華數求索",杭州地鐵電視
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/dtds/z.m3u8
+#EXTINF:-1 group-title="華數求索",杭州體育少兒
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/htv5/z.m3u8
+#EXTINF:-1 group-title="華數求索",杭州西湖明珠
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/htv2/z.m3u8
+#EXTINF:-1 group-title="華數求索",杭州影視
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/htv4/z.m3u8
+#EXTINF:-1 group-title="華數求索",杭州綜合
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/htv1/z.m3u8
+#EXTINF:-1 group-title="華數求索",華數TV
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/wasutv/z.m3u8
+#EXTINF:-1 group-title="華數求索",麗水新聞綜合
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/lstv1/z.m3u8
+#EXTINF:-1 group-title="華數求索",寧波新聞綜合
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/nbtv1/z.m3u8
+#EXTINF:-1 group-title="華數求索",湖州新聞綜合
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/hztv1/z.m3u8
+#EXTINF:-1 group-title="華數求索",紹興新聞綜合
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/sxtv1/z.m3u8
+#EXTINF:-1 group-title="華數求索",衢州新聞綜合
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/qztv1/z.m3u8
+#EXTINF:-1 group-title="華數求索",台州新聞綜合
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/tztv1/z.m3u8
+#EXTINF:-1 group-title="華數求索",溫州新聞綜合
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/wztv1/z.m3u8
+#EXTINF:-1 group-title="華數求索",嘉興新聞綜合
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/jxtv1/z.m3u8
+#EXTINF:-1 group-title="華數求索",金華新聞綜合
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/jhtv1/z.m3u8
+#EXTINF:-1 group-title="華數求索",浙江公共農村
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/ztv7/z.m3u8
+#EXTINF:-1 group-title="華數求索",浙江教育科技
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/ztv4/z.m3u8
+#EXTINF:-1 group-title="華數求索",浙江經視
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/ztv3/z.m3u8
+#EXTINF:-1 group-title="華數求索",浙江民生休閒
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/ztv6/z.m3u8
+#EXTINF:-1 group-title="華數求索",浙江少兒
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/zjse/z.m3u8
+#EXTINF:-1 group-title="華數求索",浙江影視娛樂
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/ztv5/z.m3u8
+#EXTINF:-1 group-title="華數求索",中國教育
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/cetv/z.m3u8
+#EXTINF:-1 group-title="華數求索",舟山新聞綜合
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/zstv1/z.m3u8
+#EXTINF:-1 group-title="華數求索",浙江錢江都市
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/ztv2/z.m3u8
+#EXTINF:-1 group-title="華數求索",快樂垂釣
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/klcd/z.m3u8
+#EXTINF:-1 group-title="華數求索",社會紀實
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/shjs/z.m3u8
+#EXTINF:-1 group-title="華數求索",茶頻道
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/cpd/z.m3u8
+#EXTINF:-1 group-title="華數求索",車迷頻道
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/cmpd/z.m3u8
+#EXTINF:-1 group-title="華數求索",電子體育
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/dzty/z.m3u8
+#EXTINF:-1 group-title="華數求索",收藏天下
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/sctx/z.m3u8
+#EXTINF:-1 group-title="華數求索",數碼時代
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/smsd/z.m3u8
+#EXTINF:-1 group-title="華數求索",優漫卡通
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/ymkt/z.m3u8
+#EXTINF:-1 group-title="華數求索",炫動卡通
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/xdkt/z.m3u8
+#EXTINF:-1 group-title="華數求索",金鷹卡通
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/jykt/z.m3u8
+#EXTINF:-1 group-title="華數求索",卡酷動畫
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/kkdh/z.m3u8
+#EXTINF:-1 group-title="華數求索",優優寶貝
+http://112.253.38.62:80/livehls2-cnc.wasu.cn/yybb/z.m3u8
+#EXTINF:-1 group-title="華數求索",風尚購物
+http://112.253.38.62:80/livehls1-cnc.wasu.cn/fsgw/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",CCTV-1HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_cctv1/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",CCTV-5+HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_cctv5jia/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",CCTV-發現之旅
+http://218.92.209.33/padlive1-cnc.wasu.cn/fxzl/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",CCTV-風雲足球
+http://218.92.209.33/padlive1-cnc.wasu.cn/fyzq/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",CETV1中國教育
+http://218.92.209.33/padlive2-cnc.wasu.cn/cetv/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",求索記錄HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_qsjl/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",求索生活HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_qssh/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",求索動物HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_qsdw/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",求索科學HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_qspd/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",上海紀實HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/shjs/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",北京紀實HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/bjjs/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",湖南衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_hnws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",安徽衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_ahws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",北京衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_bjws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",浙江衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_zjws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",東方衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_dfws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",江蘇衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_jsws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",深圳衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_szws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",山東衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_sdws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",湖北衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_hbws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",天津衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_tjws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",廣東衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_gdws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",黑龍江衛視HD
+http://218.92.209.33/padlive1-cnc.wasu.cn/hd_hljws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",華數TV
+http://218.92.209.33/padlive2-cnc.wasu.cn/wasutv/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",風尚購物
+http://218.92.209.33/padlive1-cnc.wasu.cn/fsgw/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",優優寶貝
+http://218.92.209.33/padlive2-cnc.wasu.cn/yybb/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",收藏天下
+http://218.92.209.33/padlive2-cnc.wasu.cn/sctx/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",環球奇觀
+http://218.92.209.33/padlive2-cnc.wasu.cn/hqqg/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",數碼時代
+http://218.92.209.33/padlive2-cnc.wasu.cn/smsd/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",車迷頻道
+http://218.92.209.33/padlive2-cnc.wasu.cn/cmpd/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",快樂垂釣
+http://218.92.209.33/padlive1-cnc.wasu.cn/klcd/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",茶頻道
+http://218.92.209.33/padlive1-cnc.wasu.cn/cpd/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",歐洲足球
+http://218.92.209.33/padlive1-cnc.wasu.cn/ozzq/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",電子體育
+http://218.92.209.33/padlive2-cnc.wasu.cn/dzty/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",甘肅衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/gsws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",陝西衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/shxws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",重慶衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/cqws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",山西衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/sxws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",四川衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/scws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",旅遊衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/lyws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",東南衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/dnws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",兵團衛視
+http://218.92.209.33/padlive2-cnc.wasu.cn/btws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",遼寧衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/lnws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",吉林衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/jlws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",河南衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/henws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",河北衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/hebws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",貴州衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/gzws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",青海衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/qhws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",云南衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/ynws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",寧夏衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/nxws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",江西衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/jxws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",廣西衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/gxws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",新疆衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/xjws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",內蒙古衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/nmgws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",西藏衛視
+http://218.92.209.33/padlive1-cnc.wasu.cn/xzws/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",卡酷動畫
+http://218.92.209.33/padlive2-cnc.wasu.cn/kkdh/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",炫動卡通
+http://218.92.209.33/padlive2-cnc.wasu.cn/xdkt/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",優漫卡通
+http://218.92.209.33/padlive2-cnc.wasu.cn/ymkt/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",金鷹卡通
+http://218.92.209.33/padlive2-cnc.wasu.cn/jykt/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",浙江少兒
+http://218.92.209.33/padlive2-cnc.wasu.cn/zjse/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",浙江錢江都市
+http://218.92.209.33/padlive2-cnc.wasu.cn/ztv2/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",浙江經視
+http://218.92.209.33/padlive2-cnc.wasu.cn/ztv3/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",浙江教育科技
+http://218.92.209.33/padlive2-cnc.wasu.cn/ztv4/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",浙江影視娛樂
+http://218.92.209.33/padlive2-cnc.wasu.cn/ztv5/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",浙江民生休閒
+http://218.92.209.33/padlive2-cnc.wasu.cn/ztv6/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",浙江公共農村
+http://218.92.209.33/padlive2-cnc.wasu.cn/ztv7/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",杭州綜合
+http://218.92.209.33/padlive2-cnc.wasu.cn/htv1/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",杭州西湖明珠
+http://218.92.209.33/padlive2-cnc.wasu.cn/htv2/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",杭州影視
+http://218.92.209.33/padlive2-cnc.wasu.cn/htv4/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",杭州體育少兒
+http://218.92.209.33/padlive2-cnc.wasu.cn/htv5/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",杭州地鐵電視
+http://218.92.209.33/padlive1-cnc.wasu.cn/dtds/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",寧波新聞綜合
+http://218.92.209.33/padlive2-cnc.wasu.cn/nbtv1/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",溫州新聞綜合
+http://218.92.209.33/padlive2-cnc.wasu.cn/wztv1/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",嘉興新聞綜合
+http://218.92.209.33/padlive2-cnc.wasu.cn/jxtv1/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",紹興新聞綜合
+http://218.92.209.33/padlive2-cnc.wasu.cn/sxtv1/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",台州新聞綜合
+http://218.92.209.33/padlive2-cnc.wasu.cn/tztv1/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",湖州新聞綜合
+http://218.92.209.33/padlive2-cnc.wasu.cn/hztv1/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",金華新聞綜合
+http://218.92.209.33/padlive2-cnc.wasu.cn/jhtv1/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",泉州新聞綜合
+http://218.92.209.33/padlive2-cnc.wasu.cn/qztv1/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",舟山新聞綜合
+http://218.92.209.33/padlive2-cnc.wasu.cn/zstv1/z.m3u8
+#EXTINF:-1 group-title="華數鹽城電信",麗水新聞綜合
+http://218.92.209.33/padlive2-cnc.wasu.cn/lstv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",CCTV_1綜合HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_cctv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",CCTV_5+HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_cctv5jia/z.m3u8
+#EXTINF:-1 group-title="華數套餐",CCTV發現之旅
+http://60.220.196.154/livehls1-cnc.wasu.cn/fxzl/z.m3u8
+#EXTINF:-1 group-title="華數套餐",CCTV風雲足球
+http://60.220.196.154/livehls1-cnc.wasu.cn/fyzq/z.m3u8
+#EXTINF:-1 group-title="華數套餐",安徽衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/ahws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",安徽衛視HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_ahws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",北京紀實
+http://60.220.196.154/livehls1-cnc.wasu.cn/bjjs/z.m3u8
+#EXTINF:-1 group-title="華數套餐",北京衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/bjws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",北京衛視HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_bjws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",兵團衛視
+http://60.220.196.154/livehls2-cnc.wasu.cn/btws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",茶頻道
+http://60.220.196.154/livehls1-cnc.wasu.cn/cpd/z.m3u8
+#EXTINF:-1 group-title="華數套餐",車迷頻道
+http://60.220.196.154/livehls2-cnc.wasu.cn/cmpd/z.m3u8
+#EXTINF:-1 group-title="華數套餐",電子體育
+http://60.220.196.154/livehls2-cnc.wasu.cn/dzty/z.m3u8
+#EXTINF:-1 group-title="華數套餐",東方衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/dfws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",東方衛視HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_dfws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",東南衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/dnws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",甘肅衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/gsws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",高清湖南HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_hnws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",廣東衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/gdws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",廣東衛視HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_gdws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",廣西衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/gxws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",貴州衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/gzws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",杭州地鐵電視
+http://60.220.196.154/livehls1-cnc.wasu.cn/dtds/z.m3u8
+#EXTINF:-1 group-title="華數套餐",杭州體育少兒
+http://60.220.196.154/livehls2-cnc.wasu.cn/htv5/z.m3u8
+#EXTINF:-1 group-title="華數套餐",杭州西湖明珠
+http://60.220.196.154/livehls2-cnc.wasu.cn/htv2/z.m3u8
+#EXTINF:-1 group-title="華數套餐",杭州影視
+http://60.220.196.154/livehls2-cnc.wasu.cn/htv4/z.m3u8
+#EXTINF:-1 group-title="華數套餐",杭州綜合
+http://60.220.196.154/livehls2-cnc.wasu.cn/htv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",河北衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/hebws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",河南衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/henws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",黑龍江衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/hljws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",黑龍江衛視HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_hljws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",湖北衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/hbws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",湖北衛視HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_hbws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",湖州新聞綜合
+http://60.220.196.154/livehls2-cnc.wasu.cn/hztv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",華數TV
+http://60.220.196.154/livehls2-cnc.wasu.cn/wasutv/z.m3u8
+#EXTINF:-1 group-title="華數套餐",風尚購物
+http://60.220.196.154/livehls1-cnc.wasu.cn/fsgw/z.m3u8
+#EXTINF:-1 group-title="華數套餐",環球奇觀
+http://60.220.196.154/livehls2-cnc.wasu.cn/hqqg/z.m3u8
+#EXTINF:-1 group-title="華數套餐",吉林衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/jlws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",嘉興新聞綜合
+http://60.220.196.154/livehls2-cnc.wasu.cn/jxtv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",江蘇衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/jsws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",江蘇衛視HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_jsws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",江西衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/jxws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",金華新聞綜合
+http://60.220.196.154/livehls2-cnc.wasu.cn/jhtv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",金鷹卡通
+http://60.220.196.154/livehls2-cnc.wasu.cn/jykt/z.m3u8
+#EXTINF:-1 group-title="華數套餐",卡酷動畫
+http://60.220.196.154/livehls2-cnc.wasu.cn/kkdh/z.m3u8
+#EXTINF:-1 group-title="華數套餐",快樂垂釣
+http://60.220.196.154/livehls1-cnc.wasu.cn/klcd/z.m3u8
+#EXTINF:-1 group-title="華數套餐",麗水新聞綜合
+http://60.220.196.154/livehls2-cnc.wasu.cn/lstv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",遼寧衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/lnws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",旅遊衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/lyws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",內蒙古衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/nmgws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",寧波新聞綜合
+http://60.220.196.154/livehls2-cnc.wasu.cn/nbtv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",寧夏衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/nxws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",歐洲足球
+http://60.220.196.154/livehls1-cnc.wasu.cn/ozzq/z.m3u8
+#EXTINF:-1 group-title="華數套餐",青海衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/qhws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",求索動物HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_qsdw/z.m3u8
+#EXTINF:-1 group-title="華數套餐",求索記錄HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_qsjl/z.m3u8
+#EXTINF:-1 group-title="華數套餐",求索科學HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_qspd/z.m3u8
+#EXTINF:-1 group-title="華數套餐",求索生活HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_qssh/z.m3u8
+#EXTINF:-1 group-title="華數套餐",衢州新聞綜合
+http://60.220.196.154/livehls2-cnc.wasu.cn/qztv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",山東衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/sdws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",山東衛視HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_sdws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",山西衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/sxws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",陝西衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/shxws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",紹興新聞綜合
+http://60.220.196.154/livehls2-cnc.wasu.cn/sxtv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",社會紀實
+http://60.220.196.154/livehls1-cnc.wasu.cn/shjs/z.m3u8
+#EXTINF:-1 group-title="華數套餐",深圳衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/szws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",深圳衛視HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_szws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",收藏天下
+http://60.220.196.154/livehls2-cnc.wasu.cn/sctx/z.m3u8
+#EXTINF:-1 group-title="華數套餐",數碼時代
+http://60.220.196.154/livehls2-cnc.wasu.cn/smsd/z.m3u8
+#EXTINF:-1 group-title="華數套餐",四川衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/scws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",台州新聞綜合
+http://60.220.196.154/livehls2-cnc.wasu.cn/tztv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",天津衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/tjws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",溫州新聞綜合
+http://60.220.196.154/livehls2-cnc.wasu.cn/wztv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",西藏衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/xzws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",新疆衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/xjws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",炫動卡通
+http://60.220.196.154/livehls2-cnc.wasu.cn/xdkt/z.m3u8
+#EXTINF:-1 group-title="華數套餐",優漫卡通
+http://60.220.196.154/livehls2-cnc.wasu.cn/ymkt/z.m3u8
+#EXTINF:-1 group-title="華數套餐",優優寶貝
+http://60.220.196.154/livehls2-cnc.wasu.cn/yybb/z.m3u8
+#EXTINF:-1 group-title="華數套餐",云南衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/ynws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",浙江公共農村
+http://60.220.196.154/livehls2-cnc.wasu.cn/ztv7/z.m3u8
+#EXTINF:-1 group-title="華數套餐",浙江教育科技
+http://60.220.196.154/livehls2-cnc.wasu.cn/ztv4/z.m3u8
+#EXTINF:-1 group-title="華數套餐",浙江經視
+http://60.220.196.154/livehls2-cnc.wasu.cn/ztv3/z.m3u8
+#EXTINF:-1 group-title="華數套餐",浙江民生休閒
+http://60.220.196.154/livehls2-cnc.wasu.cn/ztv6/z.m3u8
+#EXTINF:-1 group-title="華數套餐",浙江少兒
+http://60.220.196.154/livehls2-cnc.wasu.cn/zjse/z.m3u8
+#EXTINF:-1 group-title="華數套餐",浙江衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/zjws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",浙江衛視HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_zjws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",浙江影視娛樂
+http://60.220.196.154/livehls2-cnc.wasu.cn/ztv5/z.m3u8
+#EXTINF:-1 group-title="華數套餐",中國教育
+http://60.220.196.154/livehls2-cnc.wasu.cn/cetv/z.m3u8
+#EXTINF:-1 group-title="華數套餐",重慶衛視
+http://60.220.196.154/livehls1-cnc.wasu.cn/cqws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",舟山新聞綜合
+http://60.220.196.154/livehls2-cnc.wasu.cn/zstv1/z.m3u8
+#EXTINF:-1 group-title="華數套餐",天津衛視HD
+http://60.220.196.154/livehls1-cnc.wasu.cn/hd_tjws/z.m3u8
+#EXTINF:-1 group-title="華數套餐",浙江錢江都市
+http://60.220.196.154/livehls2-cnc.wasu.cn/ztv2/z.m3u8
+#EXTINF:-1 group-title="HOT精品",CCTV第一劇場
+http://222.191.24.5:6610/2/2/ch00000090990000001296/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV懷舊劇場
+http://222.191.24.5:6610/2/2/ch00000090990000001212/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV世界地理
+http://222.191.24.5:6610/2/2/ch00000090990000001203/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-1
+http://222.191.24.5:6610/2/2/ch00000090990000001017/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-1HD
+http://222.191.24.5:6610/2/2/ch00000090990000001021/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-2
+http://222.191.24.5:6610/2/2/ch00000090990000001023/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-3
+http://222.191.24.5:6610/2/2/ch00000090990000001027/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-4
+http://222.191.24.5:6610/2/2/ch00000090990000001119/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-5
+http://222.191.24.5:6610/2/2/ch00000090990000001029/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-5+
+http://222.191.24.5:6610/2/2/ch00000090990000001043/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-5HD
+http://222.191.24.5:6610/2/2/ch00000090990000001239/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-6
+http://222.191.24.5:6610/2/2/ch00000090990000001031/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-7
+http://222.191.24.5:6610/2/2/ch00000090990000001121/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-8
+http://222.191.24.5:6610/2/2/ch00000090990000001033/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-9
+http://222.191.24.5:6610/2/2/ch00000090990000001035/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-10
+http://222.191.24.5:6610/2/2/ch00000090990000001125/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-11
+http://222.191.24.5:6610/2/2/ch00000090990000001127/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-12
+http://222.191.24.5:6610/2/2/ch00000090990000001129/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-13
+http://222.191.24.5:6610/2/2/ch00000090990000001131/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-14少兒
+http://222.191.24.5:6610/2/2/ch00000090990000001132/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",CCTV-15音樂
+http://222.191.24.5:6610/2/2/ch00000090990000001135/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",歐洲足球
+http://222.191.24.5:6610/2/2/ch00000090990000001137/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",風雲足球
+http://222.191.24.5:6610/2/2/ch00000090990000001199/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",高爾夫球
+http://222.191.24.5:6610/2/2/ch00000090990000001201/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",HOT精品劇場HD
+http://222.191.24.5:6610/2/2/ch00000090990000001227/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",HOT少兒動畫HD
+http://222.191.24.5:6610/2/2/ch00000090990000001231/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",HOT歐美影院HD
+http://222.191.24.5:6610/2/2/ch00000090990000001237/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",HOT探索紀錄HD
+http://222.191.24.5:6610/2/2/ch00000090990000001241/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",浙江衛視HD
+http://222.191.24.5:6610/2/2/ch00000090990000001221/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",東方衛視HD
+http://222.191.24.5:6610/2/2/ch00000090990000001223/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",北京衛視HD
+http://222.191.24.5:6610/2/2/ch00000090990000001225/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",江蘇衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001301/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",安徽衛視HD
+http://222.191.24.5:6610/2/2/ch00000090990000001247/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",山東衛視HD
+http://222.191.24.5:6610/2/2/ch00000090990000001249/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",湖北衛視HD
+http://222.191.24.5:6610/2/2/ch00000090990000001251/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",天津衛視HD
+http://222.191.24.5:6610/2/2/ch00000090990000001253/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",黑龍江衛視HD
+http://222.191.24.5:6610/2/2/ch00000090990000001255/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",廣西衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001169/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",旅遊衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001171/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",重慶衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001173/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",四川衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001175/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",河南衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001177/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",東南衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001179/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",廣東衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001233/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",江西衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001183/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",吉林衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001187/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",山西衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001191/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",深圳衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001229/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",青海衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001195/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",河北衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001140/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",內蒙衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001142/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",寧夏衛視
+http://222.191.24.5:6610/2/2/ch00000090990000001145/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",MTV
+http://222.191.24.5:6610/2/2/ch00000090990000001155/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",風雲音樂
+http://222.191.24.5:6610/2/2/ch00000090990000001213/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",HOT音樂
+http://222.191.24.5:6610/2/2/ch00000090990000001258/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",卡酷少兒
+http://222.191.24.5:6610/2/2/ch00000090990000001149/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",炫動卡通
+http://222.191.24.5:6610/2/2/ch00000090990000001151/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",數碼時代
+http://222.191.24.5:6610/2/2/ch00000090990000001153/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",嘉佳卡通
+http://222.191.24.5:6610/2/2/ch00000090990000001235/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",鳳凰衛視中文
+http://222.191.24.5:6610/2/2/ch00000090990000001308/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="HOT精品",鳳凰資訊台
+http://222.191.24.5:6610/2/2/ch00000090990000001309/index.m3u8?ispcode=3
+#EXTINF:-1 group-title="CIBN",CIBN電影
+http://web-play.pptv.com/web-m3u8-303541.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN熱播劇場
+http://web-play.pptv.com/web-m3u8-303543.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN抗戰劇場
+http://web-play.pptv.com/web-m3u8-303547.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN經典劇場
+http://web-play.pptv.com/web-m3u8-303549.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN紀錄片
+http://web-play.pptv.com/web-m3u8-303555.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN音樂
+http://web-play.pptv.com/web-m3u8-303557.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN禪文化
+http://web-play.pptv.com/web-m3u8-303561.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN都市劇場
+http://web-play.pptv.com/web-m3u8-303565.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN財經
+http://web-play.pptv.com/web-m3u8-303845.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN遊戲
+http://web-play.pptv.com/web-m3u8-303847.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN環球購物
+http://web-play.pptv.com/web-m3u8-303849.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN教育
+http://web-play.pptv.com/web-m3u8-303935.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN喜劇院線
+http://web-play.pptv.com/web-m3u8-303545.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CIBN綜藝
+http://web-play.pptv.com/web-m3u8-303551.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",鳳凰中文
+http://web-play.pptv.com/web-m3u8-300621.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",安徽衛視HD
+http://web-play.pptv.com/web-m3u8-300162.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",東方衛視
+http://web-play.pptv.com/web-m3u8-300145.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",東方電影
+http://web-play.pptv.com/web-m3u8-300149.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",安徽衛視
+http://web-play.pptv.com/web-m3u8-300878.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",海峽衛視
+http://web-play.pptv.com/web-m3u8-300403.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",東南衛視
+http://web-play.pptv.com/web-m3u8-300175.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",廣東衛視
+http://web-play.pptv.com/web-m3u8-300179.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",新疆衛視
+http://web-play.pptv.com/web-m3u8-300411.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",西藏衛視
+http://web-play.pptv.com/web-m3u8-300412.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",江西衛視
+http://web-play.pptv.com/web-m3u8-300168.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",遼寧衛視
+http://web-play.pptv.com/web-m3u8-300171.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",甘肅衛視
+http://web-play.pptv.com/web-m3u8-300148.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",上海娛樂
+http://web-play.pptv.com/web-m3u8-300151.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",上海紀實
+http://web-play.pptv.com/web-m3u8-300152.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",上海電視劇
+http://web-play.pptv.com/web-m3u8-300153.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",上海第一財經
+http://web-play.pptv.com/web-m3u8-300154.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",上海星尚
+http://web-play.pptv.com/web-m3u8-300155.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",上海新聞綜合
+http://web-play.pptv.com/web-m3u8-300156.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",上海藝術人文
+http://web-play.pptv.com/web-m3u8-300454.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",上海ICS
+http://web-play.pptv.com/web-m3u8-300214.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",東方購物
+http://web-play.pptv.com/web-m3u8-300254.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",成都新聞綜合
+http://web-play.pptv.com/web-m3u8-300356.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",WCA頻道
+http://web-play.pptv.com/web-m3u8-300400.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",南方經濟科教
+http://web-play.pptv.com/web-m3u8-300404.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",南方影視
+http://web-play.pptv.com/web-m3u8-300449.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",南方綜藝
+http://web-play.pptv.com/web-m3u8-300406.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",南方少兒
+http://web-play.pptv.com/web-m3u8-300407.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",東方財經
+http://web-play.pptv.com/web-m3u8-300446.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",炫動卡通
+http://web-play.pptv.com/web-m3u8-300455.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",廣東會展
+http://web-play.pptv.com/web-m3u8-300463.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",廣東房產
+http://web-play.pptv.com/web-m3u8-300464.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",廣東現代教育
+http://web-play.pptv.com/web-m3u8-301041.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",廣州綜合
+http://web-play.pptv.com/web-m3u8-300410.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",廣州新聞
+http://web-play.pptv.com/web-m3u8-300456.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",廣州影視
+http://web-play.pptv.com/web-m3u8-300451.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",廣州經濟
+http://web-play.pptv.com/web-m3u8-300409.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",廣州少兒
+http://web-play.pptv.com/web-m3u8-300408.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",卡酷少兒
+http://web-play.pptv.com/web-m3u8-300462.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",湖北公共
+http://web-play.pptv.com/web-m3u8-300413.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",湖北經視
+http://web-play.pptv.com/web-m3u8-300447.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",湖北教育
+http://web-play.pptv.com/web-m3u8-300414.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",武漢文藝頻道
+http://web-play.pptv.com/web-m3u8-300416.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",武漢科教生活
+http://web-play.pptv.com/web-m3u8-300415.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",成都經濟資訊
+http://web-play.pptv.com/web-m3u8-300472.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",成都都市生活
+http://web-play.pptv.com/web-m3u8-300473.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",成都公共
+http://web-play.pptv.com/web-m3u8-300475.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",成都少兒
+http://web-play.pptv.com/web-m3u8-300476.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",長沙政法頻道
+http://web-play.pptv.com/web-m3u8-300593.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",點掌財經
+http://web-play.pptv.com/web-m3u8-300739.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",遊戲風雲
+http://web-play.pptv.com/web-m3u8-301114.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",理財頻道
+http://web-play.pptv.com/web-m3u8-301221.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",家庭理財
+http://web-play.pptv.com/web-m3u8-301227.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",國學頻道
+http://web-play.pptv.com/web-m3u8-303537.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CCTV-中學生
+http://web-play.pptv.com/web-m3u8-300737.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="CIBN",CCTV-證券資訊
+http://web-play.pptv.com/web-m3u8-300747.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",綠葉
+http://web-play.pptv.com/web-m3u8-300150.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",北京衛視高清
+http://web-play.pptv.com/web-m3u8-300166.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",天津衛視高清
+http://web-play.pptv.com/web-m3u8-300160.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",山東衛視高清
+http://web-play.pptv.com/web-m3u8-300161.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",江蘇衛視高清
+http://web-play.pptv.com/web-m3u8-300163.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",黑龍江衛視高清
+http://web-play.pptv.com/web-m3u8-300172.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",湖北衛視高清
+http://web-play.pptv.com/web-m3u8-300146.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",深圳衛視高清
+http://web-play.pptv.com/web-m3u8-300188.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",兵團衛視
+http://web-play.pptv.com/web-m3u8-300157.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",旅遊衛視
+http://web-play.pptv.com/web-m3u8-300158.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",河北衛視
+http://web-play.pptv.com/web-m3u8-300143.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",山西衛視
+http://web-play.pptv.com/web-m3u8-300167.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",廈門衛視
+http://web-play.pptv.com/web-m3u8-300169.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",陝西衛視
+http://web-play.pptv.com/web-m3u8-300170.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",內蒙古衛視
+http://web-play.pptv.com/web-m3u8-300173.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",貴州衛視
+http://web-play.pptv.com/web-m3u8-300174.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",吉林衛視
+http://web-play.pptv.com/web-m3u8-300176.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",四川衛視
+http://web-play.pptv.com/web-m3u8-300177.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",廣西衛視
+http://web-play.pptv.com/web-m3u8-300178.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",青海衛視
+http://web-play.pptv.com/web-m3u8-300180.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",寧夏衛視
+http://web-play.pptv.com/web-m3u8-300187.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",CETV1
+http://web-play.pptv.com/web-m3u8-300165.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",PPTV直播廣告
+http://web-play.pptv.com/web-m3u8-300210.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",PPTV第一體育
+http://web-play.pptv.com/web-m3u8-300212.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",PPTV新聞
+http://web-play.pptv.com/web-m3u8-300215.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
+#EXTINF:-1 group-title="PPTV",西甲塔帕斯
+http://web-play.pptv.com/web-m3u8-300219.m3u8?type=m3u8.web.phone&playback=0&kk=&o=pub.pptv.com
