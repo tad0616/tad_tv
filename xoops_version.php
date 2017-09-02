@@ -21,7 +21,7 @@ $modversion = array();
 
 //---模組基本資訊---//
 $modversion['name']        = _MI_TADTV_NAME;
-$modversion['version']     = '1.1';
+$modversion['version']     = '1.2';
 $modversion['description'] = _MI_TADTV_DESC;
 $modversion['author']      = _MI_TADTV_AUTHOR;
 $modversion['credits']     = _MI_TADTV_CREDITS;
@@ -31,14 +31,14 @@ $modversion['image']       = "images/logo.png";
 $modversion['dirname']     = basename(__DIR__);
 
 //---模組狀態資訊---//
-$modversion['status_version']      = '1.1';
-$modversion['release_date']        = '2017-01-15';
+$modversion['status_version']      = '1.2';
+$modversion['release_date']        = '2017-06-16';
 $modversion['module_website_url']  = 'http://tad0616.net';
 $modversion['module_website_name'] = _MI_TADTV_AUTHOR_WEB;
 $modversion['module_status']       = 'release';
 $modversion['author_website_url']  = 'http://tad0616.net';
 $modversion['author_website_name'] = _MI_TADTV_AUTHOR_WEB;
-$modversion['min_php']             = '5.3';
+$modversion['min_php']             = '5.4';
 $modversion['min_xoops']           = '2.5';
 
 //---paypal資訊---//
@@ -86,9 +86,9 @@ $modversion['templates'][$i]['description'] = 'tad_tv_adm_groupperm.tpl';
 
 //---區塊設定---//
 $i = 0;
-$i++;
-$modversion['blocks'][$i]['file']        = 'tad_tv_player.php';
-$modversion['blocks'][$i]['name']        = _MI_TAD_TV_PLAYER_BLOCK_NAME;
-$modversion['blocks'][$i]['description'] = _MI_TAD_TV_PLAYER_BLOCK_DESC;
-$modversion['blocks'][$i]['show_func']   = 'tad_tv_player';
-$modversion['blocks'][$i]['template']    = 'tad_tv_player.tpl';
+// $i++;
+// $modversion['blocks'][$i]['file']        = 'tad_tv_player.php';
+// $modversion['blocks'][$i]['name']        = _MI_TAD_TV_PLAYER_BLOCK_NAME;
+// $modversion['blocks'][$i]['description'] = _MI_TAD_TV_PLAYER_BLOCK_DESC;
+// $modversion['blocks'][$i]['show_func']   = 'tad_tv_player';
+// $modversion['blocks'][$i]['template']    = 'tad_tv_player.tpl';

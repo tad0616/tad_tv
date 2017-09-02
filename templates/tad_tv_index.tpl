@@ -146,7 +146,7 @@
               <{$smarty.const._MD_TADTV_PROXY}>
             </label>
             <div class="col-sm-10 col-sm-offset-2">
-              <label class="checkbox-inline">
+              <label class="checkbox-inline" for="tad_tv_proxy">
                 <input type="checkbox" name="tad_tv_proxy" id="tad_tv_proxy" value="1" ><{$smarty.const._MD_TADTV_PROXY_DESC}>
               </label>
             </div>

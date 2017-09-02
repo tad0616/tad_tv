@@ -67,11 +67,6 @@ function tad_tv_player($options)
         }
     }
 
-    $xoopsTpl->assign('action', $_SERVER['PHP_SELF']);
-    $xoopsTpl->assign('isAdmin', $isAdmin);
-    $xoopsTpl->assign('all_content', $all_content);
-    $xoopsTpl->assign('now_op', 'list_tad_tv');
-
     if ($isAdmin) {
         //加入Token安全機制
         include_once XOOPS_ROOT_PATH . "/class/xoopsformloader.php";
