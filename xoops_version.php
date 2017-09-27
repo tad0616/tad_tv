@@ -21,7 +21,7 @@ $modversion = array();
 
 //---模組基本資訊---//
 $modversion['name']        = _MI_TADTV_NAME;
-$modversion['version']     = '1.2';
+$modversion['version']     = '1.21';
 $modversion['description'] = _MI_TADTV_DESC;
 $modversion['author']      = _MI_TADTV_AUTHOR;
 $modversion['credits']     = _MI_TADTV_CREDITS;
@@ -31,8 +31,8 @@ $modversion['image']       = "images/logo.png";
 $modversion['dirname']     = basename(__DIR__);
 
 //---模組狀態資訊---//
-$modversion['status_version']      = '1.2';
-$modversion['release_date']        = '2017-06-16';
+$modversion['status_version']      = '1.21';
+$modversion['release_date']        = '2017-09-27';
 $modversion['module_website_url']  = 'http://tad0616.net';
 $modversion['module_website_name'] = _MI_TADTV_AUTHOR_WEB;
 $modversion['module_status']       = 'release';
