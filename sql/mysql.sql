@@ -8,7 +8,7 @@ CREATE TABLE `tad_tv` (
   `tad_tv_content` text NOT NULL COMMENT '說明',
   `tad_tv_counter` mediumint(9) unsigned NOT NULL default '0' COMMENT '人氣',
 PRIMARY KEY  (`tad_tv_sn`)
-) ENGINE=MyISAM;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 CREATE TABLE `tad_tv_cate` (
   `tad_tv_cate_sn` smallint(5) unsigned NOT NULL auto_increment COMMENT '分類編號',
@@ -18,7 +18,7 @@ CREATE TABLE `tad_tv_cate` (
   `tad_tv_cate_sort` smallint(5) unsigned NOT NULL default '0' COMMENT '分類排序',
   `tad_tv_cate_enable` enum('1','0') NOT NULL default '1' COMMENT '狀態',
 PRIMARY KEY  (`tad_tv_cate_sn`)
-) ENGINE=MyISAM;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 CREATE TABLE `tad_tv_menu` (
   `tad_tv_sn` smallint(6) unsigned NOT NULL auto_increment COMMENT '編號',
@@ -28,4 +28,4 @@ CREATE TABLE `tad_tv_menu` (
   `uid` mediumint(8) unsigned NOT NULL default 0 COMMENT 'uid',
   `log_time` datetime NOT NULL COMMENT '紀錄時間',
 PRIMARY KEY  (`tad_tv_sn`,`tad_tv_player`,`uid`)
-) ENGINE=MyISAM;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
