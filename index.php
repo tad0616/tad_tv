@@ -39,7 +39,7 @@ function get_tad_tv($tad_tv_sn = '')
 
     $sql = "select * from `" . $xoopsDB->prefix("tad_tv") . "`
     where `tad_tv_sn` = '{$tad_tv_sn}'";
-    $result = $xoopsDB->query($sql) or web_error($sql);
+    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
     $data   = $xoopsDB->fetchArray($result);
     return $data;
 }
@@ -56,7 +56,7 @@ function add_tad_tv_counter($tad_tv_sn = '')
     $sql = "update `" . $xoopsDB->prefix("tad_tv") . "`
     set `tad_tv_counter` = `tad_tv_counter` + 1
     where `tad_tv_sn` = '{$tad_tv_sn}'";
-    $xoopsDB->queryF($sql) or web_error($sql);
+    $xoopsDB->queryF($sql) or web_error($sql, __FILE__, _LINE__);
 }
 
 //列出所有tad_tv資料
@@ -80,7 +80,7 @@ function list_tad_tv($tad_tv_sn = "")
     $i           = 0;
     $all_content = '';
     $sql         = "select tad_tv_cate_sn,tad_tv_cate_title from `" . $xoopsDB->prefix("tad_tv_cate") . "` where tad_tv_cate_enable='1' order by `tad_tv_cate_sort`";
-    $result      = $xoopsDB->query($sql) or web_error($sql);
+    $result      = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
     while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
         //判斷目前使用者是否有：觀看權限
         $perm_view = power_chk("perm_view", $tad_tv_cate_sn);
@@ -89,7 +89,7 @@ function list_tad_tv($tad_tv_sn = "")
         }
 
         $sql     = "select * from `" . $xoopsDB->prefix("tad_tv") . "` where tad_tv_cate_sn='{$tad_tv_cate_sn}' and tad_tv_enable='1' order by `tad_tv_sort`";
-        $result2 = $xoopsDB->query($sql) or web_error($sql);
+        $result2 = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
 
         while ($all = $xoopsDB->fetchArray($result2)) {
             //以下會產生這些變數： $tad_tv_sn, $tad_tv_title, $tad_tv_url, $tad_tv_sort, $tad_tv_enable, $tad_tv_cate_sn, $tad_tv_content, $tad_tv_counter
@@ -144,7 +144,7 @@ function list_tad_tv($tad_tv_sn = "")
 
         //父分類
         $sql                          = "select `tad_tv_cate_sn`, `tad_tv_cate_title` from `" . $xoopsDB->prefix("tad_tv_cate") . "` order by tad_tv_cate_sort";
-        $result                       = $xoopsDB->query($sql) or web_error($sql);
+        $result                       = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
         $i                            = 0;
         $tad_tv_cate_sn_options_array = '';
         while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
@@ -180,7 +180,7 @@ function simple_update_tad_tv($tad_tv_sn = '')
        `tad_tv_url` = '{$tad_tv_url}',
        `tad_tv_cate_sn` = '{$tad_tv_cate_sn}'
     where `tad_tv_sn` = '$tad_tv_sn'";
-    $xoopsDB->queryF($sql) or web_error($sql);
+    $xoopsDB->queryF($sql) or web_error($sql, __FILE__, _LINE__);
 
     return $tad_tv_sn;
 }

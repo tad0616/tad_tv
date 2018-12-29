@@ -15,7 +15,7 @@ $perm_page_title = _MA_TADTV_PERM_TITLE;
 
 //取得分類編號及標題
 $sql    = "select `tad_tv_cate_sn`, `tad_tv_cate_title` from " . $xoopsDB->prefix("tad_tv_cate");
-$result = $xoopsDB->query($sql) or web_error($sql);
+$result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
 while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
     $item_list[$tad_tv_cate_sn] = $tad_tv_cate_title;
 }

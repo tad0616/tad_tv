@@ -23,7 +23,7 @@ function get_url($tad_tv_cate_sn = "")
     $cate = get_tad_tv_cate($tad_tv_cate_sn);
 
     $sql    = "select tad_tv_title, tad_tv_url from " . $xoopsDB->prefix("tad_tv") . "  where `tad_tv_cate_sn` ='{$tad_tv_cate_sn}' and `tad_tv_enable` ='1' order by `tad_tv_sort`";
-    $result = $xoopsDB->query($sql) or web_error($sql);
+    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
 
     $contents = "{$cate['tad_tv_cate_title']}\n";
     while (list($tad_tv_title, $tad_tv_url) = $xoopsDB->fetchRow($result)) {
