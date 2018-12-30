@@ -21,7 +21,7 @@ function chk_cate_path($sn, $to_sn)
     global $xoopsDB;
     //抓出子目錄的編號
     $sql    = "select `tad_tv_cate_sn` from " . $xoopsDB->prefix("tad_tv_cate") . " where `tad_tv_cate_parent_sn`='{$sn}'";
-    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     while (list($sub_sn) = $xoopsDB->fetchRow($result)) {
         if (chk_cate_path($sub_sn, $to_sn)) {
             return true;

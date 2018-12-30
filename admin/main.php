@@ -43,7 +43,7 @@ function list_tad_tv($tad_tv_cate_sn = "")
         $sql     = $PageBar['sql'];
         $total   = $PageBar['total'];
     }
-    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
 
     $i = 0;
 
@@ -80,7 +80,7 @@ function list_tad_tv_cate_tree($def_tad_tv_cate_sn = "")
     global $xoopsDB, $xoopsTpl;
 
     $sql    = "select count(*),tad_tv_cate_sn from " . $xoopsDB->prefix("tad_tv") . " group by tad_tv_cate_sn";
-    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     while (list($count, $tad_tv_cate_sn) = $xoopsDB->fetchRow($result)) {
         $cate_count[$tad_tv_cate_sn] = $count;
     }
@@ -90,7 +90,7 @@ function list_tad_tv_cate_tree($def_tad_tv_cate_sn = "")
     $data[]   = "{ id:0, pId:0, name:'All', url:'main.php', target:'_self', open:true}";
 
     $sql    = "select tad_tv_cate_sn, tad_tv_cate_parent_sn, tad_tv_cate_title from " . $xoopsDB->prefix("tad_tv_cate") . " order by tad_tv_cate_sort";
-    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     while (list($tad_tv_cate_sn, $tad_tv_cate_parent_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
         $font_style      = $def_tad_tv_cate_sn == $tad_tv_cate_sn ? ", font:{'background-color':'yellow', 'color':'black'}" : '';
         $open            = in_array($tad_tv_cate_sn, $path_arr) ? 'true' : 'false';
@@ -132,7 +132,7 @@ function get_tad_tv_cate_path($the_tad_tv_cate_sn = "", $include_self = true)
             LEFT JOIN `{$tbl}` t6 ON t6.tad_tv_cate_parent_sn = t5.tad_tv_cate_sn
             LEFT JOIN `{$tbl}` t7 ON t7.tad_tv_cate_parent_sn = t6.tad_tv_cate_sn
             WHERE t1.tad_tv_cate_parent_sn = '0'";
-        $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+        $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
         while ($all = $xoopsDB->fetchArray($result)) {
             if (in_array($the_tad_tv_cate_sn, $all)) {
                 //$main.="-";
@@ -160,7 +160,7 @@ function get_tad_tv_cate_sub($tad_tv_cate_sn = "0")
 {
     global $xoopsDB;
     $sql                = "select tad_tv_cate_sn,tad_tv_cate_title from " . $xoopsDB->prefix("tad_tv_cate") . " where tad_tv_cate_parent_sn='{$tad_tv_cate_sn}'";
-    $result             = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result             = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     $tad_tv_cate_sn_arr = array();
     while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
         $tad_tv_cate_sn_arr[$tad_tv_cate_sn] = $tad_tv_cate_title;
@@ -180,7 +180,7 @@ function get_tad_tv_cate_options($page = '', $mode = 'edit', $default_tad_tv_cat
     $count = tad_tv_cate_count();
 
     $sql    = "select tad_tv_cate_sn,tad_tv_cate_title from " . $xoopsDB->prefix("tad_tv_cate") . " where tad_tv_cate_parent_sn='{$start_search_sn}' order by tad_tv_cate_sort";
-    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
 
     $prefix = str_repeat("&nbsp;&nbsp;", $level);
     $level++;
@@ -289,7 +289,7 @@ function tad_tv_form($tad_tv_sn = '', $tad_tv_cate_sn = '')
 
     //所屬類別
     $sql                          = "select `tad_tv_cate_sn`, `tad_tv_cate_title` from `" . $xoopsDB->prefix("tad_tv_cate") . "` order by tad_tv_cate_sort";
-    $result                       = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result                       = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     $i                            = 0;
     $tad_tv_cate_sn_options_array = array();
     while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
@@ -321,7 +321,7 @@ function get_tad_tv($tad_tv_sn = '')
 
     $sql = "select * from `" . $xoopsDB->prefix("tad_tv") . "`
     where `tad_tv_sn` = '{$tad_tv_sn}'";
-    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     $data   = $xoopsDB->fetchArray($result);
     return $data;
 }
@@ -375,7 +375,7 @@ function tad_tv_cate_form($tad_tv_cate_sn = '')
 
     //父分類
     $sql                          = "select `tad_tv_cate_sn`, `tad_tv_cate_title` from `" . $xoopsDB->prefix("tad_tv_cate") . "` order by tad_tv_cate_sort";
-    $result                       = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result                       = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     $i                            = 0;
     $tad_tv_cate_sn_options_array = array();
     while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
@@ -401,7 +401,7 @@ function tad_tv_cate_max_sort()
 {
     global $xoopsDB;
     $sql        = "select max(`tad_tv_cate_sort`) from `" . $xoopsDB->prefix("tad_tv_cate") . "`";
-    $result     = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result     = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     list($sort) = $xoopsDB->fetchRow($result);
     return ++$sort;
 }
@@ -442,7 +442,7 @@ function insert_tad_tv_cate()
         '{$tad_tv_cate_sort}',
         '{$tad_tv_cate_enable}'
     )";
-    $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
 
     //取得最後新增資料的流水編號
     $tad_tv_cate_sn = $xoopsDB->getInsertId();
@@ -480,7 +480,7 @@ function update_tad_tv_cate($tad_tv_cate_sn = '')
        `tad_tv_cate_sort` = '{$tad_tv_cate_sort}',
        `tad_tv_cate_enable` = '{$tad_tv_cate_enable}'
     where `tad_tv_cate_sn` = '$tad_tv_cate_sn'";
-    $xoopsDB->queryF($sql) or web_error($sql, __FILE__, _LINE__);
+    $xoopsDB->queryF($sql) or web_error($sql, __FILE__, __LINE__);
 
     return $tad_tv_cate_sn;
 }
@@ -499,7 +499,7 @@ function delete_tad_tv_cate($tad_tv_cate_sn = '')
 
     $sql = "delete from `" . $xoopsDB->prefix("tad_tv_cate") . "`
     where `tad_tv_cate_sn` = '{$tad_tv_cate_sn}'";
-    $xoopsDB->queryF($sql) or web_error($sql, __FILE__, _LINE__);
+    $xoopsDB->queryF($sql) or web_error($sql, __FILE__, __LINE__);
     delete_tad_tv(null, $tad_tv_cate_sn);
 }
 
@@ -520,7 +520,7 @@ function import_csv($tad_tv_cate_sn = "")
             $tad_tv_cate_sort = tad_tv_cate_max_sort();
 
             $sql = "insert into `" . $xoopsDB->prefix("tad_tv_cate") . "` ( `tad_tv_cate_parent_sn`, `tad_tv_cate_title`, `tad_tv_cate_desc`, `tad_tv_cate_sort`, `tad_tv_cate_enable`) values( '0', '{$title}', '{$title}', '{$tad_tv_cate_sort}', '1')";
-            $xoopsDB->queryF($sql) or web_error($sql, __FILE__, _LINE__);
+            $xoopsDB->queryF($sql) or web_error($sql, __FILE__, __LINE__);
             //取得最後新增資料的流水編號
             $tad_tv_cate_sn = $xoopsDB->getInsertId();
         } elseif (!empty($title) and !empty($url)) {
@@ -533,7 +533,7 @@ function import_csv($tad_tv_cate_sn = "")
                         $tad_tv_sort = tad_tv_max_sort();
 
                         $sql = "insert into `" . $xoopsDB->prefix("tad_tv") . "` ( `tad_tv_title`, `tad_tv_url`, `tad_tv_sort`, `tad_tv_enable`, `tad_tv_cate_sn`, `tad_tv_content`) values( '{$title}', '{$url}', '{$tad_tv_sort}', '1', '{$tad_tv_cate_sn}', '{$title}')";
-                        $xoopsDB->queryF($sql) or web_error($sql, __FILE__, _LINE__);
+                        $xoopsDB->queryF($sql) or web_error($sql, __FILE__, __LINE__);
                     }
                 }
             } else {
@@ -541,7 +541,7 @@ function import_csv($tad_tv_cate_sn = "")
                     $tad_tv_sort = tad_tv_max_sort();
 
                     $sql = "insert into `" . $xoopsDB->prefix("tad_tv") . "` ( `tad_tv_title`, `tad_tv_url`, `tad_tv_sort`, `tad_tv_enable`, `tad_tv_cate_sn`, `tad_tv_content`) values( '{$title}', '{$url}', '{$tad_tv_sort}', '1', '{$tad_tv_cate_sn}', '{$title}')";
-                    $xoopsDB->queryF($sql) or web_error($sql, __FILE__, _LINE__);
+                    $xoopsDB->queryF($sql) or web_error($sql, __FILE__, __LINE__);
                 }
             }
         }
@@ -578,7 +578,7 @@ function import_m3u($tad_tv_cate_sn = "")
         foreach ($m3u as $key => $data) {
             $tad_tv_sort = tad_tv_max_sort();
             $sql         = "insert into `" . $xoopsDB->prefix("tad_tv") . "` ( `tad_tv_title`, `tad_tv_url`, `tad_tv_sort`, `tad_tv_enable`, `tad_tv_cate_sn`, `tad_tv_content`) values( '{$data['title']}', '{$data['url']}', '{$tad_tv_sort}', '1', '{$tad_tv_cate_sn}', '{$data['title']}')";
-            $xoopsDB->queryF($sql) or web_error($sql, __FILE__, _LINE__);
+            $xoopsDB->queryF($sql) or web_error($sql, __FILE__, __LINE__);
         }
         fclose($handle);
     }
@@ -595,7 +595,7 @@ function chk_url($tad_tv_url = "")
     $url       = "{$u['scheme']}://{$u['host']}{$port}";
     $chkwwwsrv = chkwwwsrv($url);
     $sql       = "select * from " . $xoopsDB->prefix("tad_tv") . " where tad_tv_url like '{$url}%'";
-    $result    = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result    = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     $i         = 0;
     while ($all = $xoopsDB->fetchArray($result)) {
         $chk_url[$i] = $all;
@@ -639,7 +639,7 @@ function move_tv($del_urls = "", $tad_tv_cate_sn = '')
     global $xoopsDB;
     foreach ($del_urls as $tad_tv_sn) {
         $sql = "update " . $xoopsDB->prefix("tad_tv") . " set tad_tv_cate_sn='{$tad_tv_cate_sn}' where tad_tv_sn = '{$tad_tv_sn}'";
-        $xoopsDB->queryF($sql) or web_error($sql, __FILE__, _LINE__);
+        $xoopsDB->queryF($sql) or web_error($sql, __FILE__, __LINE__);
     }
 }
 
@@ -648,7 +648,7 @@ function chk_repeat()
 {
     global $xoopsDB, $xoopsTpl;
     $sql    = "select `tad_tv_url`, count(*) as c from " . $xoopsDB->prefix("tad_tv") . " group by `tad_tv_url` having c > 1";
-    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     while (list($url, $counter) = $xoopsDB->fetchRow($result)) {
         $repeat[$url] = $counter;
     }
@@ -659,7 +659,7 @@ function chk_repeat()
     $i           = 0;
     foreach ($repeat as $url => $counter) {
         $sql    = "select * from " . $xoopsDB->prefix("tad_tv") . " where `tad_tv_url` = '{$url}'";
-        $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, _LINE__);
+        $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
         while ($all = $xoopsDB->fetchArray($result)) {
             $all_content[$i] = $all;
 
