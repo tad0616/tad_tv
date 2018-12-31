@@ -78,7 +78,7 @@ function list_tad_tv($tad_tv_sn = "")
 
     $myts        = MyTextSanitizer::getInstance();
     $i           = 0;
-    $all_content = '';
+    $all_content = array();
     $sql         = "select tad_tv_cate_sn,tad_tv_cate_title from `" . $xoopsDB->prefix("tad_tv_cate") . "` where tad_tv_cate_enable='1' order by `tad_tv_cate_sort`";
     $result      = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
@@ -146,7 +146,7 @@ function list_tad_tv($tad_tv_sn = "")
         $sql                          = "select `tad_tv_cate_sn`, `tad_tv_cate_title` from `" . $xoopsDB->prefix("tad_tv_cate") . "` order by tad_tv_cate_sort";
         $result                       = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
         $i                            = 0;
-        $tad_tv_cate_sn_options_array = '';
+        $tad_tv_cate_sn_options_array = array();
         while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
             $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_sn']    = $tad_tv_cate_sn;
             $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_title'] = $tad_tv_cate_title;

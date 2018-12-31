@@ -26,7 +26,7 @@ $live = false;
 
 $myts        = MyTextSanitizer::getInstance();
 $i           = 0;
-$all_content = '';
+$all_content = array();
 $sql         = "select tad_tv_cate_sn,tad_tv_cate_title from `" . $xoopsDB->prefix("tad_tv_cate") . "` where tad_tv_cate_enable='1' order by `tad_tv_cate_sort`";
 $result      = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
 while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {

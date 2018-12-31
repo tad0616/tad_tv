@@ -36,13 +36,12 @@ function list_tad_tv($tad_tv_cate_sn = "")
 
     $sql = "select a.*, b.tad_tv_cate_title from " . $xoopsDB->prefix("tad_tv") . " as a left join " . $xoopsDB->prefix("tad_tv_cate") . " as b on a.tad_tv_cate_sn=b.tad_tv_cate_sn {$where_tad_tv_cate_sn} order by a.tad_tv_sort";
 
-    if (empty($tad_tv_cate_sn)) {
-        //getPageBar($原sql語法, 每頁顯示幾筆資料, 最多顯示幾個頁數選項);
-        $PageBar = getPageBar($sql, 10, 10);
-        $bar     = $PageBar['bar'];
-        $sql     = $PageBar['sql'];
-        $total   = $PageBar['total'];
-    }
+    //getPageBar($原sql語法, 每頁顯示幾筆資料, 最多顯示幾個頁數選項);
+    $PageBar = getPageBar($sql, 10, 10);
+    $bar     = $PageBar['bar'];
+    $sql     = $PageBar['sql'];
+    $total   = $PageBar['total'];
+
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
 
     $i = 0;
@@ -512,8 +511,11 @@ function import_csv($tad_tv_cate_sn = "")
 
     $handle = fopen($_FILES['userfile']['tmp_name'], "r") or die("無法開啟");
     while (($data = fgetcsv($handle, 4096)) !== false) {
+        $data[0] = mb_convert_encoding($data[0], "UTF-8", "Big5");
+        $data[1] = mb_convert_encoding($data[1], "UTF-8", "Big5");
         $title = $myts->addSlashes(trim($data[0]));
         $url   = $myts->addSlashes(trim($data[1]));
+
 
         if (!empty($title) and empty($url)) {
             //建立目錄
