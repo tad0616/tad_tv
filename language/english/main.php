@@ -29,7 +29,7 @@ define('_MD_TADTV_TAD_TV_BAD', 'Unavailable Return');
 define('_MD_TADTV_SHOW_TAD_TV_SN_FILES', '');
 define('_MD_TADTV_TAD_TV_TITLE', 'Name');
 define('_MD_TADTV_TAD_TV_ENABLE', 'Is it enabled');
-define('_MD_TADTV_SMNAME1', 'Online TV Homepage');
+define('_MD_TADTV_SMNAME1', 'Internet TV Homepage');
 define('_MD_TADTV_TAD_TV_OK', 'Normal');
 define('_MD_TADTV_TAD_TV_NG', 'Failed');
 define('_MD_TADTV_TAD_TV_SORT', 'Sort');
