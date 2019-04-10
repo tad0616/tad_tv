@@ -54,7 +54,7 @@ function go_update1()
 
 //建立目錄
 if (!function_exists('mk_dir')) {
-    function mk_dir($dir = "")
+    function tad_tv_mk_dir($dir = "")
     {
         //若無目錄名稱秀出警告訊息
         if (empty($dir)) {
@@ -72,7 +72,7 @@ if (!function_exists('mk_dir')) {
 
 //拷貝目錄
 if (!function_exists('full_copy')) {
-    function full_copy($source = "", $target = "")
+    function tad_tv_full_copy($source = "", $target = "")
     {
         if (is_dir($source)) {
             @mkdir($target);
@@ -84,7 +84,7 @@ if (!function_exists('full_copy')) {
 
                 $Entry = $source . '/' . $entry;
                 if (is_dir($Entry)) {
-                    full_copy($Entry, $target . '/' . $entry);
+                    tad_tv_full_copy($Entry, $target . '/' . $entry);
                     continue;
                 }
                 copy($Entry, $target . '/' . $entry);
@@ -111,7 +111,7 @@ if (!function_exists('rename_win')) {
 }
 
 if (!function_exists('delete_directory')) {
-    function delete_directory($dirname)
+    function tad_tv_delete_directory($dirname)
     {
         if (is_dir($dirname)) {
             $dir_handle = opendir($dirname);
@@ -126,7 +126,7 @@ if (!function_exists('delete_directory')) {
                 if (!is_dir($dirname . "/" . $file)) {
                     unlink($dirname . "/" . $file);
                 } else {
-                    delete_directory($dirname . '/' . $file);
+                    tad_tv_delete_directory($dirname . '/' . $file);
                 }
             }
         }
