@@ -17,6 +17,7 @@
  * @version    $Id $
  **/
 
+use XoopsModules\Tad_tv\Utility;
 
 function xoops_module_uninstall_tad_tv($module)
 {
@@ -26,54 +27,4 @@ function xoops_module_uninstall_tad_tv($module)
     rename(XOOPS_ROOT_PATH . "/uploads/tad_tv", XOOPS_ROOT_PATH . "/uploads/tad_tv_bak_{$date}");
 
     return true;
-}
-
-//刪除目錄
-function tad_tv_delete_directory($dirname)
-{
-    if (is_dir($dirname)) {
-        $dir_handle = opendir($dirname);
-    }
-
-    if (!$dir_handle) {
-        return false;
-    }
-
-    while ($file = readdir($dir_handle)) {
-        if ($file != "." && $file != "..") {
-            if (!is_dir($dirname . "/" . $file)) {
-                unlink($dirname . "/" . $file);
-            } else {
-                tad_tv_delete_directory($dirname . '/' . $file);
-            }
-
-        }
-    }
-    closedir($dir_handle);
-    rmdir($dirname);
-    return true;
-}
-
-//拷貝目錄
-function tad_tv_full_copy($source = "", $target = "")
-{
-    if (is_dir($source)) {
-        @mkdir($target);
-        $d = dir($source);
-        while (false !== ($entry = $d->read())) {
-            if ($entry == '.' || $entry == '..') {
-                continue;
-            }
-
-            $Entry = $source . '/' . $entry;
-            if (is_dir($Entry)) {
-                tad_tv_full_copy($Entry, $target . '/' . $entry);
-                continue;
-            }
-            copy($Entry, $target . '/' . $entry);
-        }
-        $d->close();
-    } else {
-        copy($source, $target);
-    }
 }
