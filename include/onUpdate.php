@@ -17,6 +17,7 @@
  * @version    $Id $
  **/
 
+use XoopsModules\Tad_tv\Utility;
 
 function xoops_module_update_tad_tv($module, $old_version)
 {
@@ -27,111 +28,4 @@ function xoops_module_update_tad_tv($module, $old_version)
     return true;
 }
 
-//檢查某欄位是否存在
-function chk_chk1()
-{
-    global $xoopsDB;
-    $sql    = "select count(`欄位`) from " . $xoopsDB->prefix("資料表");
-    $result = $xoopsDB->query($sql);
-    if (empty($result)) {
-        return true;
-    }
 
-    return false;
-}
-
-//執行更新
-function go_update1()
-{
-    global $xoopsDB;
-    $sql = "ALTER TABLE " . $xoopsDB->prefix("資料表") . " ADD `欄位` smallint(5) NOT NULL";
-    $xoopsDB->queryF($sql) or redirect_header(XOOPS_URL, 3, $xoopsDB->error());
-
-    return true;
-}
-
-
-
-//建立目錄
-if (!function_exists('mk_dir')) {
-    function tad_tv_mk_dir($dir = "")
-    {
-        //若無目錄名稱秀出警告訊息
-        if (empty($dir)) {
-            return;
-        }
-
-        //若目錄不存在的話建立目錄
-        if (!is_dir($dir)) {
-            umask(000);
-            //若建立失敗秀出警告訊息
-            mkdir($dir, 0777);
-        }
-    }
-}
-
-//拷貝目錄
-if (!function_exists('full_copy')) {
-    function tad_tv_full_copy($source = "", $target = "")
-    {
-        if (is_dir($source)) {
-            @mkdir($target);
-            $d = dir($source);
-            while (false !== ($entry = $d->read())) {
-                if ($entry == '.' || $entry == '..') {
-                    continue;
-                }
-
-                $Entry = $source . '/' . $entry;
-                if (is_dir($Entry)) {
-                    tad_tv_full_copy($Entry, $target . '/' . $entry);
-                    continue;
-                }
-                copy($Entry, $target . '/' . $entry);
-            }
-            $d->close();
-        } else {
-            copy($source, $target);
-        }
-    }
-}
-
-if (!function_exists('rename_win')) {
-    function rename_win($oldfile, $newfile)
-    {
-        if (!rename($oldfile, $newfile)) {
-            if (copy($oldfile, $newfile)) {
-                unlink($oldfile);
-                return true;
-            }
-            return false;
-        }
-        return true;
-    }
-}
-
-if (!function_exists('delete_directory')) {
-    function tad_tv_delete_directory($dirname)
-    {
-        if (is_dir($dirname)) {
-            $dir_handle = opendir($dirname);
-        }
-
-        if (!$dir_handle) {
-            return false;
-        }
-
-        while ($file = readdir($dir_handle)) {
-            if ($file != "." && $file != "..") {
-                if (!is_dir($dirname . "/" . $file)) {
-                    unlink($dirname . "/" . $file);
-                } else {
-                    tad_tv_delete_directory($dirname . '/' . $file);
-                }
-            }
-        }
-        closedir($dir_handle);
-        rmdir($dirname);
-        return true;
-    }
-}
