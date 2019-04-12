@@ -170,10 +170,10 @@ function simple_update_tad_tv($tad_tv_sn = '')
 
     $myts = MyTextSanitizer::getInstance();
 
-    $tad_tv_sn      = intval($_POST['tad_tv_sn']);
+    $tad_tv_sn      = (int)$_POST['tad_tv_sn'];
     $tad_tv_title   = $myts->addSlashes($_POST['tad_tv_title']);
     $tad_tv_url     = $myts->addSlashes($_POST['tad_tv_url']);
-    $tad_tv_cate_sn = intval($_POST['tad_tv_cate_sn']);
+    $tad_tv_cate_sn = (int)$_POST['tad_tv_cate_sn'];
 
     $sql = "update `" . $xoopsDB->prefix("tad_tv") . "` set
        `tad_tv_title` = '{$tad_tv_title}',

@@ -421,12 +421,12 @@ function insert_tad_tv_cate()
 
     $myts = MyTextSanitizer::getInstance();
 
-    $tad_tv_cate_sn        = intval($_POST['tad_tv_cate_sn']);
-    $tad_tv_cate_parent_sn = intval($_POST['tad_tv_cate_parent_sn']);
+    $tad_tv_cate_sn        = (int)$_POST['tad_tv_cate_sn'];
+    $tad_tv_cate_parent_sn = (int)$_POST['tad_tv_cate_parent_sn'];
     $tad_tv_cate_title     = $myts->addSlashes($_POST['tad_tv_cate_title']);
     $tad_tv_cate_desc      = $myts->addSlashes($_POST['tad_tv_cate_desc']);
-    $tad_tv_cate_sort      = intval($_POST['tad_tv_cate_sort']);
-    $tad_tv_cate_enable    = intval($_POST['tad_tv_cate_enable']);
+    $tad_tv_cate_sort      = (int)$_POST['tad_tv_cate_sort'];
+    $tad_tv_cate_enable    = (int)$_POST['tad_tv_cate_enable'];
 
     $sql = "insert into `" . $xoopsDB->prefix("tad_tv_cate") . "` (
         `tad_tv_cate_parent_sn`,
@@ -465,12 +465,12 @@ function update_tad_tv_cate($tad_tv_cate_sn = '')
 
     $myts = MyTextSanitizer::getInstance();
 
-    $tad_tv_cate_sn        = intval($_POST['tad_tv_cate_sn']);
-    $tad_tv_cate_parent_sn = intval($_POST['tad_tv_cate_parent_sn']);
+    $tad_tv_cate_sn        = (int)$_POST['tad_tv_cate_sn'];
+    $tad_tv_cate_parent_sn = (int)$_POST['tad_tv_cate_parent_sn'];
     $tad_tv_cate_title     = $myts->addSlashes($_POST['tad_tv_cate_title']);
     $tad_tv_cate_desc      = $myts->addSlashes($_POST['tad_tv_cate_desc']);
-    $tad_tv_cate_sort      = intval($_POST['tad_tv_cate_sort']);
-    $tad_tv_cate_enable    = intval($_POST['tad_tv_cate_enable']);
+    $tad_tv_cate_sort      = (int)$_POST['tad_tv_cate_sort'];
+    $tad_tv_cate_enable    = (int)$_POST['tad_tv_cate_enable'];
 
     $sql = "update `" . $xoopsDB->prefix("tad_tv_cate") . "` set
        `tad_tv_cate_parent_sn` = '{$tad_tv_cate_parent_sn}',

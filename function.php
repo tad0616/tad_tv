@@ -71,14 +71,14 @@ function insert_tad_tv()
 
     $myts = MyTextSanitizer::getInstance();
 
-    $tad_tv_sn      = intval($_POST['tad_tv_sn']);
+    $tad_tv_sn      = (int)$_POST['tad_tv_sn'];
     $tad_tv_title   = $myts->addSlashes($_POST['tad_tv_title']);
     $tad_tv_url     = $myts->addSlashes($_POST['tad_tv_url']);
-    $tad_tv_sort    = empty($_POST['tad_tv_sort']) ? tad_tv_max_sort() : intval($_POST['tad_tv_sort']);
-    $tad_tv_enable  = intval($_POST['tad_tv_enable']);
+    $tad_tv_sort    = empty($_POST['tad_tv_sort']) ? tad_tv_max_sort() : (int)$_POST['tad_tv_sort'];
+    $tad_tv_enable  = (int)$_POST['tad_tv_enable'];
     $tad_tv_cate_sn = $_POST['tad_tv_cate_sn'];
     $tad_tv_content = $myts->addSlashes($_POST['tad_tv_content']);
-    $tad_tv_counter = intval($_POST['tad_tv_counter']);
+    $tad_tv_counter = (int)$_POST['tad_tv_counter'];
 
     $sql = "insert into `" . $xoopsDB->prefix("tad_tv") . "` (
         `tad_tv_title`,
@@ -121,14 +121,14 @@ function update_tad_tv($tad_tv_sn = '')
 
     $myts = MyTextSanitizer::getInstance();
 
-    $tad_tv_sn      = intval($_POST['tad_tv_sn']);
+    $tad_tv_sn      = (int)$_POST['tad_tv_sn'];
     $tad_tv_title   = $myts->addSlashes($_POST['tad_tv_title']);
     $tad_tv_url     = $myts->addSlashes($_POST['tad_tv_url']);
-    $tad_tv_sort    = empty($_POST['tad_tv_sort']) ? tad_tv_max_sort() : intval($_POST['tad_tv_sort']);
-    $tad_tv_enable  = intval($_POST['tad_tv_enable']);
+    $tad_tv_sort    = empty($_POST['tad_tv_sort']) ? tad_tv_max_sort() : (int)$_POST['tad_tv_sort'];
+    $tad_tv_enable  = (int)$_POST['tad_tv_enable'];
     $tad_tv_cate_sn = $_POST['tad_tv_cate_sn'];
     $tad_tv_content = $myts->addSlashes($_POST['tad_tv_content']);
-    $tad_tv_counter = intval($_POST['tad_tv_counter']);
+    $tad_tv_counter = (int)$_POST['tad_tv_counter'];
 
     $sql = "update `" . $xoopsDB->prefix("tad_tv") . "` set
        `tad_tv_title` = '{$tad_tv_title}',
