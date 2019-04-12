@@ -47,7 +47,7 @@ function get_tad_tv_cate_all()
     global $xoopsDB;
     $sql      = "select * from `" . $xoopsDB->prefix("tad_tv_cate") . "` order by tad_tv_cate_sort";
     $result   = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
-    $data_arr = array();
+    $data_arr = [];
     while ($data = $xoopsDB->fetchArray($result)) {
         $tad_tv_cate_sn            = $data['tad_tv_cate_sn'];
         $data_arr[$tad_tv_cate_sn] = $data;

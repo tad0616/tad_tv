@@ -24,7 +24,7 @@ function 搜尋函數名稱($queryarray, $andor, $limit, $offset, $userid)
     }
     $sql .= "ORDER BY  `日期欄位` DESC";
     $result = $xoopsDB->query($sql, $limit, $offset);
-    $ret    = array();
+    $ret    = [];
     $i      = 0;
     while ($myrow = $xoopsDB->fetchArray($result)) {
         $ret[$i]['image'] = "images/圖示.png";
