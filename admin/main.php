@@ -194,7 +194,7 @@ function get_tad_tv_cate_options($page = '', $mode = 'edit', $default_tad_tv_cat
             continue;
         }
 
-        if ('edit' == $mode) {
+        if ('edit' === $mode) {
             $selected = ($tad_tv_cate_sn == $default_tad_tv_cate_parent_sn) ? 'selected=selected' : '';
             $selected .= ($tad_tv_cate_sn == $default_tad_tv_cate_sn) ? 'disabled=disabled' : '';
             $selected .= (in_array($level, $unselect, true)) ? 'disabled=disabled' : '';
@@ -206,10 +206,10 @@ function get_tad_tv_cate_options($page = '', $mode = 'edit', $default_tad_tv_cat
             }
             $selected .= (in_array($level, $unselect, true)) ? 'disabled=disabled' : '';
         }
-        if ('none' == $page or empty($count[$tad_tv_cate_sn])) {
+        if ('none' === $page or empty($count[$tad_tv_cate_sn])) {
             $counter = '';
         } else {
-            $w = ('admin' == $page) ? _MA_TADLINK_CATE_COUNT : _MD_TADLINK_CATE_COUNT;
+            $w = ('admin' === $page) ? _MA_TADLINK_CATE_COUNT : _MD_TADLINK_CATE_COUNT;
             $counter = ' (' . sprintf($w, $count[$tad_tv_cate_sn]) . ') ';
         }
         $main .= "<option value=$tad_tv_cate_sn $selected>{$prefix}{$tad_tv_cate_title}{$counter}</option>";
@@ -532,7 +532,7 @@ function import_csv($tad_tv_cate_sn = '')
                 $urls = explode('#', $url);
                 // die(var_export($urls));
                 foreach ($urls as $url) {
-                    if ('http' == mb_substr($url, 0, 4)) {
+                    if ('http' === mb_substr($url, 0, 4)) {
                         $tad_tv_sort = tad_tv_max_sort();
 
                         $sql = 'insert into `' . $xoopsDB->prefix('tad_tv') . "` ( `tad_tv_title`, `tad_tv_url`, `tad_tv_sort`, `tad_tv_enable`, `tad_tv_cate_sn`, `tad_tv_content`) values( '{$title}', '{$url}', '{$tad_tv_sort}', '1', '{$tad_tv_cate_sn}', '{$title}')";
@@ -540,7 +540,7 @@ function import_csv($tad_tv_cate_sn = '')
                     }
                 }
             } else {
-                if ('http' == mb_substr($url, 0, 4)) {
+                if ('http' === mb_substr($url, 0, 4)) {
                     $tad_tv_sort = tad_tv_max_sort();
 
                     $sql = 'insert into `' . $xoopsDB->prefix('tad_tv') . "` ( `tad_tv_title`, `tad_tv_url`, `tad_tv_sort`, `tad_tv_enable`, `tad_tv_cate_sn`, `tad_tv_content`) values( '{$title}', '{$url}', '{$tad_tv_sort}', '1', '{$tad_tv_cate_sn}', '{$title}')";

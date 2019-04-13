@@ -18,7 +18,7 @@
  **/
 $adminmenu = [];
 $i = 1;
-$icon_dir = '2.6' == mb_substr(XOOPS_VERSION, 6, 3) ? '' : 'images/admin/';
+$icon_dir = '2.6' === mb_substr(XOOPS_VERSION, 6, 3) ? '' : 'images/admin/';
 
 $adminmenu[$i]['title'] = _MI_TAD_ADMIN_HOME;
 $adminmenu[$i]['link'] = 'admin/index.php';
