@@ -16,7 +16,6 @@
  * @author     tad
  * @version    $Id $
  **/
-
 include_once "../../tadtools/language/{$xoopsConfig['language']}/admin_common.php";
 define('_TAD_NEED_TADTOOLS', '需要 tadtools 模組，可至<a href="http://campus-xoops.tn.edu.tw/modules/tad_modules/index.php?module_sn=1" target="_blank">XOOPS輕鬆架</a>下載。');
 
@@ -43,7 +42,7 @@ define('_MA_TADTV_EXPORT_M3U', 'Export m3u list');
 define('_MA_TADTV_IMPORT', 'Import');
 define('_MA_TADTV_M3U8_FROM_URL', 'Live source URL');
 define('_MA_TADTV_SERVER_OK', 'Can be connected, if the live broadcast source shows "expired", it may be a network problem, or the live broadcast source does not exist. ');
-define('_MA_TADTV_SERVER_NG', 'The host has been hung up, maybe it is temporarily disconnected, or other factors can\'t connect. But if it can\'t be connected for a long time, then it is recommended to delete all the live broadcast sources of the host.') ;
+define('_MA_TADTV_SERVER_NG', 'The host has been hung up, maybe it is temporarily disconnected, or other factors can\'t connect. But if it can\'t be connected for a long time, then it is recommended to delete all the live broadcast sources of the host.');
 define('_MA_TADTV_DATA_TOTAL', 'Total number of data: ');
 define('_MA_TADTV_CHECK_AGAIN', 'Recheck');
 define('_MA_TADTV_DEL_ALL', 'Remove all checked live streams');

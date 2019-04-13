@@ -15,10 +15,9 @@
  * @since      2.5
  * @author     tad
  * @version    $Id $
+ * @param mixed $module
+ * @param mixed $old_version
  **/
-
-use XoopsModules\Tad_tv\Utility;
-
 function xoops_module_update_tad_tv($module, $old_version)
 {
     global $xoopsDB;
@@ -27,5 +26,3 @@ function xoops_module_update_tad_tv($module, $old_version)
 
     return true;
 }
-
-

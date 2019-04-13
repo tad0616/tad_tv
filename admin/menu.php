@@ -16,30 +16,29 @@
  * @author     tad
  * @version    $Id $
  **/
-
 $adminmenu = [];
-$i         = 1;
-$icon_dir  = substr(XOOPS_VERSION, 6, 3) == '2.6' ? "" : "images/admin/";
+$i = 1;
+$icon_dir = '2.6' == mb_substr(XOOPS_VERSION, 6, 3) ? '' : 'images/admin/';
 
 $adminmenu[$i]['title'] = _MI_TAD_ADMIN_HOME;
-$adminmenu[$i]['link']  = 'admin/index.php';
-$adminmenu[$i]['desc']  = _MI_TAD_ADMIN_HOME_DESC;
-$adminmenu[$i]['icon']  = 'images/admin/home.png';
+$adminmenu[$i]['link'] = 'admin/index.php';
+$adminmenu[$i]['desc'] = _MI_TAD_ADMIN_HOME_DESC;
+$adminmenu[$i]['icon'] = 'images/admin/home.png';
 
 $i++;
 $adminmenu[$i]['title'] = _MI_TADTV_ADMENU1;
-$adminmenu[$i]['link']  = 'admin/main.php';
-$adminmenu[$i]['desc']  = _MI_TADTV_ADMENU1_DESC;
-$adminmenu[$i]['icon']  = "{$icon_dir}remote-control.png";
+$adminmenu[$i]['link'] = 'admin/main.php';
+$adminmenu[$i]['desc'] = _MI_TADTV_ADMENU1_DESC;
+$adminmenu[$i]['icon'] = "{$icon_dir}remote-control.png";
 
 $i++;
 $adminmenu[$i]['title'] = _MI_TADTV_GROUPPERM;
-$adminmenu[$i]['link']  = 'admin/groupperm.php';
-$adminmenu[$i]['desc']  = _MI_TADTV_GROUPPERM_DESC;
-$adminmenu[$i]['icon']  = "{$icon_dir}keys.png";
+$adminmenu[$i]['link'] = 'admin/groupperm.php';
+$adminmenu[$i]['desc'] = _MI_TADTV_GROUPPERM_DESC;
+$adminmenu[$i]['icon'] = "{$icon_dir}keys.png";
 
 $i++;
 $adminmenu[$i]['title'] = _MI_TAD_ADMIN_ABOUT;
-$adminmenu[$i]['link']  = 'admin/about.php';
-$adminmenu[$i]['desc']  = _MI_TAD_ADMIN_ABOUT_DESC;
-$adminmenu[$i]['icon']  = 'images/admin/about.png';
+$adminmenu[$i]['link'] = 'admin/about.php';
+$adminmenu[$i]['desc'] = _MI_TAD_ADMIN_ABOUT_DESC;
+$adminmenu[$i]['icon'] = 'images/admin/about.png';
