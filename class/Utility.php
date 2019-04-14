@@ -1,4 +1,6 @@
-<?php namespace XoopsModules\Tad_tv;
+<?php
+
+namespace XoopsModules\Tad_tv;
 
 /*
  Utility Class Definition
@@ -19,14 +21,13 @@
  * @author       Mamba <mambax7@gmail.com>
  */
 
-
 /**
  * Class Utility
  */
 class Utility
 {
     //建立目錄
-    public static function mk_dir($dir = "")
+    public static function mk_dir($dir = '')
     {
         //若無目錄名稱秀出警告訊息
         if (empty($dir)) {
@@ -55,28 +56,30 @@ class Utility
         }
 
         while ($file = readdir($dir_handle)) {
-            if ($file != "." && $file != "..") {
-                if (!is_dir($dirname . "/" . $file)) {
-                    unlink($dirname . "/" . $file);
+            if ('.' !== $file && '..' !== $file) {
+                if (!is_dir($dirname . '/' . $file)) {
+                    unlink($dirname . '/' . $file);
                 } else {
                     self::delete_directory($dirname . '/' . $file);
                 }
-
             }
         }
         closedir($dir_handle);
         rmdir($dirname);
+
         return true;
     }
 
     //拷貝目錄
-    public static function full_copy($source = "", $target = "")
+    public static function full_copy($source = '', $target = '')
     {
         if (is_dir($source)) {
-            @mkdir($target);
+            if (!mkdir($target) && !is_dir($target)) {
+                throw new \RuntimeException(sprintf('Directory "%s" was not created', $target));
+            }
             $d = dir($source);
             while (false !== ($entry = $d->read())) {
-                if ($entry == '.' || $entry == '..') {
+                if ('.' === $entry || '..' === $entry) {
                     continue;
                 }
 
@@ -92,25 +95,27 @@ class Utility
             copy($source, $target);
         }
     }
-    
+
     public static function rename_win($oldfile, $newfile)
     {
         if (!rename($oldfile, $newfile)) {
             if (copy($oldfile, $newfile)) {
                 unlink($oldfile);
+
                 return true;
             }
+
             return false;
         }
+
         return true;
     }
-
 
     //檢查某欄位是否存在
     public static function chk_chk1()
     {
         global $xoopsDB;
-        $sql    = "select count(`欄位`) from " . $xoopsDB->prefix("資料表");
+        $sql = 'select count(`欄位`) from ' . $xoopsDB->prefix('資料表');
         $result = $xoopsDB->query($sql);
         if (empty($result)) {
             return true;
@@ -123,11 +128,9 @@ class Utility
     public static function go_update1()
     {
         global $xoopsDB;
-        $sql = "ALTER TABLE " . $xoopsDB->prefix("資料表") . " ADD `欄位` smallint(5) NOT NULL";
+        $sql = 'ALTER TABLE ' . $xoopsDB->prefix('資料表') . ' ADD `欄位` smallint(5) NOT NULL';
         $xoopsDB->queryF($sql) or redirect_header(XOOPS_URL, 3, $xoopsDB->error());
 
         return true;
     }
-
-
 }
