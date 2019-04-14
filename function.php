@@ -21,7 +21,7 @@
 if (!file_exists(XOOPS_ROOT_PATH . '/modules/tadtools/tad_function.php')) {
     redirect_header('http://campus-xoops.tn.edu.tw/modules/tad_modules/index.php?module_sn=1', 3, _TAD_NEED_TADTOOLS);
 }
-include_once XOOPS_ROOT_PATH . '/modules/tadtools/tad_function.php';
+require_once XOOPS_ROOT_PATH . '/modules/tadtools/tad_function.php';
 
 /********************* 自訂函數 *********************/
 
@@ -49,7 +49,7 @@ function get_tad_tv_cate_all()
     $sql = 'select * from `' . $xoopsDB->prefix('tad_tv_cate') . '` order by tad_tv_cate_sort';
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     $data_arr = [];
-    while ($data = $xoopsDB->fetchArray($result)) {
+    while (false !== ($data = $xoopsDB->fetchArray($result))) {
         $tad_tv_cate_sn = $data['tad_tv_cate_sn'];
         $data_arr[$tad_tv_cate_sn] = $data;
     }
@@ -67,7 +67,7 @@ function insert_tad_tv()
 
     //XOOPS表單安全檢查
     if (!$GLOBALS['xoopsSecurity']->check()) {
-        $error = implode('<br />', $GLOBALS['xoopsSecurity']->getErrors());
+        $error = implode('<br>', $GLOBALS['xoopsSecurity']->getErrors());
         redirect_header($_SERVER['PHP_SELF'], 3, $error);
     }
 
@@ -117,7 +117,7 @@ function update_tad_tv($tad_tv_sn = '')
 
     //XOOPS表單安全檢查
     if (!$GLOBALS['xoopsSecurity']->check()) {
-        $error = implode('<br />', $GLOBALS['xoopsSecurity']->getErrors());
+        $error = implode('<br>', $GLOBALS['xoopsSecurity']->getErrors());
         redirect_header($_SERVER['PHP_SELF'], 3, $error);
     }
 

@@ -26,7 +26,7 @@ function 搜尋函數名稱($queryarray, $andor, $limit, $offset, $userid)
     $result = $xoopsDB->query($sql, $limit, $offset);
     $ret = [];
     $i = 0;
-    while ($myrow = $xoopsDB->fetchArray($result)) {
+    while (false !== ($myrow = $xoopsDB->fetchArray($result))) {
         $ret[$i]['image'] = 'images/圖示.png';
         $ret[$i]['link'] = '單一頁面.php?流水號欄位=' . $myrow['流水號欄位'];
         $ret[$i]['title'] = $myrow['標題欄位'];

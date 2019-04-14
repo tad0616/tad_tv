@@ -10,17 +10,17 @@
 <div class="center" id="video">
     <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
      codebase="" id="moviename" width="100%" height="480">
-    <param name="movie"  value="class/flashls/bin/flashlsChromeless.swf?inline=1" />
-    <param name="quality" value="autohigh" />
-    <param name="swliveconnect" value="true" />
-    <param name="allowScriptAccess" value="sameDomain" />
-    <param name="bgcolor" value="#0" />
-    <param name="allowFullScreen" value="true" />
-    <param name="wmode" value="window" />
-    <param name="FlashVars" value="callback=flashlsCallback" />
-    <param name="autostart" value="true" />
-    <param name="play" value="true" />
-    <param name="hls_debug" value="true" />
+    <param name="movie"  value="class/flashls/bin/flashlsChromeless.swf?inline=1">
+    <param name="quality" value="autohigh">
+    <param name="swliveconnect" value="true">
+    <param name="allowScriptAccess" value="sameDomain">
+    <param name="bgcolor" value="#0">
+    <param name="allowFullScreen" value="true">
+    <param name="wmode" value="window">
+    <param name="FlashVars" value="callback=flashlsCallback">
+    <param name="autostart" value="true">
+    <param name="play" value="true">
+    <param name="hls_debug" value="true">
 
     <embed src="class/flashls/bin/flashlsChromeless.swf?inline=1" width="100%" height="480" name="moviename"
                 autostart="true"

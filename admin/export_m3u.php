@@ -1,8 +1,8 @@
 <?php
-include '../../../include/cp_header.php';
-include '../function.php';
+require dirname(dirname(dirname(__DIR__))) . '/include/cp_header.php';
+require dirname(__DIR__) . '/function.php';
 
-include_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
+require_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
 $tad_tv_cate_sn = system_CleanVars($_REQUEST, 'tad_tv_cate_sn', '', 'int');
 $contents = "#EXTM3U\n";
 if ($tad_tv_cate_sn) {
@@ -26,7 +26,7 @@ function get_url($tad_tv_cate_sn = '')
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
 
     $contents = '';
-    while (list($tad_tv_title, $tad_tv_url) = $xoopsDB->fetchRow($result)) {
+    while (false !== (list($tad_tv_title, $tad_tv_url) = $xoopsDB->fetchRow($result))) {
         $contents .= "#EXTINF:-1 group-title=\"{$cate['tad_tv_cate_title']}\",{$tad_tv_title}\n{$tad_tv_url}\n";
     }
 

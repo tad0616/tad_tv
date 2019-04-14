@@ -29,7 +29,7 @@ $i           = 0;
 $all_content = array();
 $sql         = "select tad_tv_cate_sn,tad_tv_cate_title from `" . $xoopsDB->prefix("tad_tv_cate") . "` where tad_tv_cate_enable='1' order by `tad_tv_cate_sort`";
 $result      = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
-while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
+while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
 //判斷目前使用者是否有：觀看權限
 $perm_view = power_chk("perm_view", $tad_tv_cate_sn);
 if (!$perm_view) {
@@ -39,7 +39,7 @@ continue;
 $sql     = "select * from `" . $xoopsDB->prefix("tad_tv") . "` where tad_tv_cate_sn='{$tad_tv_cate_sn}' and tad_tv_enable='1' order by `tad_tv_sort`";
 $result2 = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
 
-while ($all = $xoopsDB->fetchArray($result2)) {
+while (false !== ($all = $xoopsDB->fetchArray($result2))) {
 //以下會產生這些變數： $tad_tv_sn, $tad_tv_title, $tad_tv_url, $tad_tv_sort, $tad_tv_enable, $tad_tv_cate_sn, $tad_tv_content, $tad_tv_counter
 foreach ($all as $k => $v) {
 $$k = $v;
@@ -69,7 +69,7 @@ $i++;
 
 if ($isAdmin) {
 //加入Token安全機制
-include_once XOOPS_ROOT_PATH . "/class/xoopsformloader.php";
+require_once XOOPS_ROOT_PATH . "/class/xoopsformloader.php";
 $token      = new XoopsFormHiddenToken();
 $token_form = $token->render();
 // $xoopsTpl->assign('token_form', $token_form);
@@ -79,7 +79,7 @@ $sql                          = "select `tad_tv_cate_sn`, `tad_tv_cate_title` fr
 $result                       = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
 $i                            = 0;
 $tad_tv_cate_sn_options_array = '';
-while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
+while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
 $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_sn']    = $tad_tv_cate_sn;
 $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_title'] = $tad_tv_cate_title;
 $i++;

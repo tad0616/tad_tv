@@ -56,11 +56,11 @@
     <div class="col-md-10">
 
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="tad_tv_cate_enable" id="tad_tv_cate_enable_1" value="1" <{if $tad_tv_cate_enable == "1"}>checked="checked"<{/if}>>
+        <input class="form-check-input" type="radio" name="tad_tv_cate_enable" id="tad_tv_cate_enable_1" value="1" <{if $tad_tv_cate_enable == "1"}>checked<{/if}>>
         <label class="form-check-label" for="tad_tv_cate_enable_1"><{$smarty.const._YES}></label>
       </div>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="tad_tv_cate_enable" id="tad_tv_cate_enable_0" value="0" <{if $tad_tv_cate_enable != "1"}>checked="checked"<{/if}>>
+        <input class="form-check-input" type="radio" name="tad_tv_cate_enable" id="tad_tv_cate_enable_0" value="0" <{if $tad_tv_cate_enable != "1"}>checked<{/if}>>
         <label class="form-check-label" for="tad_tv_cate_enable_0"><{$smarty.const._NO}></label>
       </div>
     </div>

@@ -23,9 +23,9 @@
 // header('Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept');
 // header('Access-Control-Allow-Credentials:true');
 
-include 'header.php';
-$xoopsOption['template_main'] = 'tad_tv_index.tpl';
-include_once XOOPS_ROOT_PATH . '/header.php';
+require __DIR__ . '/header.php';
+$GLOBALS['xoopsOption']['template_main'] = 'tad_tv_index.tpl';
+require_once XOOPS_ROOT_PATH . '/header.php';
 
 /*-----------功能函數區--------------*/
 //以流水號取得某筆tad_tv資料
@@ -82,7 +82,7 @@ function list_tad_tv($tad_tv_sn = '')
     $all_content = [];
     $sql = 'select tad_tv_cate_sn,tad_tv_cate_title from `' . $xoopsDB->prefix('tad_tv_cate') . "` where tad_tv_cate_enable='1' order by `tad_tv_cate_sort`";
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
-    while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
+    while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
         //判斷目前使用者是否有：觀看權限
         $perm_view = power_chk('perm_view', $tad_tv_cate_sn);
         if (!$perm_view) {
@@ -92,7 +92,7 @@ function list_tad_tv($tad_tv_sn = '')
         $sql = 'select * from `' . $xoopsDB->prefix('tad_tv') . "` where tad_tv_cate_sn='{$tad_tv_cate_sn}' and tad_tv_enable='1' order by `tad_tv_sort`";
         $result2 = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
 
-        while ($all = $xoopsDB->fetchArray($result2)) {
+        while (false !== ($all = $xoopsDB->fetchArray($result2))) {
             //以下會產生這些變數： $tad_tv_sn, $tad_tv_title, $tad_tv_url, $tad_tv_sort, $tad_tv_enable, $tad_tv_cate_sn, $tad_tv_content, $tad_tv_counter
             foreach ($all as $k => $v) {
                 $$k = $v;
@@ -123,7 +123,7 @@ function list_tad_tv($tad_tv_sn = '')
     if (!file_exists(XOOPS_ROOT_PATH . '/modules/tadtools/sweet_alert.php')) {
         redirect_header('index.php', 3, _MD_NEED_TADTOOLS);
     }
-    include_once XOOPS_ROOT_PATH . '/modules/tadtools/sweet_alert.php';
+    require_once XOOPS_ROOT_PATH . '/modules/tadtools/sweet_alert.php';
     $sweet_alert_obj = new sweet_alert();
     $delete_tad_tv_func = $sweet_alert_obj->render(
         'delete_tad_tv_func',
@@ -141,7 +141,7 @@ function list_tad_tv($tad_tv_sn = '')
 
     if ($isAdmin) {
         //加入Token安全機制
-        include_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
+        require_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
         $token = new XoopsFormHiddenToken();
         $token_form = $token->render();
         $xoopsTpl->assign('token_form', $token_form);
@@ -151,7 +151,7 @@ function list_tad_tv($tad_tv_sn = '')
         $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
         $i = 0;
         $tad_tv_cate_sn_options_array = [];
-        while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
+        while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
             $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_sn'] = $tad_tv_cate_sn;
             $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_title'] = $tad_tv_cate_title;
             $i++;
@@ -190,7 +190,7 @@ function simple_update_tad_tv($tad_tv_sn = '')
 }
 
 /*-----------執行動作判斷區----------*/
-include_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
+require_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
 $op = system_CleanVars($_REQUEST, 'op', '', 'string');
 $tad_tv_sn = system_CleanVars($_REQUEST, 'tad_tv_sn', '', 'int');
 $tad_tv_cate_sn = system_CleanVars($_REQUEST, 'tad_tv_cate_sn', '', 'int');
@@ -227,7 +227,7 @@ switch ($op) {
     //關閉
     case 'unable_tv':
         change_tv_status($tad_tv_sn, 0);
-        header("location: {$_SERVER['HTTP_REFERER']}");
+        header("location: {\Xmf\Request::getString('HTTP_REFERER', '', 'SERVER')}");
         exit;
         break;
     default:
@@ -240,4 +240,4 @@ switch ($op) {
 $xoopsTpl->assign('toolbar', toolbar_bootstrap($interface_menu));
 $xoopsTpl->assign('isAdmin', $isAdmin);
 $xoopsTpl->assign('player', $player);
-include_once XOOPS_ROOT_PATH . '/footer.php';
+require_once XOOPS_ROOT_PATH . '/footer.php';

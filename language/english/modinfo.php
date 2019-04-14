@@ -16,7 +16,7 @@
  * @author     tad
  * @version    $Id $
  **/
-include_once XOOPS_ROOT_PATH . '/modules/tadtools/language/' . $xoopsConfig['language'] . '/modinfo_common.php';
+require_once XOOPS_ROOT_PATH . '/modules/tadtools/language/' . $xoopsConfig['language'] . '/modinfo_common.php';
 
 define('_MI_TADTV_NAME', 'Internet TV');
 define('_MI_TADTV_AUTHOR', 'Internet TV');
