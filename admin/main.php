@@ -92,7 +92,7 @@ function list_tad_tv_cate_tree($def_tad_tv_cate_sn = '')
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_parent_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
         $font_style = $def_tad_tv_cate_sn == $tad_tv_cate_sn ? ", font:{'background-color':'yellow', 'color':'black'}" : '';
-        $open = in_array($tad_tv_cate_sn, $path_arr, true) ? 'true' : 'false';
+        $open = in_array($tad_tv_cate_sn, $path_arr) ? 'true' : 'false';
         $display_counter = empty($cate_count[$tad_tv_cate_sn]) ? '' : " ({$cate_count[$tad_tv_cate_sn]})";
         $data[] = "{ id:{$tad_tv_cate_sn}, pId:{$tad_tv_cate_parent_sn}, name:'{$tad_tv_cate_title}{$display_counter}', url:'main.php?tad_tv_cate_sn={$tad_tv_cate_sn}', open: {$open} ,target:'_self' {$font_style}}";
     }
@@ -132,7 +132,7 @@ function get_tad_tv_cate_path($the_tad_tv_cate_sn = '', $include_self = true)
             WHERE t1.tad_tv_cate_parent_sn = '0'";
         $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
         while (false !== ($all = $xoopsDB->fetchArray($result))) {
-            if (in_array($the_tad_tv_cate_sn, $all, true)) {
+            if (in_array($the_tad_tv_cate_sn, $all)) {
                 //$main.="-";
                 foreach ($all as $tad_tv_cate_sn) {
                     if (!empty($tad_tv_cate_sn)) {
@@ -190,21 +190,21 @@ function get_tad_tv_cate_options($page = '', $mode = 'edit', $default_tad_tv_cat
     $main = '';
     while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
         // $tad_tv_post = $modulepermHandler->getGroupIds("tad_tv_post", $tad_tv_cate_sn, $mod_id);
-        if (!$isAdmin and !in_array($tad_tv_cate_sn, $post_cate_arr, true)) {
+        if (!$isAdmin and !in_array($tad_tv_cate_sn, $post_cate_arr)) {
             continue;
         }
 
         if ('edit' === $mode) {
             $selected = ($tad_tv_cate_sn == $default_tad_tv_cate_parent_sn) ? 'selected=selected' : '';
             $selected .= ($tad_tv_cate_sn == $default_tad_tv_cate_sn) ? 'disabled=disabled' : '';
-            $selected .= (in_array($level, $unselect, true)) ? 'disabled=disabled' : '';
+            $selected .= (in_array($level, $unselect)) ? 'disabled=disabled' : '';
         } else {
             if (is_array($default_tad_tv_cate_sn)) {
-                $selected = in_array($tad_tv_cate_sn, $default_tad_tv_cate_sn, true) ? 'selected=selected' : '';
+                $selected = in_array($tad_tv_cate_sn, $default_tad_tv_cate_sn) ? 'selected=selected' : '';
             } else {
                 $selected = ($tad_tv_cate_sn == $default_tad_tv_cate_sn) ? 'selected=selected' : '';
             }
-            $selected .= (in_array($level, $unselect, true)) ? 'disabled=disabled' : '';
+            $selected .= (in_array($level, $unselect)) ? 'disabled=disabled' : '';
         }
         if ('none' === $page or empty($count[$tad_tv_cate_sn])) {
             $counter = '';
