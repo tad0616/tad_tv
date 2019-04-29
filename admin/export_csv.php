@@ -3,7 +3,7 @@ include '../../../include/cp_header.php';
 include '../function.php';
 
 include_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
-$tad_tv_cate_sn = system_CleanVars($_REQUEST, 'tad_tv_cate_sn', '', 'int');
+$tad_tv_cate_sn = system_CleanVars($_REQUEST, 'tad_tv_cate_sn', 0, 'int');
 $contents = '';
 if ($tad_tv_cate_sn) {
     $contents = get_url($tad_tv_cate_sn);

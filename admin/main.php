@@ -423,12 +423,12 @@ function insert_tad_tv_cate()
 
     $myts = MyTextSanitizer::getInstance();
 
-    $tad_tv_cate_sn = (int)$_POST['tad_tv_cate_sn'];
-    $tad_tv_cate_parent_sn = (int)$_POST['tad_tv_cate_parent_sn'];
+    $tad_tv_cate_sn = (int) $_POST['tad_tv_cate_sn'];
+    $tad_tv_cate_parent_sn = (int) $_POST['tad_tv_cate_parent_sn'];
     $tad_tv_cate_title = $myts->addSlashes($_POST['tad_tv_cate_title']);
     $tad_tv_cate_desc = $myts->addSlashes($_POST['tad_tv_cate_desc']);
-    $tad_tv_cate_sort = (int)$_POST['tad_tv_cate_sort'];
-    $tad_tv_cate_enable = (int)$_POST['tad_tv_cate_enable'];
+    $tad_tv_cate_sort = (int) $_POST['tad_tv_cate_sort'];
+    $tad_tv_cate_enable = (int) $_POST['tad_tv_cate_enable'];
 
     $sql = 'insert into `' . $xoopsDB->prefix('tad_tv_cate') . "` (
         `tad_tv_cate_parent_sn`,
@@ -467,12 +467,12 @@ function update_tad_tv_cate($tad_tv_cate_sn = '')
 
     $myts = MyTextSanitizer::getInstance();
 
-    $tad_tv_cate_sn = (int)$_POST['tad_tv_cate_sn'];
-    $tad_tv_cate_parent_sn = (int)$_POST['tad_tv_cate_parent_sn'];
+    $tad_tv_cate_sn = (int) $_POST['tad_tv_cate_sn'];
+    $tad_tv_cate_parent_sn = (int) $_POST['tad_tv_cate_parent_sn'];
     $tad_tv_cate_title = $myts->addSlashes($_POST['tad_tv_cate_title']);
     $tad_tv_cate_desc = $myts->addSlashes($_POST['tad_tv_cate_desc']);
-    $tad_tv_cate_sort = (int)$_POST['tad_tv_cate_sort'];
-    $tad_tv_cate_enable = (int)$_POST['tad_tv_cate_enable'];
+    $tad_tv_cate_sort = (int) $_POST['tad_tv_cate_sort'];
+    $tad_tv_cate_enable = (int) $_POST['tad_tv_cate_enable'];
 
     $sql = 'update `' . $xoopsDB->prefix('tad_tv_cate') . "` set
        `tad_tv_cate_parent_sn` = '{$tad_tv_cate_parent_sn}',
@@ -553,7 +553,7 @@ function import_csv($tad_tv_cate_sn = '')
 }
 
 //匯入 m3u
-function import_m3u($tad_tv_cate_sn = '')
+function import_m3u($tad_tv_cate_sn = 0)
 {
     global $xoopsDB;
 
@@ -689,11 +689,11 @@ function chk_repeat()
 /*-----------執行動作判斷區----------*/
 include_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
 $op = system_CleanVars($_REQUEST, 'op', '', 'string');
-$tad_tv_sn = system_CleanVars($_REQUEST, 'tad_tv_sn', '', 'int');
-$tad_tv_cate_sn = system_CleanVars($_REQUEST, 'tad_tv_cate_sn', '', 'int');
+$tad_tv_sn = system_CleanVars($_REQUEST, 'tad_tv_sn', 0, 'int');
+$tad_tv_cate_sn = system_CleanVars($_REQUEST, 'tad_tv_cate_sn', 0, 'int');
 $tad_tv_url = system_CleanVars($_REQUEST, 'tad_tv_url', '', 'string');
 $del_urls = system_CleanVars($_REQUEST, 'del_urls', '', 'array');
-$to_tad_tv_cate_sn = system_CleanVars($_REQUEST, 'to_tad_tv_cate_sn', '', 'int');
+$to_tad_tv_cate_sn = system_CleanVars($_REQUEST, 'to_tad_tv_cate_sn', 0, 'int');
 
 switch ($op) {
     /*---判斷動作請貼在下方---*/

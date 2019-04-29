@@ -174,10 +174,10 @@ function simple_update_tad_tv($tad_tv_sn = '')
 
     $myts = MyTextSanitizer::getInstance();
 
-    $tad_tv_sn = (int)$_POST['tad_tv_sn'];
+    $tad_tv_sn = (int) $_POST['tad_tv_sn'];
     $tad_tv_title = $myts->addSlashes($_POST['tad_tv_title']);
     $tad_tv_url = $myts->addSlashes($_POST['tad_tv_url']);
-    $tad_tv_cate_sn = (int)$_POST['tad_tv_cate_sn'];
+    $tad_tv_cate_sn = (int) $_POST['tad_tv_cate_sn'];
 
     $sql = 'update `' . $xoopsDB->prefix('tad_tv') . "` set
        `tad_tv_title` = '{$tad_tv_title}',
@@ -192,8 +192,8 @@ function simple_update_tad_tv($tad_tv_sn = '')
 /*-----------執行動作判斷區----------*/
 include_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
 $op = system_CleanVars($_REQUEST, 'op', '', 'string');
-$tad_tv_sn = system_CleanVars($_REQUEST, 'tad_tv_sn', '', 'int');
-$tad_tv_cate_sn = system_CleanVars($_REQUEST, 'tad_tv_cate_sn', '', 'int');
+$tad_tv_sn = system_CleanVars($_REQUEST, 'tad_tv_sn', 0, 'int');
+$tad_tv_cate_sn = system_CleanVars($_REQUEST, 'tad_tv_cate_sn', 0, 'int');
 $player = system_CleanVars($_REQUEST, 'player', 'flash', 'string');
 
 switch ($op) {
