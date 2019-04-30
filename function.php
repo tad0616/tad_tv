@@ -1,28 +1,5 @@
 <?php
-/**
- * Tad Tv module
- *
- * You may not change or alter any portion of this comment or credits
- * of supporting developers from this source code or any supporting source code
- * which is considered copyrighted (c) material of the original comment or credit authors.
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- *
- * @copyright  The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license    http://www.fsf.org/copyleft/gpl.html GNU public license
- * @package    Tad Tv
- * @since      2.5
- * @author     tad
- * @version    $Id $
- **/
-
-//引入TadTools的函式庫
-if (!file_exists(XOOPS_ROOT_PATH . '/modules/tadtools/tad_function.php')) {
-    redirect_header('http://campus-xoops.tn.edu.tw/modules/tad_modules/index.php?module_sn=1', 3, _TAD_NEED_TADTOOLS);
-}
-include_once XOOPS_ROOT_PATH . '/modules/tadtools/tad_function.php';
-
+use XoopsModules\Tadtools\Utility;
 /********************* 自訂函數 *********************/
 
 //以流水號取得某筆tad_tv_cate資料
@@ -36,7 +13,7 @@ function get_tad_tv_cate($tad_tv_cate_sn = '')
 
     $sql = 'select * from `' . $xoopsDB->prefix('tad_tv_cate') . "`
     where `tad_tv_cate_sn` = '{$tad_tv_cate_sn}'";
-    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
+    $result = $xoopsDB->query($sql) or Utility::web_error($sql, __FILE__, __LINE__);
     $data = $xoopsDB->fetchArray($result);
 
     return $data;
@@ -47,7 +24,7 @@ function get_tad_tv_cate_all()
 {
     global $xoopsDB;
     $sql = 'select * from `' . $xoopsDB->prefix('tad_tv_cate') . '` order by tad_tv_cate_sort';
-    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
+    $result = $xoopsDB->query($sql) or Utility::web_error($sql, __FILE__, __LINE__);
     $data_arr = [];
     while ($data = $xoopsDB->fetchArray($result)) {
         $tad_tv_cate_sn = $data['tad_tv_cate_sn'];
@@ -71,16 +48,16 @@ function insert_tad_tv()
         redirect_header($_SERVER['PHP_SELF'], 3, $error);
     }
 
-    $myts = MyTextSanitizer::getInstance();
+    $myts = \MyTextSanitizer::getInstance();
 
-    $tad_tv_sn = (int)$_POST['tad_tv_sn'];
+    $tad_tv_sn = (int) $_POST['tad_tv_sn'];
     $tad_tv_title = $myts->addSlashes($_POST['tad_tv_title']);
     $tad_tv_url = $myts->addSlashes($_POST['tad_tv_url']);
-    $tad_tv_sort = empty($_POST['tad_tv_sort']) ? tad_tv_max_sort() : (int)$_POST['tad_tv_sort'];
-    $tad_tv_enable = (int)$_POST['tad_tv_enable'];
+    $tad_tv_sort = empty($_POST['tad_tv_sort']) ? tad_tv_max_sort() : (int) $_POST['tad_tv_sort'];
+    $tad_tv_enable = (int) $_POST['tad_tv_enable'];
     $tad_tv_cate_sn = $_POST['tad_tv_cate_sn'];
     $tad_tv_content = $myts->addSlashes($_POST['tad_tv_content']);
-    $tad_tv_counter = (int)$_POST['tad_tv_counter'];
+    $tad_tv_counter = (int) $_POST['tad_tv_counter'];
 
     $sql = 'insert into `' . $xoopsDB->prefix('tad_tv') . "` (
         `tad_tv_title`,
@@ -99,7 +76,7 @@ function insert_tad_tv()
         '{$tad_tv_content}',
         0
     )";
-    $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
+    $xoopsDB->query($sql) or Utility::web_error($sql, __FILE__, __LINE__);
 
     //取得最後新增資料的流水編號
     $tad_tv_sn = $xoopsDB->getInsertId();
@@ -121,16 +98,16 @@ function update_tad_tv($tad_tv_sn = '')
         redirect_header($_SERVER['PHP_SELF'], 3, $error);
     }
 
-    $myts = MyTextSanitizer::getInstance();
+    $myts = \MyTextSanitizer::getInstance();
 
-    $tad_tv_sn = (int)$_POST['tad_tv_sn'];
+    $tad_tv_sn = (int) $_POST['tad_tv_sn'];
     $tad_tv_title = $myts->addSlashes($_POST['tad_tv_title']);
     $tad_tv_url = $myts->addSlashes($_POST['tad_tv_url']);
-    $tad_tv_sort = empty($_POST['tad_tv_sort']) ? tad_tv_max_sort() : (int)$_POST['tad_tv_sort'];
-    $tad_tv_enable = (int)$_POST['tad_tv_enable'];
+    $tad_tv_sort = empty($_POST['tad_tv_sort']) ? tad_tv_max_sort() : (int) $_POST['tad_tv_sort'];
+    $tad_tv_enable = (int) $_POST['tad_tv_enable'];
     $tad_tv_cate_sn = $_POST['tad_tv_cate_sn'];
     $tad_tv_content = $myts->addSlashes($_POST['tad_tv_content']);
-    $tad_tv_counter = (int)$_POST['tad_tv_counter'];
+    $tad_tv_counter = (int) $_POST['tad_tv_counter'];
 
     $sql = 'update `' . $xoopsDB->prefix('tad_tv') . "` set
        `tad_tv_title` = '{$tad_tv_title}',
@@ -140,7 +117,7 @@ function update_tad_tv($tad_tv_sn = '')
        `tad_tv_cate_sn` = '{$tad_tv_cate_sn}',
        `tad_tv_content` = '{$tad_tv_content}'
     where `tad_tv_sn` = '$tad_tv_sn'";
-    $xoopsDB->queryF($sql) or web_error($sql, __FILE__, __LINE__);
+    $xoopsDB->queryF($sql) or Utility::web_error($sql, __FILE__, __LINE__);
 
     return $tad_tv_sn;
 }
@@ -163,7 +140,7 @@ function delete_tad_tv($tad_tv_sn = '', $tad_tv_cate_sn = '')
         $sql = 'delete from `' . $xoopsDB->prefix('tad_tv') . "`
         where `tad_tv_sn` = '{$tad_tv_sn}'";
     }
-    $xoopsDB->queryF($sql) or web_error($sql, __FILE__, __LINE__);
+    $xoopsDB->queryF($sql) or Utility::web_error($sql, __FILE__, __LINE__);
 }
 
 //自動取得tad_tv的最新排序
@@ -171,7 +148,7 @@ function tad_tv_max_sort()
 {
     global $xoopsDB;
     $sql = 'select max(`tad_tv_sort`) from `' . $xoopsDB->prefix('tad_tv') . '`';
-    $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
+    $result = $xoopsDB->query($sql) or Utility::web_error($sql, __FILE__, __LINE__);
     list($sort) = $xoopsDB->fetchRow($result);
 
     return ++$sort;
@@ -218,6 +195,6 @@ function change_tv_status($tad_tv_sn = '', $status = 1)
     global $xoopsDB, $isAdmin;
     if ($isAdmin) {
         $sql = 'update ' . $xoopsDB->prefix('tad_tv') . " set tad_tv_enable='{$status}' where tad_tv_sn = '{$tad_tv_sn}'";
-        $xoopsDB->queryF($sql) or web_error($sql, __FILE__, __LINE__);
+        $xoopsDB->queryF($sql) or Utility::web_error($sql, __FILE__, __LINE__);
     }
 }

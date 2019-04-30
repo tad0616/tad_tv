@@ -1,6 +1,5 @@
 <h2 class="text-center"><{$smarty.const._MA_TADTV_CATE_FORM}></h2>
 
-<!--套用formValidator驗證機制-->
 <form action="<{$action}>" method="post" id="myForm" enctype="multipart/form-data" class="form-horizontal" role="form">
 
   <!--父分類-->
