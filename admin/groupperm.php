@@ -23,7 +23,7 @@ while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) 
 }
 
 //觀看權限
-$formi = new XoopsGroupPermForm($perm_page_title, $module_id, 'perm_view', _MA_TADTV_PERM_VIEW);
+$formi = new \XoopsGroupPermForm($perm_page_title, $module_id, 'perm_view', _MA_TADTV_PERM_VIEW);
 foreach ($item_list as $item_id => $item_name) {
     $formi->addItem($item_id, $item_name);
 }

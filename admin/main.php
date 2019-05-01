@@ -273,7 +273,7 @@ function tad_tv_form($tad_tv_sn = '', $tad_tv_cate_sn = '')
 
     //加入Token安全機制
     include_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
-    $token = new XoopsFormHiddenToken();
+    $token = new \XoopsFormHiddenToken();
     $token_form = $token->render();
     $xoopsTpl->assign('token_form', $token_form);
     $xoopsTpl->assign('action', $_SERVER['PHP_SELF']);
@@ -354,7 +354,7 @@ function tad_tv_cate_form($tad_tv_cate_sn = '')
 
     //加入Token安全機制
     include_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
-    $token = new XoopsFormHiddenToken();
+    $token = new \XoopsFormHiddenToken();
     $token_form = $token->render();
     $xoopsTpl->assign('token_form', $token_form);
     $xoopsTpl->assign('action', $_SERVER['PHP_SELF']);
