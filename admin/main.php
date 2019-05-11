@@ -57,7 +57,7 @@ function list_tad_tv($tad_tv_cate_sn = '')
     get_jquery(true);
 
     if (!file_exists(XOOPS_ROOT_PATH . '/modules/tadtools/sweet_alert.php')) {
-        redirect_header('index.php', 3, _MA_NEED_TADTOOLS);
+        redirect_header('index.php', 3, _TAD_NEED_TADTOOLS);
     }
     require_once XOOPS_ROOT_PATH . '/modules/tadtools/sweet_alert.php';
     $sweet_alert = new sweet_alert();
@@ -80,7 +80,7 @@ function list_tad_tv_cate_tree($def_tad_tv_cate_sn = '')
 
     $sql = 'select count(*),tad_tv_cate_sn from ' . $xoopsDB->prefix('tad_tv') . ' group by tad_tv_cate_sn';
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
-    while (false !== (list($count, $tad_tv_cate_sn) = $xoopsDB->fetchRow($result))) {
+    while (list($count, $tad_tv_cate_sn) = $xoopsDB->fetchRow($result)) {
         $cate_count[$tad_tv_cate_sn] = $count;
     }
 
@@ -90,7 +90,7 @@ function list_tad_tv_cate_tree($def_tad_tv_cate_sn = '')
 
     $sql = 'select tad_tv_cate_sn, tad_tv_cate_parent_sn, tad_tv_cate_title from ' . $xoopsDB->prefix('tad_tv_cate') . ' order by tad_tv_cate_sort';
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
-    while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_parent_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
+    while (list($tad_tv_cate_sn, $tad_tv_cate_parent_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
         $font_style = $def_tad_tv_cate_sn == $tad_tv_cate_sn ? ", font:{'background-color':'yellow', 'color':'black'}" : '';
         $open = in_array($tad_tv_cate_sn, $path_arr) ? 'true' : 'false';
         $display_counter = empty($cate_count[$tad_tv_cate_sn]) ? '' : " ({$cate_count[$tad_tv_cate_sn]})";
@@ -100,7 +100,7 @@ function list_tad_tv_cate_tree($def_tad_tv_cate_sn = '')
     $json = implode(",\n", $data);
 
     if (!file_exists(XOOPS_ROOT_PATH . '/modules/tadtools/ztree.php')) {
-        redirect_header('index.php', 3, _MA_NEED_TADTOOLS);
+        redirect_header('index.php', 3, _TAD_NEED_TADTOOLS);
     }
     require_once XOOPS_ROOT_PATH . '/modules/tadtools/ztree.php';
     $ztree = new ztree('cate_tree', $json, 'tad_tv_cate_save_drag.php', 'tad_tv_cate_save_sort.php', 'tad_tv_cate_parent_sn', 'tad_tv_cate_sn');
@@ -161,7 +161,7 @@ function get_tad_tv_cate_sub($tad_tv_cate_sn = '0')
     $sql = 'select tad_tv_cate_sn,tad_tv_cate_title from ' . $xoopsDB->prefix('tad_tv_cate') . " where tad_tv_cate_parent_sn='{$tad_tv_cate_sn}'";
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     $tad_tv_cate_sn_arr = [];
-    while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
+    while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
         $tad_tv_cate_sn_arr[$tad_tv_cate_sn] = $tad_tv_cate_title;
     }
 
@@ -188,7 +188,7 @@ function get_tad_tv_cate_options($page = '', $mode = 'edit', $default_tad_tv_cat
     $unselect = explode(',', $unselect_level);
 
     $main = '';
-    while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
+    while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
         // $tad_tv_post = $modulepermHandler->getGroupIds("tad_tv_post", $tad_tv_cate_sn, $mod_id);
         if (!$isAdmin and !in_array($tad_tv_cate_sn, $post_cate_arr)) {
             continue;
@@ -291,7 +291,7 @@ function tad_tv_form($tad_tv_sn = '', $tad_tv_cate_sn = '')
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     $i = 0;
     $tad_tv_cate_sn_options_array = [];
-    while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
+    while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
         $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_sn'] = $tad_tv_cate_sn;
         $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_title'] = $tad_tv_cate_title;
         $i++;
@@ -300,7 +300,7 @@ function tad_tv_form($tad_tv_sn = '', $tad_tv_cate_sn = '')
 
     //加入Token安全機制
     require_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
-    $token = new XoopsFormHiddenToken();
+    $token = new \XoopsFormHiddenToken();
     $token_form = $token->render();
     $xoopsTpl->assign('token_form', $token_form);
     $xoopsTpl->assign('action', $_SERVER['PHP_SELF']);
@@ -378,7 +378,7 @@ function tad_tv_cate_form($tad_tv_cate_sn = '')
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
     $i = 0;
     $tad_tv_cate_sn_options_array = [];
-    while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
+    while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
         $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_sn'] = $tad_tv_cate_sn;
         $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_title'] = $tad_tv_cate_title;
         $i++;
@@ -387,7 +387,7 @@ function tad_tv_cate_form($tad_tv_cate_sn = '')
 
     //加入Token安全機制
     require_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
-    $token = new XoopsFormHiddenToken();
+    $token = new \XoopsFormHiddenToken();
     $token_form = $token->render();
     $xoopsTpl->assign('token_form', $token_form);
     $xoopsTpl->assign('action', $_SERVER['PHP_SELF']);
@@ -610,7 +610,7 @@ function chk_url($tad_tv_url = '')
     $xoopsTpl->assign('total', $i);
 
     if (!file_exists(XOOPS_ROOT_PATH . '/modules/tadtools/sweet_alert.php')) {
-        redirect_header('index.php', 3, _MA_NEED_TADTOOLS);
+        redirect_header('index.php', 3, _TAD_NEED_TADTOOLS);
     }
     require_once XOOPS_ROOT_PATH . '/modules/tadtools/sweet_alert.php';
     $sweet_alert = new sweet_alert();
@@ -651,7 +651,7 @@ function chk_repeat()
     global $xoopsDB, $xoopsTpl;
     $sql = 'select `tad_tv_url`, count(*) as c from ' . $xoopsDB->prefix('tad_tv') . ' group by `tad_tv_url` having c > 1';
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
-    while (false !== (list($url, $counter) = $xoopsDB->fetchRow($result))) {
+    while (list($url, $counter) = $xoopsDB->fetchRow($result)) {
         $repeat[$url] = $counter;
     }
 
@@ -677,7 +677,7 @@ function chk_repeat()
     $xoopsTpl->assign('now_op', 'chk_repeat');
 
     if (!file_exists(XOOPS_ROOT_PATH . '/modules/tadtools/sweet_alert.php')) {
-        redirect_header('index.php', 3, _MA_NEED_TADTOOLS);
+        redirect_header('index.php', 3, _TAD_NEED_TADTOOLS);
     }
     require_once XOOPS_ROOT_PATH . '/modules/tadtools/sweet_alert.php';
     $sweet_alert = new sweet_alert();

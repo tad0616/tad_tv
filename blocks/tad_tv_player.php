@@ -29,7 +29,7 @@ $i           = 0;
 $all_content = array();
 $sql         = "select tad_tv_cate_sn,tad_tv_cate_title from `" . $xoopsDB->prefix("tad_tv_cate") . "` where tad_tv_cate_enable='1' order by `tad_tv_cate_sort`";
 $result      = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
-while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
+while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
 //判斷目前使用者是否有：觀看權限
 $perm_view = power_chk("perm_view", $tad_tv_cate_sn);
 if (!$perm_view) {
@@ -70,7 +70,7 @@ $i++;
 if ($isAdmin) {
 //加入Token安全機制
 require_once XOOPS_ROOT_PATH . "/class/xoopsformloader.php";
-$token      = new XoopsFormHiddenToken();
+$token      = new \XoopsFormHiddenToken();
 $token_form = $token->render();
 // $xoopsTpl->assign('token_form', $token_form);
 
@@ -79,7 +79,7 @@ $sql                          = "select `tad_tv_cate_sn`, `tad_tv_cate_title` fr
 $result                       = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
 $i                            = 0;
 $tad_tv_cate_sn_options_array = '';
-while (false !== (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result))) {
+while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
 $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_sn']    = $tad_tv_cate_sn;
 $tad_tv_cate_sn_options_array[$i]['tad_tv_cate_title'] = $tad_tv_cate_title;
 $i++;

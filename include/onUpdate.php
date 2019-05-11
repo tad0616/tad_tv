@@ -17,7 +17,9 @@
  * @version    $Id $
  * @param mixed $module
  * @param mixed $old_version
- **/
+ *
+ * @return bool
+ */
 function xoops_module_update_tad_tv($module, $old_version)
 {
     global $xoopsDB;

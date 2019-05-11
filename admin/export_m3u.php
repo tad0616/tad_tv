@@ -26,7 +26,7 @@ function get_url($tad_tv_cate_sn = '')
     $result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
 
     $contents = '';
-    while (false !== (list($tad_tv_title, $tad_tv_url) = $xoopsDB->fetchRow($result))) {
+    while (list($tad_tv_title, $tad_tv_url) = $xoopsDB->fetchRow($result)) {
         $contents .= "#EXTINF:-1 group-title=\"{$cate['tad_tv_cate_title']}\",{$tad_tv_title}\n{$tad_tv_url}\n";
     }
 
