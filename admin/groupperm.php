@@ -1,6 +1,8 @@
 <?php
+use XoopsModules\Tadtools\EasyResponsiveTabs;
+use XoopsModules\Tadtools\Utility;
 /*-----------引入檔案區--------------*/
-$GLOBALS['xoopsOption']['template_main'] = 'tad_tv_adm_groupperm.tpl';
+$xoopsOption['template_main'] = 'tad_tv_adm_groupperm.tpl';
 require_once __DIR__ . '/header.php';
 require_once dirname(__DIR__) . '/function.php';
 require_once XOOPS_ROOT_PATH . '/Frameworks/art/functions.php';
@@ -16,7 +18,7 @@ $perm_page_title = _MA_TADTV_PERM_TITLE;
 //取得分類編號及標題
 $item_list = [];
 $sql = 'select `tad_tv_cate_sn`, `tad_tv_cate_title` from ' . $xoopsDB->prefix('tad_tv_cate');
-$result = $xoopsDB->query($sql) or web_error($sql, __FILE__, __LINE__);
+$result = $xoopsDB->query($sql) or Utility::web_error($sql, __FILE__, __LINE__);
 while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
     $item_list[$tad_tv_cate_sn] = $tad_tv_cate_title;
 }
@@ -30,11 +32,7 @@ $perm_view_form = $formi->render();
 $xoopsTpl->assign('perm_view_form', $perm_view_form);
 
 //產生頁籤語法
-if (!file_exists(XOOPS_ROOT_PATH . '/modules/tadtools/easy_responsive_tabs.php')) {
-    redirect_header('index.php', 3, _TAD_NEED_TADTOOLS);
-}
-require_once XOOPS_ROOT_PATH . '/modules/tadtools/easy_responsive_tabs.php';
-$responsive_tabs = new easy_responsive_tabs('#groupPermTab', 'default');
-$responsive_tabs->rander();
+$EasyResponsiveTabs = new EasyResponsiveTabs('#groupPermTab', 'default');
+$EasyResponsiveTabs->rander();
 
 require_once __DIR__ . '/footer.php';

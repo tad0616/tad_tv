@@ -1,26 +1,9 @@
 <?php
-/**
- * Tad Tv module
- *
- * You may not change or alter any portion of this comment or credits
- * of supporting developers from this source code or any supporting source code
- * which is considered copyrighted (c) material of the original comment or credit authors.
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- *
- * @copyright  The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license    http://www.fsf.org/copyleft/gpl.html GNU public license
- * @package    Tad Tv
- * @since      2.5
- * @author     tad
- * @version    $Id $
- **/
 $modversion = [];
 
 //---模組基本資訊---//
 $modversion['name'] = _MI_TADTV_NAME;
-$modversion['version'] = '1.3';
+$modversion['version'] = '1.4';
 $modversion['description'] = _MI_TADTV_DESC;
 $modversion['author'] = _MI_TADTV_AUTHOR;
 $modversion['credits'] = _MI_TADTV_CREDITS;
@@ -30,8 +13,8 @@ $modversion['image'] = 'images/logo.png';
 $modversion['dirname'] = basename(__DIR__);
 
 //---模組狀態資訊---//
-$modversion['status_version'] = '1.3';
-$modversion['release_date'] = '2019/01/01';
+$modversion['status_version'] = '1.4';
+$modversion['release_date'] = '2019/05/10';
 $modversion['module_website_url'] = 'https://tad0616.net';
 $modversion['module_website_name'] = _MI_TADTV_AUTHOR_WEB;
 $modversion['module_status'] = 'release';
