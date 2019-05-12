@@ -1,6 +1,10 @@
 <?php
 use XoopsModules\Tadtools\Utility;
-/********************* 自訂函數 *********************/
+
+/********************* 自訂函數 ********************
+ * @param string $tad_tv_cate_sn
+ * @return array|false|void
+ */
 
 //以流水號取得某筆tad_tv_cate資料
 function get_tad_tv_cate($tad_tv_cate_sn = '')
