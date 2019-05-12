@@ -1,5 +1,5 @@
 <?php
-include_once '../../mainfile.php';
+require_once dirname(dirname(__DIR__)) . '/mainfile.php';
 $m3u8 = false;
 if ('.m3u8' !== mb_substr($_GET['url'], -5)) {
     $handle = @fopen($_GET['url'], 'rb');

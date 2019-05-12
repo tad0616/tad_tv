@@ -6,8 +6,8 @@ use XoopsModules\Tadtools\Ztree;
 /*-----------引入檔案區--------------*/
 $isAdmin = true;
 $xoopsOption['template_main'] = 'tad_tv_adm_main.tpl';
-include_once 'header.php';
-include_once '../function.php';
+require_once __DIR__ . '/header.php';
+require_once dirname(__DIR__) . '/function.php';
 
 /*-----------功能函數區--------------*/
 
@@ -33,7 +33,7 @@ function list_tad_tv($tad_tv_cate_sn = '')
     $i = 0;
 
     $all_content = [];
-    while ($all = $xoopsDB->fetchArray($result)) {
+    while (false !== ($all = $xoopsDB->fetchArray($result))) {
         // $live = chkurl($all['tad_tv_url']);
 
         $all_content[$i] = $all;
@@ -109,8 +109,8 @@ function get_tad_tv_cate_path($the_tad_tv_cate_sn = '', $include_self = true)
             LEFT JOIN `{$tbl}` t7 ON t7.tad_tv_cate_parent_sn = t6.tad_tv_cate_sn
             WHERE t1.tad_tv_cate_parent_sn = '0'";
         $result = $xoopsDB->query($sql) or Utility::web_error($sql, __FILE__, __LINE__);
-        while ($all = $xoopsDB->fetchArray($result)) {
-            if (in_array($the_tad_tv_cate_sn, $all, true)) {
+        while (false !== ($all = $xoopsDB->fetchArray($result))) {
+            if (in_array($the_tad_tv_cate_sn,$all, true)) {
                 //$main.="-";
                 foreach ($all as $tad_tv_cate_sn) {
                     if (!empty($tad_tv_cate_sn)) {
@@ -154,7 +154,7 @@ function get_tad_tv_cate_options($page = '', $mode = 'edit', $default_tad_tv_cat
     $post_cate_arr = chk_cate_power('tad_tv_post');
 
     // $mod_id             = $xoopsModule->getVar('mid');
-    // $moduleperm_handler = xoops_gethandler('groupperm');
+    // $modulepermHandler = xoops_getHandler('groupperm');
     $count = tad_tv_cate_count();
 
     $sql = 'select tad_tv_cate_sn,tad_tv_cate_title from ' . $xoopsDB->prefix('tad_tv_cate') . " where tad_tv_cate_parent_sn='{$start_search_sn}' order by tad_tv_cate_sort";
@@ -167,8 +167,8 @@ function get_tad_tv_cate_options($page = '', $mode = 'edit', $default_tad_tv_cat
 
     $main = '';
     while (list($tad_tv_cate_sn, $tad_tv_cate_title) = $xoopsDB->fetchRow($result)) {
-        // $tad_tv_post = $moduleperm_handler->getGroupIds("tad_tv_post", $tad_tv_cate_sn, $mod_id);
-        if (!$isAdmin and !in_array($tad_tv_cate_sn, $post_cate_arr, true)) {
+        // $tad_tv_post = $modulepermHandler->getGroupIds("tad_tv_post", $tad_tv_cate_sn, $mod_id);
+        if (!$isAdmin and !in_array($tad_tv_cate_sn, $post_cate_arr)) {
             continue;
         }
 
@@ -272,7 +272,7 @@ function tad_tv_form($tad_tv_sn = '', $tad_tv_cate_sn = '')
     $xoopsTpl->assign('tad_tv_cate_sn_options', $tad_tv_cate_sn_options_array);
 
     //加入Token安全機制
-    include_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
+    require_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
     $token = new \XoopsFormHiddenToken();
     $token_form = $token->render();
     $xoopsTpl->assign('token_form', $token_form);
@@ -353,7 +353,7 @@ function tad_tv_cate_form($tad_tv_cate_sn = '')
     $xoopsTpl->assign('tad_tv_cate_sn_options', $tad_tv_cate_sn_options_array);
 
     //加入Token安全機制
-    include_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
+    require_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
     $token = new \XoopsFormHiddenToken();
     $token_form = $token->render();
     $xoopsTpl->assign('token_form', $token_form);
@@ -383,18 +383,18 @@ function insert_tad_tv_cate()
 
     //XOOPS表單安全檢查
     if (!$GLOBALS['xoopsSecurity']->check()) {
-        $error = implode('<br />', $GLOBALS['xoopsSecurity']->getErrors());
+        $error = implode('<br>', $GLOBALS['xoopsSecurity']->getErrors());
         redirect_header($_SERVER['PHP_SELF'], 3, $error);
     }
 
     $myts = \MyTextSanitizer::getInstance();
 
-    $tad_tv_cate_sn = (int) $_POST['tad_tv_cate_sn'];
-    $tad_tv_cate_parent_sn = (int) $_POST['tad_tv_cate_parent_sn'];
+    $tad_tv_cate_sn = (int)$_POST['tad_tv_cate_sn'];
+    $tad_tv_cate_parent_sn = (int)$_POST['tad_tv_cate_parent_sn'];
     $tad_tv_cate_title = $myts->addSlashes($_POST['tad_tv_cate_title']);
     $tad_tv_cate_desc = $myts->addSlashes($_POST['tad_tv_cate_desc']);
-    $tad_tv_cate_sort = (int) $_POST['tad_tv_cate_sort'];
-    $tad_tv_cate_enable = (int) $_POST['tad_tv_cate_enable'];
+    $tad_tv_cate_sort = (int)$_POST['tad_tv_cate_sort'];
+    $tad_tv_cate_enable = (int)$_POST['tad_tv_cate_enable'];
 
     $sql = 'insert into `' . $xoopsDB->prefix('tad_tv_cate') . "` (
         `tad_tv_cate_parent_sn`,
@@ -427,18 +427,18 @@ function update_tad_tv_cate($tad_tv_cate_sn = '')
 
     //XOOPS表單安全檢查
     if (!$GLOBALS['xoopsSecurity']->check()) {
-        $error = implode('<br />', $GLOBALS['xoopsSecurity']->getErrors());
+        $error = implode('<br>', $GLOBALS['xoopsSecurity']->getErrors());
         redirect_header($_SERVER['PHP_SELF'], 3, $error);
     }
 
     $myts = \MyTextSanitizer::getInstance();
 
-    $tad_tv_cate_sn = (int) $_POST['tad_tv_cate_sn'];
-    $tad_tv_cate_parent_sn = (int) $_POST['tad_tv_cate_parent_sn'];
+    $tad_tv_cate_sn = (int)$_POST['tad_tv_cate_sn'];
+    $tad_tv_cate_parent_sn = (int)$_POST['tad_tv_cate_parent_sn'];
     $tad_tv_cate_title = $myts->addSlashes($_POST['tad_tv_cate_title']);
     $tad_tv_cate_desc = $myts->addSlashes($_POST['tad_tv_cate_desc']);
-    $tad_tv_cate_sort = (int) $_POST['tad_tv_cate_sort'];
-    $tad_tv_cate_enable = (int) $_POST['tad_tv_cate_enable'];
+    $tad_tv_cate_sort = (int)$_POST['tad_tv_cate_sort'];
+    $tad_tv_cate_enable = (int)$_POST['tad_tv_cate_enable'];
 
     $sql = 'update `' . $xoopsDB->prefix('tad_tv_cate') . "` set
        `tad_tv_cate_parent_sn` = '{$tad_tv_cate_parent_sn}',
@@ -525,7 +525,7 @@ function import_m3u($tad_tv_cate_sn = 0)
 
     $myts = \MyTextSanitizer::getInstance();
 
-    $handle = fopen($_FILES['userfile']['tmp_name'], 'rb') or die('無法開啟');
+    $handle = fopen($_FILES['userfile']['tmp_name'], 'rb') || die('無法開啟');
     $data = '';
     $i = $j = 0;
     if ($handle) {
@@ -565,7 +565,7 @@ function chk_url($tad_tv_url = '')
     $sql = 'select * from ' . $xoopsDB->prefix('tad_tv') . " where tad_tv_url like '{$url}%'";
     $result = $xoopsDB->query($sql) or Utility::web_error($sql, __FILE__, __LINE__);
     $i = 0;
-    while ($all = $xoopsDB->fetchArray($result)) {
+    while (false !== ($all = $xoopsDB->fetchArray($result))) {
         $chk_url[$i] = $all;
         $i++;
     }
@@ -624,7 +624,7 @@ function chk_repeat()
     foreach ($repeat as $url => $counter) {
         $sql = 'select * from ' . $xoopsDB->prefix('tad_tv') . " where `tad_tv_url` = '{$url}'";
         $result = $xoopsDB->query($sql) or Utility::web_error($sql, __FILE__, __LINE__);
-        while ($all = $xoopsDB->fetchArray($result)) {
+        while (false !== ($all = $xoopsDB->fetchArray($result))) {
             $all_content[$i] = $all;
 
             $all_content[$i]['rowspan'] = $counter;
@@ -645,7 +645,7 @@ function chk_repeat()
 }
 
 /*-----------執行動作判斷區----------*/
-include_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
+require_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
 $op = system_CleanVars($_REQUEST, 'op', '', 'string');
 $tad_tv_sn = system_CleanVars($_REQUEST, 'tad_tv_sn', 0, 'int');
 $tad_tv_cate_sn = system_CleanVars($_REQUEST, 'tad_tv_cate_sn', 0, 'int');
@@ -721,31 +721,31 @@ switch ($op) {
     //刪除指定源頭
     case 'del_urls':
         del_urls($del_urls);
-        header("location: {$_SERVER['HTTP_REFERER']}");
+        header("location: {\Xmf\Request::getString('HTTP_REFERER', '', 'SERVER')}");
         exit;
         break;
     //關閉指定源頭
     case 'unable_urls':
         unable_urls($del_urls);
-        header("location: {$_SERVER['HTTP_REFERER']}");
+        header("location: {\Xmf\Request::getString('HTTP_REFERER', '', 'SERVER')}");
         exit;
         break;
     //搬移
     case 'move_tv':
         move_tv($del_urls, $to_tad_tv_cate_sn);
-        header("location: {$_SERVER['HTTP_REFERER']}");
+        header("location: {\Xmf\Request::getString('HTTP_REFERER', '', 'SERVER')}");
         exit;
         break;
     //啟用
     case 'enable_tv':
         change_tv_status($tad_tv_sn, 1);
-        header("location: {$_SERVER['HTTP_REFERER']}");
+        header("location: {\Xmf\Request::getString('HTTP_REFERER', '', 'SERVER')}");
         exit;
         break;
     //關閉
     case 'unable_tv':
         change_tv_status($tad_tv_sn, 0);
-        header("location: {$_SERVER['HTTP_REFERER']}");
+        header("location: {\Xmf\Request::getString('HTTP_REFERER', '', 'SERVER')}");
         exit;
         break;
     default:
@@ -758,4 +758,4 @@ switch ($op) {
 /*-----------秀出結果區--------------*/
 $xoopsTpl->assign('isAdmin', true);
 $xoTheme->addStylesheet(XOOPS_URL . '/modules/tadtools/css/xoops_adm3.css');
-include_once 'footer.php';
+require_once __DIR__ . '/footer.php';

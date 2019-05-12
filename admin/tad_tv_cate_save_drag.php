@@ -1,7 +1,7 @@
 <?php
 use XoopsModules\Tadtools\Utility;
 
-include '../../../include/cp_header.php';
+require dirname(dirname(dirname(__DIR__))) . '/include/cp_header.php';
 
 $of_sn = (int) (str_replace('node-_', '', $_POST['tad_tv_cate_parent_sn']));
 $sn = (int) (str_replace('node-_', '', $_POST['tad_tv_cate_sn']));

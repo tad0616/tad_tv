@@ -1,10 +1,11 @@
 <?php
+
 use XoopsModules\Tadtools\Utility;
 
-include '../../../include/cp_header.php';
-include '../function.php';
+require dirname(dirname(dirname(__DIR__))) . '/include/cp_header.php';
+require dirname(__DIR__) . '/function.php';
 
-include_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
+require_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
 $tad_tv_cate_sn = system_CleanVars($_REQUEST, 'tad_tv_cate_sn', 0, 'int');
 $contents = '';
 if ($tad_tv_cate_sn) {

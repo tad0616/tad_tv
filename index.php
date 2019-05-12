@@ -3,9 +3,9 @@ use XoopsModules\Tadtools\SweetAlert;
 use XoopsModules\Tadtools\Utility;
 /*-----------引入檔案區--------------*/
 
-include 'header.php';
+require __DIR__ . '/header.php';
 $xoopsOption['template_main'] = 'tad_tv_index.tpl';
-include_once XOOPS_ROOT_PATH . '/header.php';
+require_once XOOPS_ROOT_PATH . '/header.php';
 
 /*-----------功能函數區--------------*/
 //以流水號取得某筆tad_tv資料
@@ -72,7 +72,7 @@ function list_tad_tv($tad_tv_sn = '')
         $sql = 'select * from `' . $xoopsDB->prefix('tad_tv') . "` where tad_tv_cate_sn='{$tad_tv_cate_sn}' and tad_tv_enable='1' order by `tad_tv_sort`";
         $result2 = $xoopsDB->query($sql) or Utility::web_error($sql, __FILE__, __LINE__);
 
-        while ($all = $xoopsDB->fetchArray($result2)) {
+        while (false !== ($all = $xoopsDB->fetchArray($result2))) {
             //以下會產生這些變數： $tad_tv_sn, $tad_tv_title, $tad_tv_url, $tad_tv_sort, $tad_tv_enable, $tad_tv_cate_sn, $tad_tv_content, $tad_tv_counter
             foreach ($all as $k => $v) {
                 $$k = $v;
@@ -117,7 +117,7 @@ function list_tad_tv($tad_tv_sn = '')
 
     if ($isAdmin) {
         //加入Token安全機制
-        include_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
+        require_once XOOPS_ROOT_PATH . '/class/xoopsformloader.php';
         $token = new \XoopsFormHiddenToken();
         $token_form = $token->render();
         $xoopsTpl->assign('token_form', $token_form);
@@ -150,10 +150,10 @@ function simple_update_tad_tv($tad_tv_sn = '')
 
     $myts = \MyTextSanitizer::getInstance();
 
-    $tad_tv_sn = (int) $_POST['tad_tv_sn'];
+    $tad_tv_sn = (int)$_POST['tad_tv_sn'];
     $tad_tv_title = $myts->addSlashes($_POST['tad_tv_title']);
     $tad_tv_url = $myts->addSlashes($_POST['tad_tv_url']);
-    $tad_tv_cate_sn = (int) $_POST['tad_tv_cate_sn'];
+    $tad_tv_cate_sn = (int)$_POST['tad_tv_cate_sn'];
 
     $sql = 'update `' . $xoopsDB->prefix('tad_tv') . "` set
        `tad_tv_title` = '{$tad_tv_title}',
@@ -166,7 +166,7 @@ function simple_update_tad_tv($tad_tv_sn = '')
 }
 
 /*-----------執行動作判斷區----------*/
-include_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
+require_once $GLOBALS['xoops']->path('/modules/system/include/functions.php');
 $op = system_CleanVars($_REQUEST, 'op', '', 'string');
 $tad_tv_sn = system_CleanVars($_REQUEST, 'tad_tv_sn', 0, 'int');
 $tad_tv_cate_sn = system_CleanVars($_REQUEST, 'tad_tv_cate_sn', 0, 'int');
@@ -203,7 +203,7 @@ switch ($op) {
     //關閉
     case 'unable_tv':
         change_tv_status($tad_tv_sn, 0);
-        header("location: {$_SERVER['HTTP_REFERER']}");
+        header("location: {\Xmf\Request::getString('HTTP_REFERER', '', 'SERVER')}");
         exit;
         break;
     default:
@@ -216,4 +216,4 @@ switch ($op) {
 $xoopsTpl->assign('toolbar', Utility::toolbar_bootstrap($interface_menu));
 $xoopsTpl->assign('isAdmin', $isAdmin);
 $xoopsTpl->assign('player', $player);
-include_once XOOPS_ROOT_PATH . '/footer.php';
+require_once XOOPS_ROOT_PATH . '/footer.php';

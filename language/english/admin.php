@@ -1,6 +1,9 @@
 <?php
 xoops_loadLanguage('admin_common', 'tadtools');
-define('_TAD_NEED_TADTOOLS', '需要 tadtools 模組，可至<a href="http://campus-xoops.tn.edu.tw/modules/tad_modules/index.php?module_sn=1" target="_blank">XOOPS輕鬆架</a>下載。');
+if (!defined('_TAD_NEED_TADTOOLS')) {
+    define('_TAD_NEED_TADTOOLS', "This module needs TadTools module. You can download TadTools from <a href='http://www.tad0616.net/modules/tad_uploader/index.php?of_cat_sn=50' target='_blank'>Tad's web</a>.");
+}
+
 
 //tad_tv-edit
 define('_MA_TADTV_TAD_TV_TITLE', 'Name');
