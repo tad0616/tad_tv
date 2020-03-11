@@ -94,6 +94,7 @@
 </script>
 
 <!--列出所有資料-->
+<h2 style="display: none;"><{$smarty.const._MD_TADTV_SMNAME1}></h2>
 <div class="row">
   <div class="col-sm-3">
     <select id="streamURL" size=30 class="form-control">
@@ -188,6 +189,3 @@
       <div class="alert alert-danger" id="showError" style="display: none;"></div>
   </div>
 </div>
-
-
-
