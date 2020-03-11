@@ -1,11 +1,11 @@
 /*
  * Skin for Sewise Player Plugin
  * http://www.sewise.com/
- * 
+ *
  * Skin Name: Transparent
- * 
+ *
  * Copyright (c) 2010-2014 Sewise Ltd
- * 
+ *
  * Author: Jack Zhang
  * Skin Version: 1.0.0 (sewise player 1.0.0)
  * Date: 19th February 2012
@@ -24,7 +24,7 @@ div.sewise-player-ui {
 	padding: 0px;
 	overflow: hidden;
 	color: white;
-	font-size: 14px;
+	font-size: 87.5%;
 	font-family: 'Trebuchet MS' Verdana, Arial, sans-serif;
 	pointer-events: none;
 }
@@ -73,7 +73,7 @@ div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-play
 }
 div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-play:hover {
 	background: url("controlbar.png") -30px 0px no-repeat;
-	
+
 }
 div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-pause {
 	background: url("controlbar.png") 0px -30px no-repeat;
@@ -213,7 +213,7 @@ div.sewise-player-ui div.controlbar ul.controlbar-btns div.controlbar-playtime {
 	display: block;
 	color: white;
 	line-height: 30px;
-	font-size: 18px;
+	font-size: 112.5%;
 	top: 2px;
 }
 
@@ -239,9 +239,9 @@ div.sewise-player-ui div.topbar {
 	position: absolute;
 	width: 100%;
 	float: left;
-	
+
 	background-color: rgba(0, 0, 0, 0.3);
-	
+
 	/*color: white;
 	font-size: 0.8em;*/
 }
@@ -278,10 +278,10 @@ div.sewise-player-ui div.buffer div.buffer-bg {
 	height: 48px;
 	left: 6px;
 	top: 6px;
-	
+
 	background: url("buffer.png") 0px 0px no-repeat;
 	text-indent: -10000px;
-	
+
 	animation: buffer-keyframes 1s linear 0s infinite;
 	-ms-animation: buffer-keyframes 1s linear 0s infinite;
 	-webkit-animation: buffer-keyframes 1s linear 0s infinite;
@@ -312,7 +312,7 @@ div.sewise-player-ui div.buffer div.buffer-text {
 	position: absolute;
 	left: 2px;
 	top: 60px;
-	font-size: 12px;
+	font-size: 75%;
 }
 div.sewise-player-ui div.buffer div.buffer-text div.buffer-text-tip,
 div.sewise-player-ui div.buffer div.buffer-text div.buffer-text-bufferPt {
@@ -336,7 +336,7 @@ div.sewise-player-ui div.big-play-btn a.big-play-icon {
 	display:block;
 	width: 90px;
 	height: 90px;
-	
+
 	background: url("big_play_btn.png") 0px 0px no-repeat;
 	text-indent: -10000px;
 }

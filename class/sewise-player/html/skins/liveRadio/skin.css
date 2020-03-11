@@ -1,11 +1,11 @@
 /*
  * Skin for Sewise Player Plugin
  * http://www.sewise.com/
- * 
+ *
  * Skin Name: Radio
- * 
+ *
  * Copyright (c) 2010-2014 Sewise Ltd
- * 
+ *
  * Author: Jack Zhang
  * Skin Version: 1.0.0 (sewise player 1.0.0)
  * Date: 19th February 2012
@@ -25,7 +25,7 @@ div.sewise-player-ui {
 	overflow: hidden;
 	color: white;
 	font-family: 'Segoe UI', Arial, sans-serif;
-	font-size: 13px;
+	font-size: 81.25%;
 	pointer-events: none;
 	background: url("bg.jpg") 0px 0px repeat-x;
 }
@@ -64,7 +64,7 @@ div.sewise-player-ui div.controlbar ul.controlbar-btns li {
 }
 div.sewise-player-ui div.controlbar ul.controlbar-btns li a {
 	display:block;
-	
+
 	text-indent: -10000px;
 }
 div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-play {
@@ -75,7 +75,7 @@ div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-play
 }
 div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-play:hover {
 	background: url("controlbar.png") -50px -50px no-repeat;
-	
+
 }
 div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-pause {
 	width: 50px;
@@ -141,7 +141,7 @@ div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-soun
 	background: url("controlbar.png") 0px -102px no-repeat;
 }
 div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-soundopen:hover {
-	
+
 }
 div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-soundclose {
 	width: 18px;
@@ -151,7 +151,7 @@ div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-soun
 	background: url("controlbar.png") -18px -102px no-repeat;
 }
 div.sewise-player-ui div.controlbar ul.controlbar-btns li a.controlbar-btns-soundclose:hover {
-	
+
 }
 
 div.sewise-player-ui div.controlbar ul.controlbar-btns div.controlbar-volumeline {
@@ -204,7 +204,7 @@ div.sewise-player-ui div.controlbar ul.controlbar-btns div.controlbar-playtime {
 	float: right;
 	display: block;
 	color: black;
-	font-size: 13px;
+	font-size: 81.25%;
 	top: -8px;
 	right: 8px;
 }
@@ -220,7 +220,7 @@ div.sewise-player-ui div.logo a.logo-icon {
 	display: block;
 	text-decoration: none;
 	pointer-events: auto;
-	font-size: 8px;
+	font-size: 50%;
 	color: #B87000;
 }
 
@@ -230,10 +230,10 @@ div.sewise-player-ui div.topbar {
 	width: 100%;
 	height: 120px;
 	color: #B87000;
-	font-size: 16px;
+	font-size: 100%;
 }
 div.sewise-player-ui div.topbar div.topbar-program {
-	
+
 }
 div.sewise-player-ui div.topbar div.topbar-clock {
 	position: absolute;
@@ -274,7 +274,7 @@ div.sewise-player-ui div.buffer div.buffer-bg {
 	height: 60px;
 	left: 0px;
 	top: 0px;
-	
+
 	background: url("buffer.png") 0px 0px no-repeat;
 	text-indent: -10000px;
 }
