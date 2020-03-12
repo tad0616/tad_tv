@@ -4,9 +4,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>VLC</title>
-  <link rel="stylesheet" href="">
+  <style>
+  body{
+    background:white;
+    font-size:1em;
+  }
+  </style>
 </head>
-<body style="background:white;">
+<body>
 <h2 style="display: none;">VLC</h2>
 <ol>
   <li><a href="http://www.videolan.org/vlc/">請下載並安裝 VLC 撥放器</a></li>
