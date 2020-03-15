@@ -1,31 +1,36 @@
-Tad_tv 1.4 (released from 2019-05-10)
+tad_tv 1.5 (2020-03-15 released)
+================================================
+1. Correction for accessibility 2.0 AA standard
+
+
+tad_tv 1.4 (2019-05-10 released)
 =========================================================
 1. Support XOOPS 2.5.10
 2. No longer supports PHP 5.3
 
-Tad_tv 1.3 (released from 2019-01-01)
+tad_tv 1.3 (2019-01-01 released)
 ==========================================================
 1. Support BootStrap4
 2. Support PHP 7.3
 3. Support MySQL database strict mode
 
-Tad_tv 1.2.1 (released on 2017-09-27)
+tad_tv 1.2.1 (released on 2017-09-27 released)
 ==========================================================
 1. Remove the block
 
 
-Tad_tv 1.2 (released from 2017-06-16)
+tad_tv 1.2 (2017-06-16 released)
 ==========================================================
 1. Complete accessibility 2.0 Class A testing
 
 
-Tad_tv 1.1 (2017-01-15 released)
+tad_tv 1.1 (2017-01-15 released)
 ==========================================================
 1. Fixed the problem that the background editing classification form language is not normal.
 2. Setable groups for viewing
 3. Complete barrier-free A+ detection
 
 
-Tad_tv 1.0 (2017-01-12 released)
+tad_tv 1.0 (2017-01-12 released)
 ==========================================================
 Official release
